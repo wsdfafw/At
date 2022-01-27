@@ -5,67 +5,131 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 日本(绿头外网集团)(Public), server: shcu01a.iplc188.com, port: 10001, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 韩国(绿头外网集团)(Public), server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 2, server: 52.197.181.96, port: 1025, type: ss, cipher: aes-128-gcm, password: N0dzBuYixHiuewi, udp: true}
-  - {name: 香港(绿头外网集团)(Public), server: cn2.relay.starlink.st, port: 50102, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 2, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 3, server: 112.33.32.136, port: 10005, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 3, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public), server: 218.78.22.199, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 2, server: cn2.relay.starlink.st, port: 50102, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9, udp: true}
+  - {name: HK-104.208.82.144-0177, server: 133.wgong.xyz, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本(绿头外网集团)(Public), server: rb.moonfree.top, port: 443, type: vmess, uuid: 348f0186-e84e-4eec-b57f-03b988d2c498, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: rb.moonfree.top}, udp: true}
+  - {name: CN-58.32.11.113-0299, server: vipdedi.boom.ovh, port: 65521, type: vmess, uuid: a8d9724a-d61c-3d85-8cad-07e4d45a9441, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mydisk, ws-headers: {Host: vipdedi.boom.ovh}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 3, server: 218.78.22.199, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 香港(绿头外网集团)(Public) 4, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 4, server: 112.33.32.136, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 韩国(绿头外网集团)(Public) 2, server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(绿头外网集团)(Public), server: 169.197.142.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CN-120.232.174.121-1029, server: iepl.naigai1.club, port: 11895, type: ss, cipher: aes-128-gcm, password: b2e37e3b-d651-46d1-81a8-bb61246de20a, udp: true}
+  - {name: HK-104.208.67.86-0164, server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK-20.187.79.76-0194, server: 132.wgong.xyz, port: 52332, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK-104.208.67.159-1108, server: 106.wgong.xyz, port: 11223, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾(绿头外网集团)(Public), server: 120.233.150.200, port: 50302, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 5, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 6, server: shcu01a.iplc188.com, port: 10003, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾(绿头外网集团)(Public) 2, server: 120.233.150.200, port: 50301, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9, udp: true}
+  - {name: youtube:8度科技_印度 6, server: 172.104.207.231, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 7, server: shcu01a.iplc188.com, port: 10003, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾(绿头外网集团)(Public) 3, server: 120.233.150.200, port: 50202, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 172.104.207.231, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 8, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: youtube:8度科技_印度 9, server: 172.104.207.231, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: youtube:8度科技_印度 4, server: 172.104.207.231, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: youtube:8度科技_印度 5, server: 172.104.207.231, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国(绿头外网集团)(Public), server: 112.64.69.187, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 9, server: az.moeai.cn, port: 32916, type: vmess, uuid: 3aed0e55-aa17-4001-b612-f18b649dfd08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 10, server: 112.64.69.187, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US-169.197.142.99-0443, server: 169.197.142.99, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本(绿头外网集团)(Public)
-      - 韩国(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public) 2
-      - 日本(绿头外网集团)(Public) 3
+      - HK-104.208.82.144-0177
+      - 日本(绿头外网集团)(Public)
+      - CN-58.32.11.113-0299
       - 香港(绿头外网集团)(Public) 3
       - 香港(绿头外网集团)(Public) 4
-      - 日本(绿头外网集团)(Public) 4
-      - 韩国(绿头外网集团)(Public) 2
+      - CN-120.232.174.121-1029
+      - HK-104.208.67.86-0164
+      - HK-20.187.79.76-0194
+      - HK-104.208.67.159-1108
+      - 台湾(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 5
+      - 香港(绿头外网集团)(Public) 6
+      - 台湾(绿头外网集团)(Public) 2
+      - youtube:8度科技_印度 6
+      - 香港(绿头外网集团)(Public) 7
+      - 台湾(绿头外网集团)(Public) 3
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 香港(绿头外网集团)(Public) 8
+      - youtube:8度科技_印度 9
+      - youtube:8度科技_印度 4
+      - youtube:8度科技_印度 5
       - 美国(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 9
+      - 香港(绿头外网集团)(Public) 10
+      - US-169.197.142.99-0443
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 日本(绿头外网集团)(Public)
-      - 韩国(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public) 2
-      - 日本(绿头外网集团)(Public) 3
+      - HK-104.208.82.144-0177
+      - 日本(绿头外网集团)(Public)
+      - CN-58.32.11.113-0299
       - 香港(绿头外网集团)(Public) 3
       - 香港(绿头外网集团)(Public) 4
-      - 日本(绿头外网集团)(Public) 4
-      - 韩国(绿头外网集团)(Public) 2
+      - CN-120.232.174.121-1029
+      - HK-104.208.67.86-0164
+      - HK-20.187.79.76-0194
+      - HK-104.208.67.159-1108
+      - 台湾(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 5
+      - 香港(绿头外网集团)(Public) 6
+      - 台湾(绿头外网集团)(Public) 2
+      - youtube:8度科技_印度 6
+      - 香港(绿头外网集团)(Public) 7
+      - 台湾(绿头外网集团)(Public) 3
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 香港(绿头外网集团)(Public) 8
+      - youtube:8度科技_印度 9
+      - youtube:8度科技_印度 4
+      - youtube:8度科技_印度 5
       - 美国(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 9
+      - 香港(绿头外网集团)(Public) 10
+      - US-169.197.142.99-0443
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本(绿头外网集团)(Public)
-      - 韩国(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public) 2
-      - 日本(绿头外网集团)(Public) 3
+      - HK-104.208.82.144-0177
+      - 日本(绿头外网集团)(Public)
+      - CN-58.32.11.113-0299
       - 香港(绿头外网集团)(Public) 3
       - 香港(绿头外网集团)(Public) 4
-      - 日本(绿头外网集团)(Public) 4
-      - 韩国(绿头外网集团)(Public) 2
+      - CN-120.232.174.121-1029
+      - HK-104.208.67.86-0164
+      - HK-20.187.79.76-0194
+      - HK-104.208.67.159-1108
+      - 台湾(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 5
+      - 香港(绿头外网集团)(Public) 6
+      - 台湾(绿头外网集团)(Public) 2
+      - youtube:8度科技_印度 6
+      - 香港(绿头外网集团)(Public) 7
+      - 台湾(绿头外网集团)(Public) 3
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 香港(绿头外网集团)(Public) 8
+      - youtube:8度科技_印度 9
+      - youtube:8度科技_印度 4
+      - youtube:8度科技_印度 5
       - 美国(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 9
+      - 香港(绿头外网集团)(Public) 10
+      - US-169.197.142.99-0443
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -84,17 +148,33 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本(绿头外网集团)(Public)
-      - 韩国(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public) 2
-      - 日本(绿头外网集团)(Public) 3
+      - HK-104.208.82.144-0177
+      - 日本(绿头外网集团)(Public)
+      - CN-58.32.11.113-0299
       - 香港(绿头外网集团)(Public) 3
       - 香港(绿头外网集团)(Public) 4
-      - 日本(绿头外网集团)(Public) 4
-      - 韩国(绿头外网集团)(Public) 2
+      - CN-120.232.174.121-1029
+      - HK-104.208.67.86-0164
+      - HK-20.187.79.76-0194
+      - HK-104.208.67.159-1108
+      - 台湾(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 5
+      - 香港(绿头外网集团)(Public) 6
+      - 台湾(绿头外网集团)(Public) 2
+      - youtube:8度科技_印度 6
+      - 香港(绿头外网集团)(Public) 7
+      - 台湾(绿头外网集团)(Public) 3
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 香港(绿头外网集团)(Public) 8
+      - youtube:8度科技_印度 9
+      - youtube:8度科技_印度 4
+      - youtube:8度科技_印度 5
       - 美国(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 9
+      - 香港(绿头外网集团)(Public) 10
+      - US-169.197.142.99-0443
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -103,56 +183,113 @@ proxy-groups:
       - 香港(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public) 3
       - 香港(绿头外网集团)(Public) 4
+      - 台湾(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 5
+      - 香港(绿头外网集团)(Public) 6
+      - 台湾(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public) 7
+      - 台湾(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 8
+      - 香港(绿头外网集团)(Public) 9
+      - 香港(绿头外网集团)(Public) 10
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 日本(绿头外网集团)(Public)
-      - 韩国(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public) 2
-      - 日本(绿头外网集团)(Public) 3
+      - HK-104.208.82.144-0177
+      - 日本(绿头外网集团)(Public)
+      - CN-58.32.11.113-0299
       - 香港(绿头外网集团)(Public) 3
       - 香港(绿头外网集团)(Public) 4
-      - 日本(绿头外网集团)(Public) 4
-      - 韩国(绿头外网集团)(Public) 2
+      - CN-120.232.174.121-1029
+      - HK-104.208.67.86-0164
+      - HK-20.187.79.76-0194
+      - HK-104.208.67.159-1108
+      - 台湾(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 5
+      - 香港(绿头外网集团)(Public) 6
+      - 台湾(绿头外网集团)(Public) 2
+      - youtube:8度科技_印度 6
+      - 香港(绿头外网集团)(Public) 7
+      - 台湾(绿头外网集团)(Public) 3
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 香港(绿头外网集团)(Public) 8
+      - youtube:8度科技_印度 9
+      - youtube:8度科技_印度 4
+      - youtube:8度科技_印度 5
       - 美国(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 9
+      - 香港(绿头外网集团)(Public) 10
+      - US-169.197.142.99-0443
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 日本(绿头外网集团)(Public)
-      - 韩国(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public) 2
-      - 日本(绿头外网集团)(Public) 3
+      - HK-104.208.82.144-0177
+      - 日本(绿头外网集团)(Public)
+      - CN-58.32.11.113-0299
       - 香港(绿头外网集团)(Public) 3
       - 香港(绿头外网集团)(Public) 4
-      - 日本(绿头外网集团)(Public) 4
-      - 韩国(绿头外网集团)(Public) 2
+      - CN-120.232.174.121-1029
+      - HK-104.208.67.86-0164
+      - HK-20.187.79.76-0194
+      - HK-104.208.67.159-1108
+      - 台湾(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 5
+      - 香港(绿头外网集团)(Public) 6
+      - 台湾(绿头外网集团)(Public) 2
+      - youtube:8度科技_印度 6
+      - 香港(绿头外网集团)(Public) 7
+      - 台湾(绿头外网集团)(Public) 3
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 香港(绿头外网集团)(Public) 8
+      - youtube:8度科技_印度 9
+      - youtube:8度科技_印度 4
+      - youtube:8度科技_印度 5
       - 美国(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 9
+      - 香港(绿头外网集团)(Public) 10
+      - US-169.197.142.99-0443
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本(绿头外网集团)(Public)
-      - 韩国(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public) 2
-      - 日本(绿头外网集团)(Public) 3
+      - HK-104.208.82.144-0177
+      - 日本(绿头外网集团)(Public)
+      - CN-58.32.11.113-0299
       - 香港(绿头外网集团)(Public) 3
       - 香港(绿头外网集团)(Public) 4
-      - 日本(绿头外网集团)(Public) 4
-      - 韩国(绿头外网集团)(Public) 2
+      - CN-120.232.174.121-1029
+      - HK-104.208.67.86-0164
+      - HK-20.187.79.76-0194
+      - HK-104.208.67.159-1108
+      - 台湾(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 5
+      - 香港(绿头外网集团)(Public) 6
+      - 台湾(绿头外网集团)(Public) 2
+      - youtube:8度科技_印度 6
+      - 香港(绿头外网集团)(Public) 7
+      - 台湾(绿头外网集团)(Public) 3
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 香港(绿头外网集团)(Public) 8
+      - youtube:8度科技_印度 9
+      - youtube:8度科技_印度 4
+      - youtube:8度科技_印度 5
       - 美国(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 9
+      - 香港(绿头外网集团)(Public) 10
+      - US-169.197.142.99-0443
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -168,17 +305,33 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本(绿头外网集团)(Public)
-      - 韩国(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public) 2
-      - 日本(绿头外网集团)(Public) 3
+      - HK-104.208.82.144-0177
+      - 日本(绿头外网集团)(Public)
+      - CN-58.32.11.113-0299
       - 香港(绿头外网集团)(Public) 3
       - 香港(绿头外网集团)(Public) 4
-      - 日本(绿头外网集团)(Public) 4
-      - 韩国(绿头外网集团)(Public) 2
+      - CN-120.232.174.121-1029
+      - HK-104.208.67.86-0164
+      - HK-20.187.79.76-0194
+      - HK-104.208.67.159-1108
+      - 台湾(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 5
+      - 香港(绿头外网集团)(Public) 6
+      - 台湾(绿头外网集团)(Public) 2
+      - youtube:8度科技_印度 6
+      - 香港(绿头外网集团)(Public) 7
+      - 台湾(绿头外网集团)(Public) 3
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 香港(绿头外网集团)(Public) 8
+      - youtube:8度科技_印度 9
+      - youtube:8度科技_印度 4
+      - youtube:8度科技_印度 5
       - 美国(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 9
+      - 香港(绿头外网集团)(Public) 10
+      - US-169.197.142.99-0443
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
