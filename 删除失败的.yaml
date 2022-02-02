@@ -5,139 +5,87 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_-🇯🇵JP_18, server: 117.wgong.xyz, port: 52217, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(绿头外网集团)(Public), server: 20.24.73.78, port: 52227, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港(绿头外网集团)(Public), server: 119.wgong.xyz, port: 52219, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_-🇸🇬SG_29, server: 100.wgong.xyz, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public), server: 183.232.56.161, port: 1501, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 2, server: 133.wgong.xyz, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(绿头外网集团)(Public)\r, server: 106.75.233.91, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
+  - {name: _44, server: 42.157.8.162, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public), server: v112.wgong.xyz, port: 52212, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public), server: 121.wgong.xyz, port: 52221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public)\r, server: iepl.elaina.link, port: 50009, type: ss, cipher: chacha20-ietf-poly1305, password: 10a83674-1a4f-4c13-81c9-7b3becd90446, udp: true}
   - {name: 台湾(绿头外网集团)(Public)\r, server: 60.249.3.231, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: 日本(绿头外网集团)(Public)\r 2, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
-  - {name: SG_106, server: 172.104.168.83, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 5, server: 133.wgong.xyz, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 3, server: 102.wgong.xyz, port: 11221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本, server: cs.mg-nb.com, port: 10000, type: ss, cipher: aes-128-gcm, password: 2671642d-fb87-4d20-bd00-5bbd41aa320a, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本 2, server: 120.232.173.73, port: 10000, type: ss, cipher: aes-128-gcm, password: 2671642d-fb87-4d20-bd00-5bbd41aa320a, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港, server: gy.mg-nb.com, port: 10002, type: ss, cipher: aes-128-gcm, password: 2671642d-fb87-4d20-bd00-5bbd41aa320a, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 4, server: 20.187.72.211, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 5, server: 133.wgong.xyz, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 菲律宾(绿头外网集团)(Public)\r, server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 6, server: 119.wgong.xyz, port: 52219, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 7, server: 20.187.118.105, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 2, server: v112.wgong.xyz, port: 52212, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 韩国(绿头外网集团)(Public)\r, server: game.homeos.ml, port: 8080, type: trojan, password: HomeOS, sni: game.homeos.ml, skip-cert-verify: true, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 8, server: 104.208.112.68, port: 52227, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 印度(绿头外网集团)(Public), server: ct.cnhost.top, port: 16626, type: vmess, uuid: d05cf559-9612-4ae8-9919-8b71c34c3263, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.cnhost.top}, udp: true}
-  - {name: Relay_🇭🇰HK-🇸🇬SG_95, server: 131.wgong.xyz, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 9, server: 83.wgong.xyz, port: 52283, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 印度(绿头外网集团)(Public) 2, server: ct.cnhost.top, port: 16626, type: vmess, uuid: 410b2bc3-0864-43aa-b64c-19fd454c4da7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.cnhost.top}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 10, server: cm.cnhost.top, port: 26622, type: vmess, uuid: d05cf559-9612-4ae8-9919-8b71c34c3263, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.cnhost.top}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: vipdedi.boom.ovh, port: 65521, type: vmess, uuid: a8d9724a-d61c-3d85-8cad-07e4d45a9441, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mydisk, ws-headers: {Host: vipdedi.boom.ovh}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 2, server: keli.scsevers.cf, port: 44444, type: vmess, uuid: 3fd63a1f-3f1c-4f62-8073-dfce344a2bcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 3, server: 119.wgong.xyz, port: 52219, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(绿头外网集团)(Public)\r, server: iepl.elaina.link, port: 50006, type: ss, cipher: chacha20-ietf-poly1305, password: 10a83674-1a4f-4c13-81c9-7b3becd90446, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 4, server: az.moeai.cn, port: 32916, type: vmess, uuid: 3aed0e55-aa17-4001-b612-f18b649dfd08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾(绿头外网集团)(Public)\r 2, server: iepl.elaina.link, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 10a83674-1a4f-4c13-81c9-7b3becd90446, udp: true}
+  - {name: 日本(绿头外网集团)(Public)\r, server: 106.75.233.91, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 5, server: az.moeai.cn, port: 32916, type: vmess, uuid: 3aed0e55-aa17-4001-b612-f18b649dfd08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN-183.232.170.126-0437, server: ddns04.r8o8c8k.xyz, port: 65009, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: ddns04.r8o8c8k.xyz}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 6, server: 121.wgong.xyz, port: 52221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇩🇪DE_59, server: ddns04.r8o8c8k.xyz, port: 65012, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 7, server: 121.wgong.xyz, port: 52221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_-🇯🇵JP_18
-      - 美国(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public)
-      - Relay_-🇸🇬SG_29
+      - _44
       - 新加坡(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 2
-      - 日本(绿头外网集团)(Public)\r
+      - 香港(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public)\r
       - 台湾(绿头外网集团)(Public)\r
-      - 日本(绿头外网集团)(Public)\r 2
-      - SG_106
-      - github.com/freefq - 美国Microsoft数据中心 5
+      - 香港(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public) 3
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇭🇰_HK_香港
+      - 美国(绿头外网集团)(Public)\r
       - 香港(绿头外网集团)(Public) 4
+      - 台湾(绿头外网集团)(Public)\r 2
+      - 日本(绿头外网集团)(Public)\r
       - 香港(绿头外网集团)(Public) 5
-      - 菲律宾(绿头外网集团)(Public)\r
+      - CN-183.232.170.126-0437
       - 香港(绿头外网集团)(Public) 6
+      - Relay_🇨🇳CN-🇩🇪DE_59
       - 香港(绿头外网集团)(Public) 7
-      - 新加坡(绿头外网集团)(Public) 2
-      - 韩国(绿头外网集团)(Public)\r
-      - 香港(绿头外网集团)(Public) 8
-      - 印度(绿头外网集团)(Public)
-      - Relay_🇭🇰HK-🇸🇬SG_95
-      - 香港(绿头外网集团)(Public) 9
-      - 印度(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 10
-      - 欧洲(欢迎订阅Youtube破解资源君)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_-🇯🇵JP_18
-      - 美国(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public)
-      - Relay_-🇸🇬SG_29
+      - _44
       - 新加坡(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 2
-      - 日本(绿头外网集团)(Public)\r
+      - 香港(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public)\r
       - 台湾(绿头外网集团)(Public)\r
-      - 日本(绿头外网集团)(Public)\r 2
-      - SG_106
-      - github.com/freefq - 美国Microsoft数据中心 5
+      - 香港(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public) 3
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇭🇰_HK_香港
+      - 美国(绿头外网集团)(Public)\r
       - 香港(绿头外网集团)(Public) 4
+      - 台湾(绿头外网集团)(Public)\r 2
+      - 日本(绿头外网集团)(Public)\r
       - 香港(绿头外网集团)(Public) 5
-      - 菲律宾(绿头外网集团)(Public)\r
+      - CN-183.232.170.126-0437
       - 香港(绿头外网集团)(Public) 6
+      - Relay_🇨🇳CN-🇩🇪DE_59
       - 香港(绿头外网集团)(Public) 7
-      - 新加坡(绿头外网集团)(Public) 2
-      - 韩国(绿头外网集团)(Public)\r
-      - 香港(绿头外网集团)(Public) 8
-      - 印度(绿头外网集团)(Public)
-      - Relay_🇭🇰HK-🇸🇬SG_95
-      - 香港(绿头外网集团)(Public) 9
-      - 印度(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 10
-      - 欧洲(欢迎订阅Youtube破解资源君)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_-🇯🇵JP_18
-      - 美国(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public)
-      - Relay_-🇸🇬SG_29
+      - _44
       - 新加坡(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 2
-      - 日本(绿头外网集团)(Public)\r
+      - 香港(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public)\r
       - 台湾(绿头外网集团)(Public)\r
-      - 日本(绿头外网集团)(Public)\r 2
-      - SG_106
-      - github.com/freefq - 美国Microsoft数据中心 5
+      - 香港(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public) 3
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇭🇰_HK_香港
+      - 美国(绿头外网集团)(Public)\r
       - 香港(绿头外网集团)(Public) 4
+      - 台湾(绿头外网集团)(Public)\r 2
+      - 日本(绿头外网集团)(Public)\r
       - 香港(绿头外网集团)(Public) 5
-      - 菲律宾(绿头外网集团)(Public)\r
+      - CN-183.232.170.126-0437
       - 香港(绿头外网集团)(Public) 6
+      - Relay_🇨🇳CN-🇩🇪DE_59
       - 香港(绿头外网集团)(Public) 7
-      - 新加坡(绿头外网集团)(Public) 2
-      - 韩国(绿头外网集团)(Public)\r
-      - 香港(绿头外网集团)(Public) 8
-      - 印度(绿头外网集团)(Public)
-      - Relay_🇭🇰HK-🇸🇬SG_95
-      - 香港(绿头外网集团)(Public) 9
-      - 印度(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 10
-      - 欧洲(欢迎订阅Youtube破解资源君)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -156,155 +104,101 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_-🇯🇵JP_18
-      - 美国(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public)
-      - Relay_-🇸🇬SG_29
+      - _44
       - 新加坡(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 2
-      - 日本(绿头外网集团)(Public)\r
+      - 香港(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public)\r
       - 台湾(绿头外网集团)(Public)\r
-      - 日本(绿头外网集团)(Public)\r 2
-      - SG_106
-      - github.com/freefq - 美国Microsoft数据中心 5
+      - 香港(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public) 3
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇭🇰_HK_香港
+      - 美国(绿头外网集团)(Public)\r
       - 香港(绿头外网集团)(Public) 4
+      - 台湾(绿头外网集团)(Public)\r 2
+      - 日本(绿头外网集团)(Public)\r
       - 香港(绿头外网集团)(Public) 5
-      - 菲律宾(绿头外网集团)(Public)\r
+      - CN-183.232.170.126-0437
       - 香港(绿头外网集团)(Public) 6
+      - Relay_🇨🇳CN-🇩🇪DE_59
       - 香港(绿头外网集团)(Public) 7
-      - 新加坡(绿头外网集团)(Public) 2
-      - 韩国(绿头外网集团)(Public)\r
-      - 香港(绿头外网集团)(Public) 8
-      - 印度(绿头外网集团)(Public)
-      - Relay_🇭🇰HK-🇸🇬SG_95
-      - 香港(绿头外网集团)(Public) 9
-      - 印度(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 10
-      - 欧洲(欢迎订阅Youtube破解资源君)
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 香港(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public)\r
       - 台湾(绿头外网集团)(Public)\r
+      - 香港(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public) 3
-      - _CN_中国->🇭🇰_HK_香港
       - 香港(绿头外网集团)(Public) 4
+      - 台湾(绿头外网集团)(Public)\r 2
       - 香港(绿头外网集团)(Public) 5
       - 香港(绿头外网集团)(Public) 6
       - 香港(绿头外网集团)(Public) 7
-      - 香港(绿头外网集团)(Public) 8
-      - 香港(绿头外网集团)(Public) 9
-      - 香港(绿头外网集团)(Public) 10
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_-🇯🇵JP_18
-      - 美国(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public)
-      - Relay_-🇸🇬SG_29
+      - _44
       - 新加坡(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 2
-      - 日本(绿头外网集团)(Public)\r
+      - 香港(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public)\r
       - 台湾(绿头外网集团)(Public)\r
-      - 日本(绿头外网集团)(Public)\r 2
-      - SG_106
-      - github.com/freefq - 美国Microsoft数据中心 5
+      - 香港(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public) 3
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇭🇰_HK_香港
+      - 美国(绿头外网集团)(Public)\r
       - 香港(绿头外网集团)(Public) 4
+      - 台湾(绿头外网集团)(Public)\r 2
+      - 日本(绿头外网集团)(Public)\r
       - 香港(绿头外网集团)(Public) 5
-      - 菲律宾(绿头外网集团)(Public)\r
+      - CN-183.232.170.126-0437
       - 香港(绿头外网集团)(Public) 6
+      - Relay_🇨🇳CN-🇩🇪DE_59
       - 香港(绿头外网集团)(Public) 7
-      - 新加坡(绿头外网集团)(Public) 2
-      - 韩国(绿头外网集团)(Public)\r
-      - 香港(绿头外网集团)(Public) 8
-      - 印度(绿头外网集团)(Public)
-      - Relay_🇭🇰HK-🇸🇬SG_95
-      - 香港(绿头外网集团)(Public) 9
-      - 印度(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 10
-      - 欧洲(欢迎订阅Youtube破解资源君)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_-🇯🇵JP_18
-      - 美国(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public)
-      - Relay_-🇸🇬SG_29
+      - _44
       - 新加坡(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 2
-      - 日本(绿头外网集团)(Public)\r
+      - 香港(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public)\r
       - 台湾(绿头外网集团)(Public)\r
-      - 日本(绿头外网集团)(Public)\r 2
-      - SG_106
-      - github.com/freefq - 美国Microsoft数据中心 5
+      - 香港(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public) 3
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇭🇰_HK_香港
+      - 美国(绿头外网集团)(Public)\r
       - 香港(绿头外网集团)(Public) 4
+      - 台湾(绿头外网集团)(Public)\r 2
+      - 日本(绿头外网集团)(Public)\r
       - 香港(绿头外网集团)(Public) 5
-      - 菲律宾(绿头外网集团)(Public)\r
+      - CN-183.232.170.126-0437
       - 香港(绿头外网集团)(Public) 6
+      - Relay_🇨🇳CN-🇩🇪DE_59
       - 香港(绿头外网集团)(Public) 7
-      - 新加坡(绿头外网集团)(Public) 2
-      - 韩国(绿头外网集团)(Public)\r
-      - 香港(绿头外网集团)(Public) 8
-      - 印度(绿头外网集团)(Public)
-      - Relay_🇭🇰HK-🇸🇬SG_95
-      - 香港(绿头外网集团)(Public) 9
-      - 印度(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 10
-      - 欧洲(欢迎订阅Youtube破解资源君)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_-🇯🇵JP_18
-      - 美国(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public)
-      - Relay_-🇸🇬SG_29
+      - _44
       - 新加坡(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 2
-      - 日本(绿头外网集团)(Public)\r
+      - 香港(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public)\r
       - 台湾(绿头外网集团)(Public)\r
-      - 日本(绿头外网集团)(Public)\r 2
-      - SG_106
-      - github.com/freefq - 美国Microsoft数据中心 5
+      - 香港(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public) 3
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇭🇰_HK_香港
+      - 美国(绿头外网集团)(Public)\r
       - 香港(绿头外网集团)(Public) 4
+      - 台湾(绿头外网集团)(Public)\r 2
+      - 日本(绿头外网集团)(Public)\r
       - 香港(绿头外网集团)(Public) 5
-      - 菲律宾(绿头外网集团)(Public)\r
+      - CN-183.232.170.126-0437
       - 香港(绿头外网集团)(Public) 6
+      - Relay_🇨🇳CN-🇩🇪DE_59
       - 香港(绿头外网集团)(Public) 7
-      - 新加坡(绿头外网集团)(Public) 2
-      - 韩国(绿头外网集团)(Public)\r
-      - 香港(绿头外网集团)(Public) 8
-      - 印度(绿头外网集团)(Public)
-      - Relay_🇭🇰HK-🇸🇬SG_95
-      - 香港(绿头外网集团)(Public) 9
-      - 印度(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 10
-      - 欧洲(欢迎订阅Youtube破解资源君)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -320,35 +214,22 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_-🇯🇵JP_18
-      - 美国(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public)
-      - Relay_-🇸🇬SG_29
+      - _44
       - 新加坡(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 2
-      - 日本(绿头外网集团)(Public)\r
+      - 香港(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public)\r
       - 台湾(绿头外网集团)(Public)\r
-      - 日本(绿头外网集团)(Public)\r 2
-      - SG_106
-      - github.com/freefq - 美国Microsoft数据中心 5
+      - 香港(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public) 3
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇭🇰_HK_香港
+      - 美国(绿头外网集团)(Public)\r
       - 香港(绿头外网集团)(Public) 4
+      - 台湾(绿头外网集团)(Public)\r 2
+      - 日本(绿头外网集团)(Public)\r
       - 香港(绿头外网集团)(Public) 5
-      - 菲律宾(绿头外网集团)(Public)\r
+      - CN-183.232.170.126-0437
       - 香港(绿头外网集团)(Public) 6
+      - Relay_🇨🇳CN-🇩🇪DE_59
       - 香港(绿头外网集团)(Public) 7
-      - 新加坡(绿头外网集团)(Public) 2
-      - 韩国(绿头外网集团)(Public)\r
-      - 香港(绿头外网集团)(Public) 8
-      - 印度(绿头外网集团)(Public)
-      - Relay_🇭🇰HK-🇸🇬SG_95
-      - 香港(绿头外网集团)(Public) 9
-      - 印度(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 10
-      - 欧洲(欢迎订阅Youtube破解资源君)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
