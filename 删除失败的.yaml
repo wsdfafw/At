@@ -5,71 +5,51 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: github.com/freefq - 美国Microsoft数据中心 5, server: 133.wgong.xyz, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 香港Microsoft数据中心 4, server: 86.wgong.xyz, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(绿头外网集团)(Public)\r, server: 106.75.233.91, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: CN-113.31.155.165-505, server: 113.31.155.165, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: _KR_韩国, server: 141.164.47.208, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _KR_韩国 2, server: 141.164.35.41, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 香港(绿头外网集团)(Public), server: 121.wgong.xyz, port: 52221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _KR_韩国 3, server: 141.164.38.135, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: 香港(绿头外网集团)(Public)\r, server: 34.96.242.153, port: 443, type: trojan, password: shadowrocket, skip-cert-verify: true, udp: true}
-  - {name: _KR_韩国 4, server: 158.247.208.213, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: github.com/freefq - 香港Microsoft数据中心 7, server: 101.wgong.xyz, port: 52201, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 澳大利亚(绿头外网集团)(Public)\r, server: 185.212.62.19, port: 443, type: trojan, password: sxkKUbBydK, skip-cert-verify: true, udp: true}
+  - {name: 台湾(绿头外网集团)(Public)\r, server: e2322f9.ga.gladns.com, port: 3383, type: trojan, password: c3c448da2363a6f7, sni: e2322f9.ga.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: 日本(绿头外网集团)(Public), server: 192.243.122.231, port: 7219, type: vmess, uuid: e8d5a966-8093-4d4e-8977-0baca9c8ab55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 印度(绿头外网集团)(Public), server: 101.67.8.146, port: 16626, type: vmess, uuid: d05cf559-9612-4ae8-9919-8b71c34c3263, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 印度(绿头外网集团)(Public) 2, server: 116.163.31.55, port: 16626, type: vmess, uuid: d05cf559-9612-4ae8-9919-8b71c34c3263, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: _KR_韩国, server: 158.247.208.213, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Relay_🇷🇺RU-🇷🇺RU_68, server: t7.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, sni: t7.ssrsub.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 美国Microsoft数据中心 5
-      - github.com/freefq - 香港Microsoft数据中心 4
-      - 日本(绿头外网集团)(Public)\r
-      - CN-113.31.155.165-505
-      - _KR_韩国
-      - _KR_韩国 2
-      - 香港(绿头外网集团)(Public)
-      - _KR_韩国 3
       - 香港(绿头外网集团)(Public)\r
-      - _KR_韩国 4
-      - github.com/freefq - 香港Microsoft数据中心 7
-      - 澳大利亚(绿头外网集团)(Public)\r
+      - 台湾(绿头外网集团)(Public)\r
+      - 日本(绿头外网集团)(Public)
+      - 印度(绿头外网集团)(Public)
+      - 印度(绿头外网集团)(Public) 2
+      - _KR_韩国
+      - Relay_🇷🇺RU-🇷🇺RU_68
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - github.com/freefq - 美国Microsoft数据中心 5
-      - github.com/freefq - 香港Microsoft数据中心 4
-      - 日本(绿头外网集团)(Public)\r
-      - CN-113.31.155.165-505
-      - _KR_韩国
-      - _KR_韩国 2
-      - 香港(绿头外网集团)(Public)
-      - _KR_韩国 3
       - 香港(绿头外网集团)(Public)\r
-      - _KR_韩国 4
-      - github.com/freefq - 香港Microsoft数据中心 7
-      - 澳大利亚(绿头外网集团)(Public)\r
+      - 台湾(绿头外网集团)(Public)\r
+      - 日本(绿头外网集团)(Public)
+      - 印度(绿头外网集团)(Public)
+      - 印度(绿头外网集团)(Public) 2
+      - _KR_韩国
+      - Relay_🇷🇺RU-🇷🇺RU_68
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 美国Microsoft数据中心 5
-      - github.com/freefq - 香港Microsoft数据中心 4
-      - 日本(绿头外网集团)(Public)\r
-      - CN-113.31.155.165-505
-      - _KR_韩国
-      - _KR_韩国 2
-      - 香港(绿头外网集团)(Public)
-      - _KR_韩国 3
       - 香港(绿头外网集团)(Public)\r
-      - _KR_韩国 4
-      - github.com/freefq - 香港Microsoft数据中心 7
-      - 澳大利亚(绿头外网集团)(Public)\r
+      - 台湾(绿头外网集团)(Public)\r
+      - 日本(绿头外网集团)(Public)
+      - 印度(绿头外网集团)(Public)
+      - 印度(绿头外网集团)(Public) 2
+      - _KR_韩国
+      - Relay_🇷🇺RU-🇷🇺RU_68
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -88,79 +68,57 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 美国Microsoft数据中心 5
-      - github.com/freefq - 香港Microsoft数据中心 4
-      - 日本(绿头外网集团)(Public)\r
-      - CN-113.31.155.165-505
-      - _KR_韩国
-      - _KR_韩国 2
-      - 香港(绿头外网集团)(Public)
-      - _KR_韩国 3
       - 香港(绿头外网集团)(Public)\r
-      - _KR_韩国 4
-      - github.com/freefq - 香港Microsoft数据中心 7
-      - 澳大利亚(绿头外网集团)(Public)\r
+      - 台湾(绿头外网集团)(Public)\r
+      - 日本(绿头外网集团)(Public)
+      - 印度(绿头外网集团)(Public)
+      - 印度(绿头外网集团)(Public) 2
+      - _KR_韩国
+      - Relay_🇷🇺RU-🇷🇺RU_68
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - github.com/freefq - 香港Microsoft数据中心 4
-      - 香港(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public)\r
-      - github.com/freefq - 香港Microsoft数据中心 7
+      - 台湾(绿头外网集团)(Public)\r
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - github.com/freefq - 美国Microsoft数据中心 5
-      - github.com/freefq - 香港Microsoft数据中心 4
-      - 日本(绿头外网集团)(Public)\r
-      - CN-113.31.155.165-505
-      - _KR_韩国
-      - _KR_韩国 2
-      - 香港(绿头外网集团)(Public)
-      - _KR_韩国 3
       - 香港(绿头外网集团)(Public)\r
-      - _KR_韩国 4
-      - github.com/freefq - 香港Microsoft数据中心 7
-      - 澳大利亚(绿头外网集团)(Public)\r
+      - 台湾(绿头外网集团)(Public)\r
+      - 日本(绿头外网集团)(Public)
+      - 印度(绿头外网集团)(Public)
+      - 印度(绿头外网集团)(Public) 2
+      - _KR_韩国
+      - Relay_🇷🇺RU-🇷🇺RU_68
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - github.com/freefq - 美国Microsoft数据中心 5
-      - github.com/freefq - 香港Microsoft数据中心 4
-      - 日本(绿头外网集团)(Public)\r
-      - CN-113.31.155.165-505
-      - _KR_韩国
-      - _KR_韩国 2
-      - 香港(绿头外网集团)(Public)
-      - _KR_韩国 3
       - 香港(绿头外网集团)(Public)\r
-      - _KR_韩国 4
-      - github.com/freefq - 香港Microsoft数据中心 7
-      - 澳大利亚(绿头外网集团)(Public)\r
+      - 台湾(绿头外网集团)(Public)\r
+      - 日本(绿头外网集团)(Public)
+      - 印度(绿头外网集团)(Public)
+      - 印度(绿头外网集团)(Public) 2
+      - _KR_韩国
+      - Relay_🇷🇺RU-🇷🇺RU_68
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/freefq - 美国Microsoft数据中心 5
-      - github.com/freefq - 香港Microsoft数据中心 4
-      - 日本(绿头外网集团)(Public)\r
-      - CN-113.31.155.165-505
-      - _KR_韩国
-      - _KR_韩国 2
-      - 香港(绿头外网集团)(Public)
-      - _KR_韩国 3
       - 香港(绿头外网集团)(Public)\r
-      - _KR_韩国 4
-      - github.com/freefq - 香港Microsoft数据中心 7
-      - 澳大利亚(绿头外网集团)(Public)\r
+      - 台湾(绿头外网集团)(Public)\r
+      - 日本(绿头外网集团)(Public)
+      - 印度(绿头外网集团)(Public)
+      - 印度(绿头外网集团)(Public) 2
+      - _KR_韩国
+      - Relay_🇷🇺RU-🇷🇺RU_68
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -176,18 +134,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/freefq - 美国Microsoft数据中心 5
-      - github.com/freefq - 香港Microsoft数据中心 4
-      - 日本(绿头外网集团)(Public)\r
-      - CN-113.31.155.165-505
-      - _KR_韩国
-      - _KR_韩国 2
-      - 香港(绿头外网集团)(Public)
-      - _KR_韩国 3
       - 香港(绿头外网集团)(Public)\r
-      - _KR_韩国 4
-      - github.com/freefq - 香港Microsoft数据中心 7
-      - 澳大利亚(绿头外网集团)(Public)\r
+      - 台湾(绿头外网集团)(Public)\r
+      - 日本(绿头外网集团)(Public)
+      - 印度(绿头外网集团)(Public)
+      - 印度(绿头外网集团)(Public) 2
+      - _KR_韩国
+      - Relay_🇷🇺RU-🇷🇺RU_68
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
