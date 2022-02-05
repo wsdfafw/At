@@ -5,75 +5,55 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 台湾(绿头外网集团)(Public)\r, server: e2322f9.ga.gladns.com, port: 3383, type: trojan, password: c3c448da2363a6f7, sni: e2322f9.ga.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: _KR_韩国, server: 141.164.57.134, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _KR_韩国 2, server: 158.247.219.68, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _KR_韩国 3, server: 158.247.203.168, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: 192.46.209.227, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_85, server: 192.46.209.227, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _KR_韩国 4, server: 141.164.57.134, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _KR_韩国 5, server: 141.164.57.134, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _KR_韩国 6, server: 158.247.203.168, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _KR_韩国 7, server: 158.247.219.68, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _KR_韩国 8, server: 158.247.226.61, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _KR_韩国 9, server: 141.164.57.134, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 192.46.209.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 5, server: 133.wgong.xyz, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _KR_韩国, server: 158.247.203.168, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国, server: 167.88.61.175, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 美国(绿头外网集团)(Public)\r, server: 167.88.61.14, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: youtube:8度科技_日本\r, server: 172.105.232.147, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _KR_韩国 2, server: 158.247.203.168, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: GB-185.212.62.19-450, server: 185.212.62.19, port: 443, type: trojan, password: sxkKUbBydK, skip-cert-verify: true, udp: true}
+  - {name: 美国(绿头外网集团)(Public)\r 2, server: 167.88.61.175, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 台湾(绿头外网集团)(Public)\r
+      - github.com/freefq - 美国Microsoft数据中心 5
       - _KR_韩国
+      - _US_美国
+      - 美国(绿头外网集团)(Public)\r
+      - youtube:8度科技_日本\r
       - _KR_韩国 2
-      - _KR_韩国 3
-      - 美国(欢迎订阅Youtube破解资源君)
-      - US_85
-      - _KR_韩国 4
-      - _KR_韩国 5
-      - _KR_韩国 6
-      - _KR_韩国 7
-      - _KR_韩国 8
-      - _KR_韩国 9
-      - 美国(欢迎订阅Youtube破解资源君) 2
+      - GB-185.212.62.19-450
+      - 美国(绿头外网集团)(Public)\r 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 台湾(绿头外网集团)(Public)\r
+      - github.com/freefq - 美国Microsoft数据中心 5
       - _KR_韩国
+      - _US_美国
+      - 美国(绿头外网集团)(Public)\r
+      - youtube:8度科技_日本\r
       - _KR_韩国 2
-      - _KR_韩国 3
-      - 美国(欢迎订阅Youtube破解资源君)
-      - US_85
-      - _KR_韩国 4
-      - _KR_韩国 5
-      - _KR_韩国 6
-      - _KR_韩国 7
-      - _KR_韩国 8
-      - _KR_韩国 9
-      - 美国(欢迎订阅Youtube破解资源君) 2
+      - GB-185.212.62.19-450
+      - 美国(绿头外网集团)(Public)\r 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 台湾(绿头外网集团)(Public)\r
+      - github.com/freefq - 美国Microsoft数据中心 5
       - _KR_韩国
+      - _US_美国
+      - 美国(绿头外网集团)(Public)\r
+      - youtube:8度科技_日本\r
       - _KR_韩国 2
-      - _KR_韩国 3
-      - 美国(欢迎订阅Youtube破解资源君)
-      - US_85
-      - _KR_韩国 4
-      - _KR_韩国 5
-      - _KR_韩国 6
-      - _KR_韩国 7
-      - _KR_韩国 8
-      - _KR_韩国 9
-      - 美国(欢迎订阅Youtube破解资源君) 2
+      - GB-185.212.62.19-450
+      - 美国(绿头外网集团)(Public)\r 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -92,80 +72,59 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 台湾(绿头外网集团)(Public)\r
+      - github.com/freefq - 美国Microsoft数据中心 5
       - _KR_韩国
+      - _US_美国
+      - 美国(绿头外网集团)(Public)\r
+      - youtube:8度科技_日本\r
       - _KR_韩国 2
-      - _KR_韩国 3
-      - 美国(欢迎订阅Youtube破解资源君)
-      - US_85
-      - _KR_韩国 4
-      - _KR_韩国 5
-      - _KR_韩国 6
-      - _KR_韩国 7
-      - _KR_韩国 8
-      - _KR_韩国 9
-      - 美国(欢迎订阅Youtube破解资源君) 2
+      - GB-185.212.62.19-450
+      - 美国(绿头外网集团)(Public)\r 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾(绿头外网集团)(Public)\r
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 台湾(绿头外网集团)(Public)\r
+      - github.com/freefq - 美国Microsoft数据中心 5
       - _KR_韩国
+      - _US_美国
+      - 美国(绿头外网集团)(Public)\r
+      - youtube:8度科技_日本\r
       - _KR_韩国 2
-      - _KR_韩国 3
-      - 美国(欢迎订阅Youtube破解资源君)
-      - US_85
-      - _KR_韩国 4
-      - _KR_韩国 5
-      - _KR_韩国 6
-      - _KR_韩国 7
-      - _KR_韩国 8
-      - _KR_韩国 9
-      - 美国(欢迎订阅Youtube破解资源君) 2
+      - GB-185.212.62.19-450
+      - 美国(绿头外网集团)(Public)\r 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 台湾(绿头外网集团)(Public)\r
+      - github.com/freefq - 美国Microsoft数据中心 5
       - _KR_韩国
+      - _US_美国
+      - 美国(绿头外网集团)(Public)\r
+      - youtube:8度科技_日本\r
       - _KR_韩国 2
-      - _KR_韩国 3
-      - 美国(欢迎订阅Youtube破解资源君)
-      - US_85
-      - _KR_韩国 4
-      - _KR_韩国 5
-      - _KR_韩国 6
-      - _KR_韩国 7
-      - _KR_韩国 8
-      - _KR_韩国 9
-      - 美国(欢迎订阅Youtube破解资源君) 2
+      - GB-185.212.62.19-450
+      - 美国(绿头外网集团)(Public)\r 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 台湾(绿头外网集团)(Public)\r
+      - github.com/freefq - 美国Microsoft数据中心 5
       - _KR_韩国
+      - _US_美国
+      - 美国(绿头外网集团)(Public)\r
+      - youtube:8度科技_日本\r
       - _KR_韩国 2
-      - _KR_韩国 3
-      - 美国(欢迎订阅Youtube破解资源君)
-      - US_85
-      - _KR_韩国 4
-      - _KR_韩国 5
-      - _KR_韩国 6
-      - _KR_韩国 7
-      - _KR_韩国 8
-      - _KR_韩国 9
-      - 美国(欢迎订阅Youtube破解资源君) 2
+      - GB-185.212.62.19-450
+      - 美国(绿头外网集团)(Public)\r 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -181,19 +140,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 台湾(绿头外网集团)(Public)\r
+      - github.com/freefq - 美国Microsoft数据中心 5
       - _KR_韩国
+      - _US_美国
+      - 美国(绿头外网集团)(Public)\r
+      - youtube:8度科技_日本\r
       - _KR_韩国 2
-      - _KR_韩国 3
-      - 美国(欢迎订阅Youtube破解资源君)
-      - US_85
-      - _KR_韩国 4
-      - _KR_韩国 5
-      - _KR_韩国 6
-      - _KR_韩国 7
-      - _KR_韩国 8
-      - _KR_韩国 9
-      - 美国(欢迎订阅Youtube破解资源君) 2
+      - GB-185.212.62.19-450
+      - 美国(绿头外网集团)(Public)\r 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
