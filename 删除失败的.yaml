@@ -5,39 +5,43 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: github.com/freefq - 香港特别行政区 6, server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 1, server: 132.wgong.xyz, port: 52332, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本(绿头外网集团)(Public)\r, server: news.homeos.ml, port: 1433, type: ss, cipher: aes-256-gcm, password: HomeOS, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 192.46.209.17, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 日本(绿头外网集团)(Public)\r 2, server: news.homeos.ml, port: 8080, type: trojan, password: HomeOS, sni: news.homeos.ml, skip-cert-verify: true, udp: true}
+  - {name: US-89.208.252.110-499, server: 89.208.252.110, port: 19698, type: trojan, password: 1w5vcK1KiD, skip-cert-verify: true, udp: true}
   - {name: bulink自建免费线路19 三网, server: la49.bulink.xyz.fobzs.com, port: 8088, type: vmess, uuid: 1b19c17c-9ad3-44c0-af5f-6f599f2fe3ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(欢迎订阅Youtube破解资源君), server: 20.24.67.68, port: 52335, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 香港特别行政区 6
-      - github.com/freefq - 美国Microsoft数据中心 1
+      - 日本(绿头外网集团)(Public)\r
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 日本(绿头外网集团)(Public)\r 2
+      - US-89.208.252.110-499
       - bulink自建免费线路19 三网
-      - 新加坡(欢迎订阅Youtube破解资源君)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - github.com/freefq - 香港特别行政区 6
-      - github.com/freefq - 美国Microsoft数据中心 1
+      - 日本(绿头外网集团)(Public)\r
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 日本(绿头外网集团)(Public)\r 2
+      - US-89.208.252.110-499
       - bulink自建免费线路19 三网
-      - 新加坡(欢迎订阅Youtube破解资源君)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 香港特别行政区 6
-      - github.com/freefq - 美国Microsoft数据中心 1
+      - 日本(绿头外网集团)(Public)\r
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 日本(绿头外网集团)(Public)\r 2
+      - US-89.208.252.110-499
       - bulink自建免费线路19 三网
-      - 新加坡(欢迎订阅Youtube破解资源君)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -56,44 +60,47 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 香港特别行政区 6
-      - github.com/freefq - 美国Microsoft数据中心 1
+      - 日本(绿头外网集团)(Public)\r
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 日本(绿头外网集团)(Public)\r 2
+      - US-89.208.252.110-499
       - bulink自建免费线路19 三网
-      - 新加坡(欢迎订阅Youtube破解资源君)
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - github.com/freefq - 香港特别行政区 6
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - github.com/freefq - 香港特别行政区 6
-      - github.com/freefq - 美国Microsoft数据中心 1
+      - 日本(绿头外网集团)(Public)\r
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 日本(绿头外网集团)(Public)\r 2
+      - US-89.208.252.110-499
       - bulink自建免费线路19 三网
-      - 新加坡(欢迎订阅Youtube破解资源君)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - github.com/freefq - 香港特别行政区 6
-      - github.com/freefq - 美国Microsoft数据中心 1
+      - 日本(绿头外网集团)(Public)\r
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 日本(绿头外网集团)(Public)\r 2
+      - US-89.208.252.110-499
       - bulink自建免费线路19 三网
-      - 新加坡(欢迎订阅Youtube破解资源君)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/freefq - 香港特别行政区 6
-      - github.com/freefq - 美国Microsoft数据中心 1
+      - 日本(绿头外网集团)(Public)\r
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 日本(绿头外网集团)(Public)\r 2
+      - US-89.208.252.110-499
       - bulink自建免费线路19 三网
-      - 新加坡(欢迎订阅Youtube破解资源君)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -109,10 +116,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/freefq - 香港特别行政区 6
-      - github.com/freefq - 美国Microsoft数据中心 1
+      - 日本(绿头外网集团)(Public)\r
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 日本(绿头外网集团)(Public)\r 2
+      - US-89.208.252.110-499
       - bulink自建免费线路19 三网
-      - 新加坡(欢迎订阅Youtube破解资源君)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
