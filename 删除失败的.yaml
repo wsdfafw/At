@@ -5,75 +5,99 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港(欢迎订阅Youtube破解资源君), server: 104.208.64.48, port: 52329, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_香港-新加坡_127_24.43Mb, server: 121.wgong.xyz, port: 52221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_美国-日本_2266, server: 121.wgong.xyz, port: 52221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港_TG@nodesharing_15, server: 24.uuuyun.click, port: 60024, type: vmess, uuid: 2b816815-5679-3064-a6cb-8254effa46fb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 24.uuuyun.click}, udp: true}
+  - {name: 香港_TG@nodesharing_23, server: 34.uuuyun.click, port: 60034, type: vmess, uuid: 2b816815-5679-3064-a6cb-8254effa46fb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 34.uuuyun.click}, udp: true}
+  - {name: 防失效github.com/Leon406, server: 121.wgong.xyz, port: 52221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港_TG@nodesharing_283, server: 37.uuuyun.click, port: 60037, type: vmess, uuid: 2b816815-5679-3064-a6cb-8254effa46fb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 37.uuuyun.click}, udp: true}
+  - {name: 香港_725 |23.55Mb, server: v115.wgong.xyz, port: 52215, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 香港(绿头外网集团)(Public), server: 89.wowogg.cyou, port: 52289, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾(绿头外网集团)(Public), server: 1207tw.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1207tw.fans8.xyz}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 2, server: 104.208.64.48, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾(绿头外网集团)(Public), server: 128tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 128tw02.fans8.xyz}, udp: true}
+  - {name: Relay_香港-日本_508, server: 130.wgong.xyz, port: 52330, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港_TG@nodesharing_249, server: 29.uuuyun.click, port: 60029, type: vmess, uuid: 2b816815-5679-3064-a6cb-8254effa46fb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 29.uuuyun.click}, udp: true}
+  - {name: Relay_香港-新加坡_656, server: 99.wgong.xyz, port: 52299, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_-新加坡_35, server: 99.wgong.xyz, port: 52299, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_中国-俄罗斯_320_11.03Mb, server: 221.203.142.217, port: 25686, type: vmess, uuid: 6f0aac50-f252-30b8-8c82-202517d9c57c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 221.203.142.217}, udp: true}
   - {name: 日本(绿头外网集团)(Public), server: 0211jp.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0211jp.fans8.xyz}, udp: true}
-  - {name: 韩国(绿头外网集团)(Public), server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1031kr.fans8.xyz}, udp: true}
-  - {name: 日本(绿头外网集团)(Public)\r, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
-  - {name: _IN_印度, server: 172.104.207.231, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国(绿头外网集团)(Public), server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾(绿头外网集团)(Public) 2, server: 128tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 128tw02.fans8.xyz}, udp: true}
-  - {name: _KR_韩国, server: 141.164.38.135, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 3, server: 128hk01.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 128hk01.fans8.xyz}, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 2, server: 102.wowogg.cyou, port: 11221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_-新加坡_34, server: 96.wgong.xyz, port: 52296, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_中国-美国_325_22.30Mb, server: cs.cu.01.211129.xyz, port: 15924, type: vmess, uuid: 6f0aac50-f252-30b8-8c82-202517d9c57c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: cs.cu.01.211129.xyz}, udp: true}
+  - {name: 香港_TG@nodesharing_19, server: 21.uuuyun.click, port: 60021, type: vmess, uuid: 2b816815-5679-3064-a6cb-8254effa46fb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 21.uuuyun.click}, udp: true}
+  - {name: 香港_TG@nodesharing_22, server: 41.uuyun.one, port: 60041, type: vmess, uuid: 2b816815-5679-3064-a6cb-8254effa46fb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 41.uuyun.one}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
+      - Relay_香港-新加坡_127_24.43Mb
+      - Relay_美国-日本_2266
+      - 香港_TG@nodesharing_15
+      - 香港_TG@nodesharing_23
+      - 防失效github.com/Leon406
+      - 香港_TG@nodesharing_283
+      - 香港_725 |23.55Mb
       - 香港(绿头外网集团)(Public)
       - 台湾(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 2
+      - Relay_香港-日本_508
+      - 香港_TG@nodesharing_249
+      - Relay_香港-新加坡_656
+      - Relay_-新加坡_35
+      - Relay_中国-俄罗斯_320_11.03Mb
       - 日本(绿头外网集团)(Public)
-      - 韩国(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public)\r
-      - _IN_印度
-      - 美国(绿头外网集团)(Public)
-      - 台湾(绿头外网集团)(Public) 2
-      - _KR_韩国
-      - 香港(绿头外网集团)(Public) 3
-      - 美国(绿头外网集团)(Public) 2
+      - Relay_-新加坡_34
+      - Relay_中国-美国_325_22.30Mb
+      - 香港_TG@nodesharing_19
+      - 香港_TG@nodesharing_22
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港(欢迎订阅Youtube破解资源君)
+      - Relay_香港-新加坡_127_24.43Mb
+      - Relay_美国-日本_2266
+      - 香港_TG@nodesharing_15
+      - 香港_TG@nodesharing_23
+      - 防失效github.com/Leon406
+      - 香港_TG@nodesharing_283
+      - 香港_725 |23.55Mb
       - 香港(绿头外网集团)(Public)
       - 台湾(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 2
+      - Relay_香港-日本_508
+      - 香港_TG@nodesharing_249
+      - Relay_香港-新加坡_656
+      - Relay_-新加坡_35
+      - Relay_中国-俄罗斯_320_11.03Mb
       - 日本(绿头外网集团)(Public)
-      - 韩国(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public)\r
-      - _IN_印度
-      - 美国(绿头外网集团)(Public)
-      - 台湾(绿头外网集团)(Public) 2
-      - _KR_韩国
-      - 香港(绿头外网集团)(Public) 3
-      - 美国(绿头外网集团)(Public) 2
+      - Relay_-新加坡_34
+      - Relay_中国-美国_325_22.30Mb
+      - 香港_TG@nodesharing_19
+      - 香港_TG@nodesharing_22
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
+      - Relay_香港-新加坡_127_24.43Mb
+      - Relay_美国-日本_2266
+      - 香港_TG@nodesharing_15
+      - 香港_TG@nodesharing_23
+      - 防失效github.com/Leon406
+      - 香港_TG@nodesharing_283
+      - 香港_725 |23.55Mb
       - 香港(绿头外网集团)(Public)
       - 台湾(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 2
+      - Relay_香港-日本_508
+      - 香港_TG@nodesharing_249
+      - Relay_香港-新加坡_656
+      - Relay_-新加坡_35
+      - Relay_中国-俄罗斯_320_11.03Mb
       - 日本(绿头外网集团)(Public)
-      - 韩国(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public)\r
-      - _IN_印度
-      - 美国(绿头外网集团)(Public)
-      - 台湾(绿头外网集团)(Public) 2
-      - _KR_韩国
-      - 香港(绿头外网集团)(Public) 3
-      - 美国(绿头外网集团)(Public) 2
+      - Relay_-新加坡_34
+      - Relay_中国-美国_325_22.30Mb
+      - 香港_TG@nodesharing_19
+      - 香港_TG@nodesharing_22
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -92,85 +116,115 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
+      - Relay_香港-新加坡_127_24.43Mb
+      - Relay_美国-日本_2266
+      - 香港_TG@nodesharing_15
+      - 香港_TG@nodesharing_23
+      - 防失效github.com/Leon406
+      - 香港_TG@nodesharing_283
+      - 香港_725 |23.55Mb
       - 香港(绿头外网集团)(Public)
       - 台湾(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 2
+      - Relay_香港-日本_508
+      - 香港_TG@nodesharing_249
+      - Relay_香港-新加坡_656
+      - Relay_-新加坡_35
+      - Relay_中国-俄罗斯_320_11.03Mb
       - 日本(绿头外网集团)(Public)
-      - 韩国(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public)\r
-      - _IN_印度
-      - 美国(绿头外网集团)(Public)
-      - 台湾(绿头外网集团)(Public) 2
-      - _KR_韩国
-      - 香港(绿头外网集团)(Public) 3
-      - 美国(绿头外网集团)(Public) 2
+      - Relay_-新加坡_34
+      - Relay_中国-美国_325_22.30Mb
+      - 香港_TG@nodesharing_19
+      - 香港_TG@nodesharing_22
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
+      - Relay_香港-新加坡_127_24.43Mb
+      - 香港_TG@nodesharing_15
+      - 香港_TG@nodesharing_23
+      - 香港_TG@nodesharing_283
+      - 香港_725 |23.55Mb
       - 香港(绿头外网集团)(Public)
       - 台湾(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 2
-      - 台湾(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 3
+      - Relay_香港-日本_508
+      - 香港_TG@nodesharing_249
+      - Relay_香港-新加坡_656
+      - 香港_TG@nodesharing_19
+      - 香港_TG@nodesharing_22
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港(欢迎订阅Youtube破解资源君)
+      - Relay_香港-新加坡_127_24.43Mb
+      - Relay_美国-日本_2266
+      - 香港_TG@nodesharing_15
+      - 香港_TG@nodesharing_23
+      - 防失效github.com/Leon406
+      - 香港_TG@nodesharing_283
+      - 香港_725 |23.55Mb
       - 香港(绿头外网集团)(Public)
       - 台湾(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 2
+      - Relay_香港-日本_508
+      - 香港_TG@nodesharing_249
+      - Relay_香港-新加坡_656
+      - Relay_-新加坡_35
+      - Relay_中国-俄罗斯_320_11.03Mb
       - 日本(绿头外网集团)(Public)
-      - 韩国(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public)\r
-      - _IN_印度
-      - 美国(绿头外网集团)(Public)
-      - 台湾(绿头外网集团)(Public) 2
-      - _KR_韩国
-      - 香港(绿头外网集团)(Public) 3
-      - 美国(绿头外网集团)(Public) 2
+      - Relay_-新加坡_34
+      - Relay_中国-美国_325_22.30Mb
+      - 香港_TG@nodesharing_19
+      - 香港_TG@nodesharing_22
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
+      - Relay_香港-新加坡_127_24.43Mb
+      - Relay_美国-日本_2266
+      - 香港_TG@nodesharing_15
+      - 香港_TG@nodesharing_23
+      - 防失效github.com/Leon406
+      - 香港_TG@nodesharing_283
+      - 香港_725 |23.55Mb
       - 香港(绿头外网集团)(Public)
       - 台湾(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 2
+      - Relay_香港-日本_508
+      - 香港_TG@nodesharing_249
+      - Relay_香港-新加坡_656
+      - Relay_-新加坡_35
+      - Relay_中国-俄罗斯_320_11.03Mb
       - 日本(绿头外网集团)(Public)
-      - 韩国(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public)\r
-      - _IN_印度
-      - 美国(绿头外网集团)(Public)
-      - 台湾(绿头外网集团)(Public) 2
-      - _KR_韩国
-      - 香港(绿头外网集团)(Public) 3
-      - 美国(绿头外网集团)(Public) 2
+      - Relay_-新加坡_34
+      - Relay_中国-美国_325_22.30Mb
+      - 香港_TG@nodesharing_19
+      - 香港_TG@nodesharing_22
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港(欢迎订阅Youtube破解资源君)
+      - Relay_香港-新加坡_127_24.43Mb
+      - Relay_美国-日本_2266
+      - 香港_TG@nodesharing_15
+      - 香港_TG@nodesharing_23
+      - 防失效github.com/Leon406
+      - 香港_TG@nodesharing_283
+      - 香港_725 |23.55Mb
       - 香港(绿头外网集团)(Public)
       - 台湾(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 2
+      - Relay_香港-日本_508
+      - 香港_TG@nodesharing_249
+      - Relay_香港-新加坡_656
+      - Relay_-新加坡_35
+      - Relay_中国-俄罗斯_320_11.03Mb
       - 日本(绿头外网集团)(Public)
-      - 韩国(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public)\r
-      - _IN_印度
-      - 美国(绿头外网集团)(Public)
-      - 台湾(绿头外网集团)(Public) 2
-      - _KR_韩国
-      - 香港(绿头外网集团)(Public) 3
-      - 美国(绿头外网集团)(Public) 2
+      - Relay_-新加坡_34
+      - Relay_中国-美国_325_22.30Mb
+      - 香港_TG@nodesharing_19
+      - 香港_TG@nodesharing_22
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -186,19 +240,25 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港(欢迎订阅Youtube破解资源君)
+      - Relay_香港-新加坡_127_24.43Mb
+      - Relay_美国-日本_2266
+      - 香港_TG@nodesharing_15
+      - 香港_TG@nodesharing_23
+      - 防失效github.com/Leon406
+      - 香港_TG@nodesharing_283
+      - 香港_725 |23.55Mb
       - 香港(绿头外网集团)(Public)
       - 台湾(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 2
+      - Relay_香港-日本_508
+      - 香港_TG@nodesharing_249
+      - Relay_香港-新加坡_656
+      - Relay_-新加坡_35
+      - Relay_中国-俄罗斯_320_11.03Mb
       - 日本(绿头外网集团)(Public)
-      - 韩国(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public)\r
-      - _IN_印度
-      - 美国(绿头外网集团)(Public)
-      - 台湾(绿头外网集团)(Public) 2
-      - _KR_韩国
-      - 香港(绿头外网集团)(Public) 3
-      - 美国(绿头外网集团)(Public) 2
+      - Relay_-新加坡_34
+      - Relay_中国-美国_325_22.30Mb
+      - 香港_TG@nodesharing_19
+      - 香港_TG@nodesharing_22
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
