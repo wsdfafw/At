@@ -5,99 +5,107 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_香港-新加坡_127_24.43Mb, server: 121.wgong.xyz, port: 52221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_美国-日本_2266, server: 121.wgong.xyz, port: 52221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港_TG@nodesharing_15, server: 24.uuuyun.click, port: 60024, type: vmess, uuid: 2b816815-5679-3064-a6cb-8254effa46fb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 24.uuuyun.click}, udp: true}
-  - {name: 香港_TG@nodesharing_23, server: 34.uuuyun.click, port: 60034, type: vmess, uuid: 2b816815-5679-3064-a6cb-8254effa46fb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 34.uuuyun.click}, udp: true}
-  - {name: 防失效github.com/Leon406, server: 121.wgong.xyz, port: 52221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港_TG@nodesharing_283, server: 37.uuuyun.click, port: 60037, type: vmess, uuid: 2b816815-5679-3064-a6cb-8254effa46fb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 37.uuuyun.click}, udp: true}
-  - {name: 香港_725 |23.55Mb, server: v115.wgong.xyz, port: 52215, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港(绿头外网集团)(Public), server: 89.wowogg.cyou, port: 52289, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本(绿头外网集团)(Public), server: 3.112.20.77, port: 8080, type: vmess, uuid: bec0f7e4-500f-4746-8e22-ce1430e51bcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 3.112.20.77}, udp: true}
+  - {name: 香港(绿头外网集团)(Public), server: huazhong-relay.hxlm.cc, port: 63005, type: vmess, uuid: 4ac2cb18-e8a3-48ff-85f9-b9250a8c17f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.amazon.com}, udp: true}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:), server: 132.wgong.xyz, port: 52332, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public), server: huazhong-relay.hxlm.cc, port: 63023, type: vmess, uuid: 4ac2cb18-e8a3-48ff-85f9-b9250a8c17f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-ru01.jerrui.com}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 2, server: huanan.hxlm.cc, port: 63006, type: vmess, uuid: 4ac2cb18-e8a3-48ff-85f9-b9250a8c17f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}, udp: true}
   - {name: 台湾(绿头外网集团)(Public), server: 128tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 128tw02.fans8.xyz}, udp: true}
-  - {name: Relay_香港-日本_508, server: 130.wgong.xyz, port: 52330, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港_TG@nodesharing_249, server: 29.uuuyun.click, port: 60029, type: vmess, uuid: 2b816815-5679-3064-a6cb-8254effa46fb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 29.uuuyun.click}, udp: true}
-  - {name: Relay_香港-新加坡_656, server: 99.wgong.xyz, port: 52299, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_-新加坡_35, server: 99.wgong.xyz, port: 52299, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_中国-俄罗斯_320_11.03Mb, server: 221.203.142.217, port: 25686, type: vmess, uuid: 6f0aac50-f252-30b8-8c82-202517d9c57c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 221.203.142.217}, udp: true}
-  - {name: 日本(绿头外网集团)(Public), server: 0211jp.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0211jp.fans8.xyz}, udp: true}
-  - {name: Relay_-新加坡_34, server: 96.wgong.xyz, port: 52296, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_中国-美国_325_22.30Mb, server: cs.cu.01.211129.xyz, port: 15924, type: vmess, uuid: 6f0aac50-f252-30b8-8c82-202517d9c57c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: cs.cu.01.211129.xyz}, udp: true}
-  - {name: 香港_TG@nodesharing_19, server: 21.uuuyun.click, port: 60021, type: vmess, uuid: 2b816815-5679-3064-a6cb-8254effa46fb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 21.uuuyun.click}, udp: true}
-  - {name: 香港_TG@nodesharing_22, server: 41.uuyun.one, port: 60041, type: vmess, uuid: 2b816815-5679-3064-a6cb-8254effa46fb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 41.uuyun.one}, udp: true}
+  - {name: 美国(绿头外网集团)(Public), server: huanan.hxlm.cc, port: 14002, type: vmess, uuid: 4ac2cb18-e8a3-48ff-85f9-b9250a8c17f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}, udp: true}
+  - {name: 韩国(绿头外网集团)(Public), server: 3.35.206.85, port: 8080, type: vmess, uuid: bec0f7e4-500f-4746-8e22-ce1430e51bcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 3.35.206.85}, udp: true}
+  - {name: 印度(绿头外网集团)(Public), server: shcn2.hxlm.cc, port: 63009, type: vmess, uuid: 4ac2cb18-e8a3-48ff-85f9-b9250a8c17f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-au01.jerrui.com}, udp: true}
+  - {name: 韩国(绿头外网集团)(Public) 2, server: shcn2.hxlm.cc, port: 63012, type: vmess, uuid: 4ac2cb18-e8a3-48ff-85f9-b9250a8c17f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 3, server: 113.wowogg.cyou, port: 52213, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_香港-日本_523, server: v114.wgong.xyz, port: 52214, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 4, server: huanan.hxlm.cc, port: 63005, type: vmess, uuid: 4ac2cb18-e8a3-48ff-85f9-b9250a8c17f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.amazon.com}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 5, server: huazhong-relay.hxlm.cc, port: 63006, type: vmess, uuid: 4ac2cb18-e8a3-48ff-85f9-b9250a8c17f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 2, server: huazhong-relay.hxlm.cc, port: 63022, type: vmess, uuid: 4ac2cb18-e8a3-48ff-85f9-b9250a8c17f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-ru01.jerrui.com}, udp: true}
+  - {name: 香港(绿头外网集团)(Public)\r, server: iepl.hxlm.cc, port: 48222, type: ss, cipher: chacha20-ietf-poly1305, password: 4ac2cb18-e8a3-48ff-85f9-b9250a8c17f7, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 6, server: huazhong-relay.hxlm.cc, port: 63007, type: vmess, uuid: 4ac2cb18-e8a3-48ff-85f9-b9250a8c17f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}, udp: true}
+  - {name: Relay__30.30Mb, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1031kr.fans8.xyz}, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public)\r, server: iepl.hxlm.cc, port: 45008, type: ss, cipher: chacha20-ietf-poly1305, password: 4ac2cb18-e8a3-48ff-85f9-b9250a8c17f7, udp: true}
+  - {name: 英国(绿头外网集团)(Public), server: huazhong-relay.hxlm.cc, port: 63019, type: vmess, uuid: 4ac2cb18-e8a3-48ff-85f9-b9250a8c17f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.baidu.com}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 7, server: shcn2.hxlm.cc, port: 63000, type: vmess, uuid: 4ac2cb18-e8a3-48ff-85f9-b9250a8c17f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_香港-新加坡_127_24.43Mb
-      - Relay_美国-日本_2266
-      - 香港_TG@nodesharing_15
-      - 香港_TG@nodesharing_23
-      - 防失效github.com/Leon406
-      - 香港_TG@nodesharing_283
-      - 香港_725 |23.55Mb
-      - 香港(绿头外网集团)(Public)
-      - 台湾(绿头外网集团)(Public)
-      - Relay_香港-日本_508
-      - 香港_TG@nodesharing_249
-      - Relay_香港-新加坡_656
-      - Relay_-新加坡_35
-      - Relay_中国-俄罗斯_320_11.03Mb
       - 日本(绿头外网集团)(Public)
-      - Relay_-新加坡_34
-      - Relay_中国-美国_325_22.30Mb
-      - 香港_TG@nodesharing_19
-      - 香港_TG@nodesharing_22
+      - 香港(绿头外网集团)(Public)
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - 新加坡(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 2
+      - 台湾(绿头外网集团)(Public)
+      - 美国(绿头外网集团)(Public)
+      - 韩国(绿头外网集团)(Public)
+      - 印度(绿头外网集团)(Public)
+      - 韩国(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public) 3
+      - Relay_香港-日本_523
+      - 香港(绿头外网集团)(Public) 4
+      - 香港(绿头外网集团)(Public) 5
+      - 新加坡(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public)\r
+      - 香港(绿头外网集团)(Public) 6
+      - Relay__30.30Mb
+      - 新加坡(绿头外网集团)(Public)\r
+      - 英国(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_香港-新加坡_127_24.43Mb
-      - Relay_美国-日本_2266
-      - 香港_TG@nodesharing_15
-      - 香港_TG@nodesharing_23
-      - 防失效github.com/Leon406
-      - 香港_TG@nodesharing_283
-      - 香港_725 |23.55Mb
-      - 香港(绿头外网集团)(Public)
-      - 台湾(绿头外网集团)(Public)
-      - Relay_香港-日本_508
-      - 香港_TG@nodesharing_249
-      - Relay_香港-新加坡_656
-      - Relay_-新加坡_35
-      - Relay_中国-俄罗斯_320_11.03Mb
       - 日本(绿头外网集团)(Public)
-      - Relay_-新加坡_34
-      - Relay_中国-美国_325_22.30Mb
-      - 香港_TG@nodesharing_19
-      - 香港_TG@nodesharing_22
+      - 香港(绿头外网集团)(Public)
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - 新加坡(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 2
+      - 台湾(绿头外网集团)(Public)
+      - 美国(绿头外网集团)(Public)
+      - 韩国(绿头外网集团)(Public)
+      - 印度(绿头外网集团)(Public)
+      - 韩国(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public) 3
+      - Relay_香港-日本_523
+      - 香港(绿头外网集团)(Public) 4
+      - 香港(绿头外网集团)(Public) 5
+      - 新加坡(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public)\r
+      - 香港(绿头外网集团)(Public) 6
+      - Relay__30.30Mb
+      - 新加坡(绿头外网集团)(Public)\r
+      - 英国(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 7
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_香港-新加坡_127_24.43Mb
-      - Relay_美国-日本_2266
-      - 香港_TG@nodesharing_15
-      - 香港_TG@nodesharing_23
-      - 防失效github.com/Leon406
-      - 香港_TG@nodesharing_283
-      - 香港_725 |23.55Mb
-      - 香港(绿头外网集团)(Public)
-      - 台湾(绿头外网集团)(Public)
-      - Relay_香港-日本_508
-      - 香港_TG@nodesharing_249
-      - Relay_香港-新加坡_656
-      - Relay_-新加坡_35
-      - Relay_中国-俄罗斯_320_11.03Mb
       - 日本(绿头外网集团)(Public)
-      - Relay_-新加坡_34
-      - Relay_中国-美国_325_22.30Mb
-      - 香港_TG@nodesharing_19
-      - 香港_TG@nodesharing_22
+      - 香港(绿头外网集团)(Public)
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - 新加坡(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 2
+      - 台湾(绿头外网集团)(Public)
+      - 美国(绿头外网集团)(Public)
+      - 韩国(绿头外网集团)(Public)
+      - 印度(绿头外网集团)(Public)
+      - 韩国(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public) 3
+      - Relay_香港-日本_523
+      - 香港(绿头外网集团)(Public) 4
+      - 香港(绿头外网集团)(Public) 5
+      - 新加坡(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public)\r
+      - 香港(绿头外网集团)(Public) 6
+      - Relay__30.30Mb
+      - 新加坡(绿头外网集团)(Public)\r
+      - 英国(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 7
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -116,115 +124,121 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_香港-新加坡_127_24.43Mb
-      - Relay_美国-日本_2266
-      - 香港_TG@nodesharing_15
-      - 香港_TG@nodesharing_23
-      - 防失效github.com/Leon406
-      - 香港_TG@nodesharing_283
-      - 香港_725 |23.55Mb
-      - 香港(绿头外网集团)(Public)
-      - 台湾(绿头外网集团)(Public)
-      - Relay_香港-日本_508
-      - 香港_TG@nodesharing_249
-      - Relay_香港-新加坡_656
-      - Relay_-新加坡_35
-      - Relay_中国-俄罗斯_320_11.03Mb
       - 日本(绿头外网集团)(Public)
-      - Relay_-新加坡_34
-      - Relay_中国-美国_325_22.30Mb
-      - 香港_TG@nodesharing_19
-      - 香港_TG@nodesharing_22
+      - 香港(绿头外网集团)(Public)
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - 新加坡(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 2
+      - 台湾(绿头外网集团)(Public)
+      - 美国(绿头外网集团)(Public)
+      - 韩国(绿头外网集团)(Public)
+      - 印度(绿头外网集团)(Public)
+      - 韩国(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public) 3
+      - Relay_香港-日本_523
+      - 香港(绿头外网集团)(Public) 4
+      - 香港(绿头外网集团)(Public) 5
+      - 新加坡(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public)\r
+      - 香港(绿头外网集团)(Public) 6
+      - Relay__30.30Mb
+      - 新加坡(绿头外网集团)(Public)\r
+      - 英国(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 7
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - Relay_香港-新加坡_127_24.43Mb
-      - 香港_TG@nodesharing_15
-      - 香港_TG@nodesharing_23
-      - 香港_TG@nodesharing_283
-      - 香港_725 |23.55Mb
       - 香港(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 2
       - 台湾(绿头外网集团)(Public)
-      - Relay_香港-日本_508
-      - 香港_TG@nodesharing_249
-      - Relay_香港-新加坡_656
-      - 香港_TG@nodesharing_19
-      - 香港_TG@nodesharing_22
+      - 香港(绿头外网集团)(Public) 3
+      - Relay_香港-日本_523
+      - 香港(绿头外网集团)(Public) 4
+      - 香港(绿头外网集团)(Public) 5
+      - 香港(绿头外网集团)(Public)\r
+      - 香港(绿头外网集团)(Public) 6
+      - 香港(绿头外网集团)(Public) 7
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_香港-新加坡_127_24.43Mb
-      - Relay_美国-日本_2266
-      - 香港_TG@nodesharing_15
-      - 香港_TG@nodesharing_23
-      - 防失效github.com/Leon406
-      - 香港_TG@nodesharing_283
-      - 香港_725 |23.55Mb
-      - 香港(绿头外网集团)(Public)
-      - 台湾(绿头外网集团)(Public)
-      - Relay_香港-日本_508
-      - 香港_TG@nodesharing_249
-      - Relay_香港-新加坡_656
-      - Relay_-新加坡_35
-      - Relay_中国-俄罗斯_320_11.03Mb
       - 日本(绿头外网集团)(Public)
-      - Relay_-新加坡_34
-      - Relay_中国-美国_325_22.30Mb
-      - 香港_TG@nodesharing_19
-      - 香港_TG@nodesharing_22
+      - 香港(绿头外网集团)(Public)
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - 新加坡(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 2
+      - 台湾(绿头外网集团)(Public)
+      - 美国(绿头外网集团)(Public)
+      - 韩国(绿头外网集团)(Public)
+      - 印度(绿头外网集团)(Public)
+      - 韩国(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public) 3
+      - Relay_香港-日本_523
+      - 香港(绿头外网集团)(Public) 4
+      - 香港(绿头外网集团)(Public) 5
+      - 新加坡(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public)\r
+      - 香港(绿头外网集团)(Public) 6
+      - Relay__30.30Mb
+      - 新加坡(绿头外网集团)(Public)\r
+      - 英国(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 7
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_香港-新加坡_127_24.43Mb
-      - Relay_美国-日本_2266
-      - 香港_TG@nodesharing_15
-      - 香港_TG@nodesharing_23
-      - 防失效github.com/Leon406
-      - 香港_TG@nodesharing_283
-      - 香港_725 |23.55Mb
-      - 香港(绿头外网集团)(Public)
-      - 台湾(绿头外网集团)(Public)
-      - Relay_香港-日本_508
-      - 香港_TG@nodesharing_249
-      - Relay_香港-新加坡_656
-      - Relay_-新加坡_35
-      - Relay_中国-俄罗斯_320_11.03Mb
       - 日本(绿头外网集团)(Public)
-      - Relay_-新加坡_34
-      - Relay_中国-美国_325_22.30Mb
-      - 香港_TG@nodesharing_19
-      - 香港_TG@nodesharing_22
+      - 香港(绿头外网集团)(Public)
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - 新加坡(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 2
+      - 台湾(绿头外网集团)(Public)
+      - 美国(绿头外网集团)(Public)
+      - 韩国(绿头外网集团)(Public)
+      - 印度(绿头外网集团)(Public)
+      - 韩国(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public) 3
+      - Relay_香港-日本_523
+      - 香港(绿头外网集团)(Public) 4
+      - 香港(绿头外网集团)(Public) 5
+      - 新加坡(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public)\r
+      - 香港(绿头外网集团)(Public) 6
+      - Relay__30.30Mb
+      - 新加坡(绿头外网集团)(Public)\r
+      - 英国(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 7
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_香港-新加坡_127_24.43Mb
-      - Relay_美国-日本_2266
-      - 香港_TG@nodesharing_15
-      - 香港_TG@nodesharing_23
-      - 防失效github.com/Leon406
-      - 香港_TG@nodesharing_283
-      - 香港_725 |23.55Mb
-      - 香港(绿头外网集团)(Public)
-      - 台湾(绿头外网集团)(Public)
-      - Relay_香港-日本_508
-      - 香港_TG@nodesharing_249
-      - Relay_香港-新加坡_656
-      - Relay_-新加坡_35
-      - Relay_中国-俄罗斯_320_11.03Mb
       - 日本(绿头外网集团)(Public)
-      - Relay_-新加坡_34
-      - Relay_中国-美国_325_22.30Mb
-      - 香港_TG@nodesharing_19
-      - 香港_TG@nodesharing_22
+      - 香港(绿头外网集团)(Public)
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - 新加坡(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 2
+      - 台湾(绿头外网集团)(Public)
+      - 美国(绿头外网集团)(Public)
+      - 韩国(绿头外网集团)(Public)
+      - 印度(绿头外网集团)(Public)
+      - 韩国(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public) 3
+      - Relay_香港-日本_523
+      - 香港(绿头外网集团)(Public) 4
+      - 香港(绿头外网集团)(Public) 5
+      - 新加坡(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public)\r
+      - 香港(绿头外网集团)(Public) 6
+      - Relay__30.30Mb
+      - 新加坡(绿头外网集团)(Public)\r
+      - 英国(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -240,25 +254,27 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_香港-新加坡_127_24.43Mb
-      - Relay_美国-日本_2266
-      - 香港_TG@nodesharing_15
-      - 香港_TG@nodesharing_23
-      - 防失效github.com/Leon406
-      - 香港_TG@nodesharing_283
-      - 香港_725 |23.55Mb
-      - 香港(绿头外网集团)(Public)
-      - 台湾(绿头外网集团)(Public)
-      - Relay_香港-日本_508
-      - 香港_TG@nodesharing_249
-      - Relay_香港-新加坡_656
-      - Relay_-新加坡_35
-      - Relay_中国-俄罗斯_320_11.03Mb
       - 日本(绿头外网集团)(Public)
-      - Relay_-新加坡_34
-      - Relay_中国-美国_325_22.30Mb
-      - 香港_TG@nodesharing_19
-      - 香港_TG@nodesharing_22
+      - 香港(绿头外网集团)(Public)
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - 新加坡(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 2
+      - 台湾(绿头外网集团)(Public)
+      - 美国(绿头外网集团)(Public)
+      - 韩国(绿头外网集团)(Public)
+      - 印度(绿头外网集团)(Public)
+      - 韩国(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public) 3
+      - Relay_香港-日本_523
+      - 香港(绿头外网集团)(Public) 4
+      - 香港(绿头外网集团)(Public) 5
+      - 新加坡(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public)\r
+      - 香港(绿头外网集团)(Public) 6
+      - Relay__30.30Mb
+      - 新加坡(绿头外网集团)(Public)\r
+      - 英国(绿头外网集团)(Public)
+      - 香港(绿头外网集团)(Public) 7
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
