@@ -5,59 +5,179 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _美国_YouTube:VV科技_44, server: 95.wowogg.cyou, port: 52295, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP-45.78.58.209-0092, server: n178.centaur.network, port: 8082, type: trojan, password: 12d66073-1c21-45d7-b7e2-6b0ed7eed556, sni: n178.centaur.network, skip-cert-verify: true, udp: true}
+  - {name: Relay_香港-美国_129_10.14Mb, server: 106.wgong.xyz, port: 11223, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: p3.centaur.network, port: 16803, type: trojan, password: 00635f3d-2c64-4281-9367-f3c26ebb6a44, sni: p3.centaur.network, skip-cert-verify: true, udp: true}
+  - {name: Relay_香港-新加坡_138_24.42Mb, server: 100.wgong.xyz, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _香港_YouTube:VV科技_38, server: 108.wowogg.cyou, port: 11224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_-新加坡_34, server: 96.wgong.xyz, port: 52296, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V12-付费推荐:suo.yt/ssrsub", server: 85.wgong.xyz, port: 52285, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港_646, server: 96.wgong.xyz, port: 52296, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_香港-新加坡_656, server: 99.wgong.xyz, port: 52299, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_香港-新加坡_664, server: 96.wgong.xyz, port: 52296, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港_620, server: 99.wgong.xyz, port: 52299, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_-新加坡_35, server: 99.wgong.xyz, port: 52299, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_香港-日本_523, server: v114.wgong.xyz, port: 52214, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇯🇵JP_06, server: 128.wgong.xyz, port: 52228, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_-新加坡_39, server: 135.wgong.xyz, port: 52335, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_12, server: 120.232.208.195, port: 19094, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: Relay_美国-新加坡_2294, server: 135.wgong.xyz, port: 52335, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _香港_YouTube:VV科技_64, server: 83.wgong.xyz, port: 52283, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _香港_YouTube:VV科技_63, server: 130.wowogg.cyou, port: 52330, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_25, server: 112.14.22.104, port: 19085, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: 日本H1R\\r, server: h1r.centaur.network, port: 16802, type: trojan, password: fb39b0bb-acb7-45b8-a896-0ff6b56beb5f, sni: h1r.centaur.network, skip-cert-verify: true, udp: true}
+  - {name: 亚太H4R\\r, server: h4r.centaur.network, port: 16801, type: trojan, password: 134b2dad-1ba4-49f6-a8b8-721525213356, sni: h4r.centaur.network, skip-cert-verify: true, udp: true}
+  - {name: 防失效github.com/Leon406, server: 135.wgong.xyz, port: 52335, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇩🇪DE_22, server: 120.232.208.195, port: 19057, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_20, server: 112.14.22.104, port: 19094, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_29, server: 120.232.208.195, port: 19085, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: "@SSRSUB-V13-付费推荐:suo.yt/ssrsub", server: 110.wgong.xyz, port: 52210, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: n150.centaur.network, port: 8082, type: trojan, password: a00a413d-85f2-4b72-a396-b96e1b3d11a6, sni: n150.centaur.network, skip-cert-verify: true, udp: true}
+  - {name: 日本H2R\\r, server: h2r.centaur.network, port: 16801, type: trojan, password: 9be5458a-6a1e-4784-823e-45149d6c0ffc, sni: h2r.centaur.network, skip-cert-verify: true, udp: true}
+  - {name: 美国(绿头外网集团)(Public), server: 74.211.101.2, port: 22206, type: vmess, uuid: 4ec51de8-3ce7-4e2d-81d5-57ecbbd723c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本(绿头外网集团)(Public)\\r, server: gzcm.v2hub.top, port: 19221, type: trojan, password: da8f4c57-d022-3ccc-ae2a-a70256d68c32, sni: gzcm.v2hub.top, skip-cert-verify: true, udp: true}
   - {name: 台湾(绿头外网集团)(Public), server: 128tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 128tw02.fans8.xyz}, udp: true}
-  - {name: CN-61.172.229.59-0090, server: h1r.centaur.network, port: 16802, type: trojan, password: fb39b0bb-acb7-45b8-a896-0ff6b56beb5f, sni: h1r.centaur.network, skip-cert-verify: true, udp: true}
-  - {name: US-199.180.115.241-0094, server: n200.centaur.network, port: 8081, type: trojan, password: 5106d626-ddc5-452c-8983-c4ba957eb509, sni: n200.centaur.network, skip-cert-verify: true, udp: true}
-  - {name: _美国_YouTube:VV科技_62, server: 87.wowogg.cyou, port: 52287, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TW-118.166.47.37-0052, server: tw.v2ssvps.com, port: 60763, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}, udp: true}
-  - {name: FR-149.202.82.172-306, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CN-61.172.229.51-0099, server: h2r.centaur.network, port: 16801, type: trojan, password: 9be5458a-6a1e-4784-823e-45149d6c0ffc, sni: h2r.centaur.network, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: china-gzyd-1.forwardserver.xyz, port: 18646, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: china-gzyd-1.forwardserver.xyz}, udp: true}
+  - {name: _中国跳转_YouTube:VV科技_71, server: tunnel-tw-a-01.xncloud.xyz, port: 504, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-hinet-tw-04.xncloud.xyz}, udp: true}
+  - {name: 日本(绿头外网集团)(Public), server: ggc.sf66.cf, port: 45118, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _香港_YouTube:VV科技_19, server: 112.wowogg.cyou, port: 52212, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾(绿头外网集团)(Public) 2, server: 128tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_13, server: 120.232.214.210, port: 19084, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_14, server: 120.232.182.190, port: 19085, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: _中国跳转_YouTube:VV科技_28, server: tunnel-tw-a-01.xncloud.xyz, port: 505, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: tunnel-tw-a-01.xncloud.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _美国_YouTube:VV科技_44
-      - JP-45.78.58.209-0092
+      - Relay_香港-美国_129_10.14Mb
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Relay_香港-新加坡_138_24.42Mb
+      - _香港_YouTube:VV科技_38
+      - Relay_-新加坡_34
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
+      - 香港_646
+      - Relay_香港-新加坡_656
+      - Relay_香港-新加坡_664
+      - 香港_620
+      - Relay_-新加坡_35
+      - Relay_香港-日本_523
+      - Relay_-🇯🇵JP_06
+      - Relay_-新加坡_39
+      - Relay_🇨🇳CN-🇭🇰HK_12
+      - Relay_美国-新加坡_2294
+      - _香港_YouTube:VV科技_64
+      - _香港_YouTube:VV科技_63
+      - Relay_🇨🇳CN-🇭🇰HK_25
+      - 日本H1R\\r
+      - 亚太H4R\\r
+      - 防失效github.com/Leon406
+      - Relay_🇨🇳CN-🇩🇪DE_22
+      - Relay_🇨🇳CN-🇭🇰HK_20
+      - Relay_🇨🇳CN-🇭🇰HK_29
+      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 日本H2R\\r
+      - 美国(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public)\\r
       - 台湾(绿头外网集团)(Public)
-      - CN-61.172.229.59-0090
-      - US-199.180.115.241-0094
-      - _美国_YouTube:VV科技_62
-      - TW-118.166.47.37-0052
-      - FR-149.202.82.172-306
-      - CN-61.172.229.51-0099
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - _中国跳转_YouTube:VV科技_71
+      - 日本(绿头外网集团)(Public)
+      - _香港_YouTube:VV科技_19
+      - 台湾(绿头外网集团)(Public) 2
+      - Relay_🇨🇳CN-🇭🇰HK_13
+      - Relay_🇨🇳CN-🇭🇰HK_14
+      - _中国跳转_YouTube:VV科技_28
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _美国_YouTube:VV科技_44
-      - JP-45.78.58.209-0092
+      - Relay_香港-美国_129_10.14Mb
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Relay_香港-新加坡_138_24.42Mb
+      - _香港_YouTube:VV科技_38
+      - Relay_-新加坡_34
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
+      - 香港_646
+      - Relay_香港-新加坡_656
+      - Relay_香港-新加坡_664
+      - 香港_620
+      - Relay_-新加坡_35
+      - Relay_香港-日本_523
+      - Relay_-🇯🇵JP_06
+      - Relay_-新加坡_39
+      - Relay_🇨🇳CN-🇭🇰HK_12
+      - Relay_美国-新加坡_2294
+      - _香港_YouTube:VV科技_64
+      - _香港_YouTube:VV科技_63
+      - Relay_🇨🇳CN-🇭🇰HK_25
+      - 日本H1R\\r
+      - 亚太H4R\\r
+      - 防失效github.com/Leon406
+      - Relay_🇨🇳CN-🇩🇪DE_22
+      - Relay_🇨🇳CN-🇭🇰HK_20
+      - Relay_🇨🇳CN-🇭🇰HK_29
+      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 日本H2R\\r
+      - 美国(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public)\\r
       - 台湾(绿头外网集团)(Public)
-      - CN-61.172.229.59-0090
-      - US-199.180.115.241-0094
-      - _美国_YouTube:VV科技_62
-      - TW-118.166.47.37-0052
-      - FR-149.202.82.172-306
-      - CN-61.172.229.51-0099
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - _中国跳转_YouTube:VV科技_71
+      - 日本(绿头外网集团)(Public)
+      - _香港_YouTube:VV科技_19
+      - 台湾(绿头外网集团)(Public) 2
+      - Relay_🇨🇳CN-🇭🇰HK_13
+      - Relay_🇨🇳CN-🇭🇰HK_14
+      - _中国跳转_YouTube:VV科技_28
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _美国_YouTube:VV科技_44
-      - JP-45.78.58.209-0092
+      - Relay_香港-美国_129_10.14Mb
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Relay_香港-新加坡_138_24.42Mb
+      - _香港_YouTube:VV科技_38
+      - Relay_-新加坡_34
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
+      - 香港_646
+      - Relay_香港-新加坡_656
+      - Relay_香港-新加坡_664
+      - 香港_620
+      - Relay_-新加坡_35
+      - Relay_香港-日本_523
+      - Relay_-🇯🇵JP_06
+      - Relay_-新加坡_39
+      - Relay_🇨🇳CN-🇭🇰HK_12
+      - Relay_美国-新加坡_2294
+      - _香港_YouTube:VV科技_64
+      - _香港_YouTube:VV科技_63
+      - Relay_🇨🇳CN-🇭🇰HK_25
+      - 日本H1R\\r
+      - 亚太H4R\\r
+      - 防失效github.com/Leon406
+      - Relay_🇨🇳CN-🇩🇪DE_22
+      - Relay_🇨🇳CN-🇭🇰HK_20
+      - Relay_🇨🇳CN-🇭🇰HK_29
+      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 日本H2R\\r
+      - 美国(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public)\\r
       - 台湾(绿头外网集团)(Public)
-      - CN-61.172.229.59-0090
-      - US-199.180.115.241-0094
-      - _美国_YouTube:VV科技_62
-      - TW-118.166.47.37-0052
-      - FR-149.202.82.172-306
-      - CN-61.172.229.51-0099
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - _中国跳转_YouTube:VV科技_71
+      - 日本(绿头外网集团)(Public)
+      - _香港_YouTube:VV科技_19
+      - 台湾(绿头外网集团)(Public) 2
+      - Relay_🇨🇳CN-🇭🇰HK_13
+      - Relay_🇨🇳CN-🇭🇰HK_14
+      - _中国跳转_YouTube:VV科技_28
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -76,64 +196,196 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _美国_YouTube:VV科技_44
-      - JP-45.78.58.209-0092
+      - Relay_香港-美国_129_10.14Mb
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Relay_香港-新加坡_138_24.42Mb
+      - _香港_YouTube:VV科技_38
+      - Relay_-新加坡_34
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
+      - 香港_646
+      - Relay_香港-新加坡_656
+      - Relay_香港-新加坡_664
+      - 香港_620
+      - Relay_-新加坡_35
+      - Relay_香港-日本_523
+      - Relay_-🇯🇵JP_06
+      - Relay_-新加坡_39
+      - Relay_🇨🇳CN-🇭🇰HK_12
+      - Relay_美国-新加坡_2294
+      - _香港_YouTube:VV科技_64
+      - _香港_YouTube:VV科技_63
+      - Relay_🇨🇳CN-🇭🇰HK_25
+      - 日本H1R\\r
+      - 亚太H4R\\r
+      - 防失效github.com/Leon406
+      - Relay_🇨🇳CN-🇩🇪DE_22
+      - Relay_🇨🇳CN-🇭🇰HK_20
+      - Relay_🇨🇳CN-🇭🇰HK_29
+      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 日本H2R\\r
+      - 美国(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public)\\r
       - 台湾(绿头外网集团)(Public)
-      - CN-61.172.229.59-0090
-      - US-199.180.115.241-0094
-      - _美国_YouTube:VV科技_62
-      - TW-118.166.47.37-0052
-      - FR-149.202.82.172-306
-      - CN-61.172.229.51-0099
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - _中国跳转_YouTube:VV科技_71
+      - 日本(绿头外网集团)(Public)
+      - _香港_YouTube:VV科技_19
+      - 台湾(绿头外网集团)(Public) 2
+      - Relay_🇨🇳CN-🇭🇰HK_13
+      - Relay_🇨🇳CN-🇭🇰HK_14
+      - _中国跳转_YouTube:VV科技_28
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - Relay_香港-美国_129_10.14Mb
+      - Relay_香港-新加坡_138_24.42Mb
+      - _香港_YouTube:VV科技_38
+      - 香港_646
+      - Relay_香港-新加坡_656
+      - Relay_香港-新加坡_664
+      - 香港_620
+      - Relay_香港-日本_523
+      - _香港_YouTube:VV科技_64
+      - _香港_YouTube:VV科技_63
       - 台湾(绿头外网集团)(Public)
+      - _香港_YouTube:VV科技_19
+      - 台湾(绿头外网集团)(Public) 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _美国_YouTube:VV科技_44
-      - JP-45.78.58.209-0092
+      - Relay_香港-美国_129_10.14Mb
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Relay_香港-新加坡_138_24.42Mb
+      - _香港_YouTube:VV科技_38
+      - Relay_-新加坡_34
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
+      - 香港_646
+      - Relay_香港-新加坡_656
+      - Relay_香港-新加坡_664
+      - 香港_620
+      - Relay_-新加坡_35
+      - Relay_香港-日本_523
+      - Relay_-🇯🇵JP_06
+      - Relay_-新加坡_39
+      - Relay_🇨🇳CN-🇭🇰HK_12
+      - Relay_美国-新加坡_2294
+      - _香港_YouTube:VV科技_64
+      - _香港_YouTube:VV科技_63
+      - Relay_🇨🇳CN-🇭🇰HK_25
+      - 日本H1R\\r
+      - 亚太H4R\\r
+      - 防失效github.com/Leon406
+      - Relay_🇨🇳CN-🇩🇪DE_22
+      - Relay_🇨🇳CN-🇭🇰HK_20
+      - Relay_🇨🇳CN-🇭🇰HK_29
+      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 日本H2R\\r
+      - 美国(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public)\\r
       - 台湾(绿头外网集团)(Public)
-      - CN-61.172.229.59-0090
-      - US-199.180.115.241-0094
-      - _美国_YouTube:VV科技_62
-      - TW-118.166.47.37-0052
-      - FR-149.202.82.172-306
-      - CN-61.172.229.51-0099
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - _中国跳转_YouTube:VV科技_71
+      - 日本(绿头外网集团)(Public)
+      - _香港_YouTube:VV科技_19
+      - 台湾(绿头外网集团)(Public) 2
+      - Relay_🇨🇳CN-🇭🇰HK_13
+      - Relay_🇨🇳CN-🇭🇰HK_14
+      - _中国跳转_YouTube:VV科技_28
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _美国_YouTube:VV科技_44
-      - JP-45.78.58.209-0092
+      - Relay_香港-美国_129_10.14Mb
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Relay_香港-新加坡_138_24.42Mb
+      - _香港_YouTube:VV科技_38
+      - Relay_-新加坡_34
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
+      - 香港_646
+      - Relay_香港-新加坡_656
+      - Relay_香港-新加坡_664
+      - 香港_620
+      - Relay_-新加坡_35
+      - Relay_香港-日本_523
+      - Relay_-🇯🇵JP_06
+      - Relay_-新加坡_39
+      - Relay_🇨🇳CN-🇭🇰HK_12
+      - Relay_美国-新加坡_2294
+      - _香港_YouTube:VV科技_64
+      - _香港_YouTube:VV科技_63
+      - Relay_🇨🇳CN-🇭🇰HK_25
+      - 日本H1R\\r
+      - 亚太H4R\\r
+      - 防失效github.com/Leon406
+      - Relay_🇨🇳CN-🇩🇪DE_22
+      - Relay_🇨🇳CN-🇭🇰HK_20
+      - Relay_🇨🇳CN-🇭🇰HK_29
+      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 日本H2R\\r
+      - 美国(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public)\\r
       - 台湾(绿头外网集团)(Public)
-      - CN-61.172.229.59-0090
-      - US-199.180.115.241-0094
-      - _美国_YouTube:VV科技_62
-      - TW-118.166.47.37-0052
-      - FR-149.202.82.172-306
-      - CN-61.172.229.51-0099
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - _中国跳转_YouTube:VV科技_71
+      - 日本(绿头外网集团)(Public)
+      - _香港_YouTube:VV科技_19
+      - 台湾(绿头外网集团)(Public) 2
+      - Relay_🇨🇳CN-🇭🇰HK_13
+      - Relay_🇨🇳CN-🇭🇰HK_14
+      - _中国跳转_YouTube:VV科技_28
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _美国_YouTube:VV科技_44
-      - JP-45.78.58.209-0092
+      - Relay_香港-美国_129_10.14Mb
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Relay_香港-新加坡_138_24.42Mb
+      - _香港_YouTube:VV科技_38
+      - Relay_-新加坡_34
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
+      - 香港_646
+      - Relay_香港-新加坡_656
+      - Relay_香港-新加坡_664
+      - 香港_620
+      - Relay_-新加坡_35
+      - Relay_香港-日本_523
+      - Relay_-🇯🇵JP_06
+      - Relay_-新加坡_39
+      - Relay_🇨🇳CN-🇭🇰HK_12
+      - Relay_美国-新加坡_2294
+      - _香港_YouTube:VV科技_64
+      - _香港_YouTube:VV科技_63
+      - Relay_🇨🇳CN-🇭🇰HK_25
+      - 日本H1R\\r
+      - 亚太H4R\\r
+      - 防失效github.com/Leon406
+      - Relay_🇨🇳CN-🇩🇪DE_22
+      - Relay_🇨🇳CN-🇭🇰HK_20
+      - Relay_🇨🇳CN-🇭🇰HK_29
+      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 日本H2R\\r
+      - 美国(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public)\\r
       - 台湾(绿头外网集团)(Public)
-      - CN-61.172.229.59-0090
-      - US-199.180.115.241-0094
-      - _美国_YouTube:VV科技_62
-      - TW-118.166.47.37-0052
-      - FR-149.202.82.172-306
-      - CN-61.172.229.51-0099
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - _中国跳转_YouTube:VV科技_71
+      - 日本(绿头外网集团)(Public)
+      - _香港_YouTube:VV科技_19
+      - 台湾(绿头外网集团)(Public) 2
+      - Relay_🇨🇳CN-🇭🇰HK_13
+      - Relay_🇨🇳CN-🇭🇰HK_14
+      - _中国跳转_YouTube:VV科技_28
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -149,15 +401,45 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _美国_YouTube:VV科技_44
-      - JP-45.78.58.209-0092
+      - Relay_香港-美国_129_10.14Mb
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Relay_香港-新加坡_138_24.42Mb
+      - _香港_YouTube:VV科技_38
+      - Relay_-新加坡_34
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
+      - 香港_646
+      - Relay_香港-新加坡_656
+      - Relay_香港-新加坡_664
+      - 香港_620
+      - Relay_-新加坡_35
+      - Relay_香港-日本_523
+      - Relay_-🇯🇵JP_06
+      - Relay_-新加坡_39
+      - Relay_🇨🇳CN-🇭🇰HK_12
+      - Relay_美国-新加坡_2294
+      - _香港_YouTube:VV科技_64
+      - _香港_YouTube:VV科技_63
+      - Relay_🇨🇳CN-🇭🇰HK_25
+      - 日本H1R\\r
+      - 亚太H4R\\r
+      - 防失效github.com/Leon406
+      - Relay_🇨🇳CN-🇩🇪DE_22
+      - Relay_🇨🇳CN-🇭🇰HK_20
+      - Relay_🇨🇳CN-🇭🇰HK_29
+      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 日本H2R\\r
+      - 美国(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public)\\r
       - 台湾(绿头外网集团)(Public)
-      - CN-61.172.229.59-0090
-      - US-199.180.115.241-0094
-      - _美国_YouTube:VV科技_62
-      - TW-118.166.47.37-0052
-      - FR-149.202.82.172-306
-      - CN-61.172.229.51-0099
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - _中国跳转_YouTube:VV科技_71
+      - 日本(绿头外网集团)(Public)
+      - _香港_YouTube:VV科技_19
+      - 台湾(绿头外网集团)(Public) 2
+      - Relay_🇨🇳CN-🇭🇰HK_13
+      - Relay_🇨🇳CN-🇭🇰HK_14
+      - _中国跳转_YouTube:VV科技_28
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
