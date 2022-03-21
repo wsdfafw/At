@@ -5,47 +5,87 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "@SSRSUB-V29-付费推荐:suo.yt/ssrsub", server: 133.wowogg.cyou, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:), server: 108.wowogg.cyou, port: 11224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-V32-付费推荐:suo.yt/ssrsub", server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇸🇬SG-🇸🇬SG_15, server: 32.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 32.earths.team, skip-cert-verify: true, udp: true}
-  - {name: :法国-ss-149.202.82.172:8091-可用-直连-完全不支持NF, server: 149.202.82.172, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: :韩国-ss-158.247.219.68:3389-可用-直连-完全不支持NF, server: 158.247.219.68, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 日本(绿头外网集团)(Public), server: jp-group-a-direct.node001.xyz, port: 80, type: vmess, uuid: 1f32c777-6891-30c4-92c0-388a75cd9793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: new.vip.weibo.cn}, udp: true}
+  - {name: :中国-ss-colagzcm.jumpwallsocks.online:48101-可用-中转:103.115.140.172-仅支持澳门地区NF自制剧, server: colagzcm.jumpwallsocks.online, port: 48101, type: ss, cipher: chacha20-ietf-poly1305, password: f238b431-ba39-427d-9bbd-2440c30ef211, udp: true}
+  - {name: :美国-ss-colagzcm.jumpwallsocks.online:42001-被墙-中转:109.166.36.98-解锁日本地区NF非自制剧, server: colagzcm.jumpwallsocks.online, port: 42001, type: ss, cipher: chacha20-ietf-poly1305, password: f238b431-ba39-427d-9bbd-2440c30ef211, udp: true}
+  - {name: 台湾(绿头外网集团)(Public), server: in02.dns2333.xyz, port: 64088, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
+  - {name: 机场👉魔戒.net-🇧🇳, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
+  - {name: HK_22, server: 38.v2-ray.cyou, port: 15038, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 2, server: 65.52.171.156, port: 32405, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: US_113, server: azhk.relay.qchwnd.moe, port: 44604, type: trojan, password: b7a8698e-09f0-4e6e-a197-d27337a22171, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 3, server: 65.52.171.156, port: 15038, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: :中国-ss-colagzcm.jumpwallsocks.online:40001-被墙-中转:218.188.148.4-解锁新加坡地区NF非自制剧, server: colagzcm.jumpwallsocks.online, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: f238b431-ba39-427d-9bbd-2440c30ef211, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 4, server: 20.222.27.151, port: 10045, type: vmess, uuid: 356965c4-5d44-378a-a225-976909ad6936, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public), server: 65.52.171.156, port: 8080, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 俄罗斯(绿头外网集团)(Public), server: ru3.peakerselling.com, port: 443, type: vmess, uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /helloman, ws-headers: {Host: t.me/p2psharing}, udp: true}
+  - {name: 台湾(绿头外网集团)(Public) 2, server: in03.dns2333.xyz, port: 64088, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 5, server: 20.78.134.57, port: 10142, type: vmess, uuid: 356965c4-5d44-378a-a225-976909ad6936, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 2, server: 13.72.192.219, port: 15015, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - "@SSRSUB-V32-付费推荐:suo.yt/ssrsub"
-      - Relay_🇸🇬SG-🇸🇬SG_15
-      - :法国-ss-149.202.82.172:8091-可用-直连-完全不支持NF
-      - :韩国-ss-158.247.219.68:3389-可用-直连-完全不支持NF
+      - 日本(绿头外网集团)(Public)
+      - :中国-ss-colagzcm.jumpwallsocks.online:48101-可用-中转:103.115.140.172-仅支持澳门地区NF自制剧
+      - :美国-ss-colagzcm.jumpwallsocks.online:42001-被墙-中转:109.166.36.98-解锁日本地区NF非自制剧
+      - 台湾(绿头外网集团)(Public)
+      - 机场👉魔戒.net-🇧🇳
+      - HK_22
+      - 日本(绿头外网集团)(Public) 2
+      - US_113
+      - 日本(绿头外网集团)(Public) 3
+      - :中国-ss-colagzcm.jumpwallsocks.online:40001-被墙-中转:218.188.148.4-解锁新加坡地区NF非自制剧
+      - 日本(绿头外网集团)(Public) 4
+      - 新加坡(绿头外网集团)(Public)
+      - 俄罗斯(绿头外网集团)(Public)
+      - 台湾(绿头外网集团)(Public) 2
+      - 日本(绿头外网集团)(Public) 5
+      - 新加坡(绿头外网集团)(Public) 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - "@SSRSUB-V32-付费推荐:suo.yt/ssrsub"
-      - Relay_🇸🇬SG-🇸🇬SG_15
-      - :法国-ss-149.202.82.172:8091-可用-直连-完全不支持NF
-      - :韩国-ss-158.247.219.68:3389-可用-直连-完全不支持NF
+      - 日本(绿头外网集团)(Public)
+      - :中国-ss-colagzcm.jumpwallsocks.online:48101-可用-中转:103.115.140.172-仅支持澳门地区NF自制剧
+      - :美国-ss-colagzcm.jumpwallsocks.online:42001-被墙-中转:109.166.36.98-解锁日本地区NF非自制剧
+      - 台湾(绿头外网集团)(Public)
+      - 机场👉魔戒.net-🇧🇳
+      - HK_22
+      - 日本(绿头外网集团)(Public) 2
+      - US_113
+      - 日本(绿头外网集团)(Public) 3
+      - :中国-ss-colagzcm.jumpwallsocks.online:40001-被墙-中转:218.188.148.4-解锁新加坡地区NF非自制剧
+      - 日本(绿头外网集团)(Public) 4
+      - 新加坡(绿头外网集团)(Public)
+      - 俄罗斯(绿头外网集团)(Public)
+      - 台湾(绿头外网集团)(Public) 2
+      - 日本(绿头外网集团)(Public) 5
+      - 新加坡(绿头外网集团)(Public) 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - "@SSRSUB-V32-付费推荐:suo.yt/ssrsub"
-      - Relay_🇸🇬SG-🇸🇬SG_15
-      - :法国-ss-149.202.82.172:8091-可用-直连-完全不支持NF
-      - :韩国-ss-158.247.219.68:3389-可用-直连-完全不支持NF
+      - 日本(绿头外网集团)(Public)
+      - :中国-ss-colagzcm.jumpwallsocks.online:48101-可用-中转:103.115.140.172-仅支持澳门地区NF自制剧
+      - :美国-ss-colagzcm.jumpwallsocks.online:42001-被墙-中转:109.166.36.98-解锁日本地区NF非自制剧
+      - 台湾(绿头外网集团)(Public)
+      - 机场👉魔戒.net-🇧🇳
+      - HK_22
+      - 日本(绿头外网集团)(Public) 2
+      - US_113
+      - 日本(绿头外网集团)(Public) 3
+      - :中国-ss-colagzcm.jumpwallsocks.online:40001-被墙-中转:218.188.148.4-解锁新加坡地区NF非自制剧
+      - 日本(绿头外网集团)(Public) 4
+      - 新加坡(绿头外网集团)(Public)
+      - 俄罗斯(绿头外网集团)(Public)
+      - 台湾(绿头外网集团)(Public) 2
+      - 日本(绿头外网集团)(Public) 5
+      - 新加坡(绿头外网集团)(Public) 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,51 +104,93 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - "@SSRSUB-V32-付费推荐:suo.yt/ssrsub"
-      - Relay_🇸🇬SG-🇸🇬SG_15
-      - :法国-ss-149.202.82.172:8091-可用-直连-完全不支持NF
-      - :韩国-ss-158.247.219.68:3389-可用-直连-完全不支持NF
+      - 日本(绿头外网集团)(Public)
+      - :中国-ss-colagzcm.jumpwallsocks.online:48101-可用-中转:103.115.140.172-仅支持澳门地区NF自制剧
+      - :美国-ss-colagzcm.jumpwallsocks.online:42001-被墙-中转:109.166.36.98-解锁日本地区NF非自制剧
+      - 台湾(绿头外网集团)(Public)
+      - 机场👉魔戒.net-🇧🇳
+      - HK_22
+      - 日本(绿头外网集团)(Public) 2
+      - US_113
+      - 日本(绿头外网集团)(Public) 3
+      - :中国-ss-colagzcm.jumpwallsocks.online:40001-被墙-中转:218.188.148.4-解锁新加坡地区NF非自制剧
+      - 日本(绿头外网集团)(Public) 4
+      - 新加坡(绿头外网集团)(Public)
+      - 俄罗斯(绿头外网集团)(Public)
+      - 台湾(绿头外网集团)(Public) 2
+      - 日本(绿头外网集团)(Public) 5
+      - 新加坡(绿头外网集团)(Public) 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 台湾(绿头外网集团)(Public)
+      - 台湾(绿头外网集团)(Public) 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - "@SSRSUB-V32-付费推荐:suo.yt/ssrsub"
-      - Relay_🇸🇬SG-🇸🇬SG_15
-      - :法国-ss-149.202.82.172:8091-可用-直连-完全不支持NF
-      - :韩国-ss-158.247.219.68:3389-可用-直连-完全不支持NF
+      - 日本(绿头外网集团)(Public)
+      - :中国-ss-colagzcm.jumpwallsocks.online:48101-可用-中转:103.115.140.172-仅支持澳门地区NF自制剧
+      - :美国-ss-colagzcm.jumpwallsocks.online:42001-被墙-中转:109.166.36.98-解锁日本地区NF非自制剧
+      - 台湾(绿头外网集团)(Public)
+      - 机场👉魔戒.net-🇧🇳
+      - HK_22
+      - 日本(绿头外网集团)(Public) 2
+      - US_113
+      - 日本(绿头外网集团)(Public) 3
+      - :中国-ss-colagzcm.jumpwallsocks.online:40001-被墙-中转:218.188.148.4-解锁新加坡地区NF非自制剧
+      - 日本(绿头外网集团)(Public) 4
+      - 新加坡(绿头外网集团)(Public)
+      - 俄罗斯(绿头外网集团)(Public)
+      - 台湾(绿头外网集团)(Public) 2
+      - 日本(绿头外网集团)(Public) 5
+      - 新加坡(绿头外网集团)(Public) 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - "@SSRSUB-V32-付费推荐:suo.yt/ssrsub"
-      - Relay_🇸🇬SG-🇸🇬SG_15
-      - :法国-ss-149.202.82.172:8091-可用-直连-完全不支持NF
-      - :韩国-ss-158.247.219.68:3389-可用-直连-完全不支持NF
+      - 日本(绿头外网集团)(Public)
+      - :中国-ss-colagzcm.jumpwallsocks.online:48101-可用-中转:103.115.140.172-仅支持澳门地区NF自制剧
+      - :美国-ss-colagzcm.jumpwallsocks.online:42001-被墙-中转:109.166.36.98-解锁日本地区NF非自制剧
+      - 台湾(绿头外网集团)(Public)
+      - 机场👉魔戒.net-🇧🇳
+      - HK_22
+      - 日本(绿头外网集团)(Public) 2
+      - US_113
+      - 日本(绿头外网集团)(Public) 3
+      - :中国-ss-colagzcm.jumpwallsocks.online:40001-被墙-中转:218.188.148.4-解锁新加坡地区NF非自制剧
+      - 日本(绿头外网集团)(Public) 4
+      - 新加坡(绿头外网集团)(Public)
+      - 俄罗斯(绿头外网集团)(Public)
+      - 台湾(绿头外网集团)(Public) 2
+      - 日本(绿头外网集团)(Public) 5
+      - 新加坡(绿头外网集团)(Public) 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - "@SSRSUB-V32-付费推荐:suo.yt/ssrsub"
-      - Relay_🇸🇬SG-🇸🇬SG_15
-      - :法国-ss-149.202.82.172:8091-可用-直连-完全不支持NF
-      - :韩国-ss-158.247.219.68:3389-可用-直连-完全不支持NF
+      - 日本(绿头外网集团)(Public)
+      - :中国-ss-colagzcm.jumpwallsocks.online:48101-可用-中转:103.115.140.172-仅支持澳门地区NF自制剧
+      - :美国-ss-colagzcm.jumpwallsocks.online:42001-被墙-中转:109.166.36.98-解锁日本地区NF非自制剧
+      - 台湾(绿头外网集团)(Public)
+      - 机场👉魔戒.net-🇧🇳
+      - HK_22
+      - 日本(绿头外网集团)(Public) 2
+      - US_113
+      - 日本(绿头外网集团)(Public) 3
+      - :中国-ss-colagzcm.jumpwallsocks.online:40001-被墙-中转:218.188.148.4-解锁新加坡地区NF非自制剧
+      - 日本(绿头外网集团)(Public) 4
+      - 新加坡(绿头外网集团)(Public)
+      - 俄罗斯(绿头外网集团)(Public)
+      - 台湾(绿头外网集团)(Public) 2
+      - 日本(绿头外网集团)(Public) 5
+      - 新加坡(绿头外网集团)(Public) 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -124,12 +206,22 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - "@SSRSUB-V32-付费推荐:suo.yt/ssrsub"
-      - Relay_🇸🇬SG-🇸🇬SG_15
-      - :法国-ss-149.202.82.172:8091-可用-直连-完全不支持NF
-      - :韩国-ss-158.247.219.68:3389-可用-直连-完全不支持NF
+      - 日本(绿头外网集团)(Public)
+      - :中国-ss-colagzcm.jumpwallsocks.online:48101-可用-中转:103.115.140.172-仅支持澳门地区NF自制剧
+      - :美国-ss-colagzcm.jumpwallsocks.online:42001-被墙-中转:109.166.36.98-解锁日本地区NF非自制剧
+      - 台湾(绿头外网集团)(Public)
+      - 机场👉魔戒.net-🇧🇳
+      - HK_22
+      - 日本(绿头外网集团)(Public) 2
+      - US_113
+      - 日本(绿头外网集团)(Public) 3
+      - :中国-ss-colagzcm.jumpwallsocks.online:40001-被墙-中转:218.188.148.4-解锁新加坡地区NF非自制剧
+      - 日本(绿头外网集团)(Public) 4
+      - 新加坡(绿头外网集团)(Public)
+      - 俄罗斯(绿头外网集团)(Public)
+      - 台湾(绿头外网集团)(Public) 2
+      - 日本(绿头外网集团)(Public) 5
+      - 新加坡(绿头外网集团)(Public) 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
