@@ -5,107 +5,147 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港(绿头外网集团)(Public), server: ovo.soolos.com, port: 58803, type: trojan, password: aaba696f-2e1d-3fe2-b9f3-9696ff0dabad, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 2, server: ovo.soolos.com, port: 58802, type: trojan, password: aaba696f-2e1d-3fe2-b9f3-9696ff0dabad, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 韩国  6, server: ddns-kr02.ayanami.best, port: 80, type: vmess, uuid: 787eabe8-0c76-48b9-80d1-1f211036e1cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: in02.dns2333.xyz, port: 64088, type: vmess, uuid: 41cee8f2-56b3-324a-a7e3-dd9ca92c09cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /biteb, headers: {Host: cdn.bootcdn.net}}, udp: true}
-  - {name: 「🇯🇵」EMO_牛油果x5_1, server: v19.emovpn.xyz, port: 1266, type: vmess, uuid: 72a9d7af-1c7a-4dd8-ab62-d0c8cb239f00, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v19.emovpn.xyz}}, udp: true}
-  - {name: 印度尼西亚(绿头外网集团)(Public), server: ovo.soolos.com, port: 58824, type: trojan, password: aaba696f-2e1d-3fe2-b9f3-9696ff0dabad, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 52.175.62.54, port: 51172, type: ss, cipher: aes-256-gcm, password: 2caADdowHl, udp: true}
-  - {name: 越南(绿头外网集团)(Public), server: ovo.soolos.com, port: 58831, type: trojan, password: aaba696f-2e1d-3fe2-b9f3-9696ff0dabad, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 越南(绿头外网集团)(Public) 2, server: ovo.soolos.com, port: 58814, type: trojan, password: aaba696f-2e1d-3fe2-b9f3-9696ff0dabad, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: _HK_香港_18, server: hk.gtss.tk, port: 443, type: vmess, uuid: 2cea6c11-a79d-4d7d-d31e-cd8c2b5e445a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk.gtss.tk}}, udp: true}
-  - {name: ♥️YouTube梦歌♥️_29, server: 5.253.16.234, port: 17263, type: vmess, uuid: c6793501-826a-6f95-9960-c352762c825b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nvws}, udp: true}
-  - {name: 美国-1_93MB/s(Youtube:不良林)_3, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 泰国(绿头外网集团)(Public), server: ovo.soolos.com, port: 58825, type: trojan, password: aaba696f-2e1d-3fe2-b9f3-9696ff0dabad, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君), server: qwanck.xyz, port: 443, type: trojan, password: 57aa53f3afbd, sni: qwanck.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay__71_83Mb_24, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾(绿头外网集团)(Public), server: ovo.soolos.com, port: 58827, type: trojan, password: aaba696f-2e1d-3fe2-b9f3-9696ff0dabad, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯(绿头外网集团)(Public), server: ovo.soolos.com, port: 58813, type: trojan, password: aaba696f-2e1d-3fe2-b9f3-9696ff0dabad, sni: soolos.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66_com玉豆分享)_13, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US-高速节点购买：v1_mk/vip（浏览器打开）_53, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 韩国(yudou66_com玉豆分享)_64, server: 193.123.229.241, port: 18416, type: vmess, uuid: 36b33e50-bdd0-4bdd-da1b-e912b86f9593, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 韩国(yudou66_com玉豆分享)_79, server: 193.123.229.241, port: 43001, type: vmess, uuid: f78458a9-cd20-4353-fbc6-35055b8ddada, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾1-三网优化-强加密_4, server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: 4e048077-2a04-35e0-8441-b6fd5a71fb3b, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
+  - {name: 韩国(绿头外网集团)(Public), server: rknc.xrenblog.com, port: 18888, type: vmess, uuid: 0febc8e5-8463-440f-961a-6ea09d429d1c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog, headers: {Host: rknc.xrenblog.com}}, udp: true}
+  - {name: 香港(绿头外网集团)(Public), server: hk09-vm5.entry.ikuuu.casa, port: 457, type: vmess, uuid: 3566759d-f1e6-3198-bd7e-818936f07c37, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bgp-01-09.entry-0.chinasnow.net}}, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public), server: tl2.tifa.pro, port: 16338, type: vmess, uuid: 05e518ad-da34-3855-9563-c3dafb092357, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /users, headers: {Host: sgp1.tifa.pro}}, udp: true}
+  - {name: 日本(绿头外网集团)(Public), server: jp07-vm5.entry.ikuuu.casa, port: 460, type: vmess, uuid: 3566759d-f1e6-3198-bd7e-818936f07c37, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bgp-02-07.entry-0.chinasnow.net}}, udp: true}
+  - {name: SGP+CM_A/04+x0_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61004, type: ss, cipher: chacha20-ietf-poly1305, password: b3b56f48-a48a-46b6-b462-54ca0b626f21, udp: true}
+  - {name: github.com/freefq+-+美国Microsoft数据中心+5, server: krnf1.qingyun123.xyz, port: 10050, type: trojan, password: 93a3050b-df1e-47fb-97d2-d4cf7052d54c, skip-cert-verify: true, udp: true}
+  - {name: HKG+CM_A/09+x0_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: b3b56f48-a48a-46b6-b462-54ca0b626f21, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 2, server: jp03-vm5.entry.ikuuu.casa, port: 449, type: vmess, uuid: 3566759d-f1e6-3198-bd7e-818936f07c37, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bgp-02-03.entry-0.chinasnow.net}}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 2, server: hk10-vm5.entry.ikuuu.casa, port: 458, type: vmess, uuid: 3566759d-f1e6-3198-bd7e-818936f07c37, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bgp-01-10.entry-0.chinasnow.net}}, udp: true}
+  - {name: JPN+CN2/03+x0_3, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: b3b56f48-a48a-46b6-b462-54ca0b626f21, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 3, server: hk07-vm5.entry.ikuuu.casa, port: 443, type: vmess, uuid: 3566759d-f1e6-3198-bd7e-818936f07c37, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bgp-01-07.entry-0.chinasnow.net}}, udp: true}
+  - {name: 美国(绿头外网集团)(Public), server: us01-vm5.entry.ikuuu.casa, port: 469, type: vmess, uuid: 3566759d-f1e6-3198-bd7e-818936f07c37, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bgp-09-01.entry-0.chinasnow.net}}, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 3, server: jp10-vm5.entry.ikuuu.casa, port: 463, type: vmess, uuid: 3566759d-f1e6-3198-bd7e-818936f07c37, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bgp-02-10.entry-0.chinasnow.net}}, udp: true}
+  - {name: 加拿大(绿头外网集团)(Public), server: sg01-vm5.entry.ikuuu.casa, port: 466, type: vmess, uuid: 3566759d-f1e6-3198-bd7e-818936f07c37, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bgp-10-01.entry-0.chinasnow.net}}, udp: true}
+  - {name: JPN+CN2/02+x0_3, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: b3b56f48-a48a-46b6-b462-54ca0b626f21, udp: true}
+  - {name: 美国·us·1-2_7, server: 112.48.177.74, port: 64005, type: vmess, uuid: 5438aeea-8c9d-4c9f-a606-a572276ecd83, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HKG+CM_B/03+x0_3, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: b3b56f48-a48a-46b6-b462-54ca0b626f21, udp: true}
+  - {name: 美国-2_06MB/s(Youtube:不良林)_3, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 4, server: hkmf1.speedcncnforward2.tk, port: 8443, type: trojan, password: d0173f59-c7e7-4bb0-bc09-3da657c70dd6, skip-cert-verify: true, udp: true}
+  - {name: HKG+CN2/06+x0_3, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: b3b56f48-a48a-46b6-b462-54ca0b626f21, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 5, server: 207.46.133.218, port: 3832, type: vmess, uuid: dab330a4-7605-4a30-95ea-2c96d51b11c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(Youtube技术分享室)_21, server: 65.49.217.194, port: 16194, type: vmess, uuid: 9309d1bd-cda9-4baf-e769-a37ef630daac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 4, server: jp11-vm5.entry.ikuuu.casa, port: 464, type: vmess, uuid: 3566759d-f1e6-3198-bd7e-818936f07c37, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bgp-02-11.entry-0.chinasnow.net}}, udp: true}
+  - {name: 新加坡(yudou66_com玉豆分享)_8, server: sg1.31vpn.com, port: 80, type: vmess, uuid: a9481600-ef36-402a-a0e5-5547bfd7b87c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/ppdt/624dde181c76e/, headers: {Host: sg1.31vpn.com}}, udp: true}
+  - {name: US_2303 |75.43Mb, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[04-08]|oslook|美国(US)USA/LosAngeles_18", server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 新加坡DigitalOcean数据中心 18, server: sg1.31vpn.com, port: 80, type: vmess, uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/bddasdf/624e71635ed8e/, headers: {Host: sg1.31vpn.com}}, udp: true}
+  - {name: 台湾2-三网优化-强加密_5, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 4e048077-2a04-35e0-8441-b6fd5a71fb3b, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
+  - {name: US_406, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾(绿头外网集团)(Public), server: sz1.tifa.pro, port: 53691, type: vmess, uuid: 05e518ad-da34-3855-9563-c3dafb092357, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /windows10, headers: {Host: twb1.tifa.pro}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 台湾1-三网优化-强加密_4
+      - 韩国(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public)
+      - 新加坡(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public)
+      - SGP+CM_A/04+x0_3
+      - github.com/freefq+-+美国Microsoft数据中心+5
+      - HKG+CM_A/09+x0_3
+      - 日本(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public) 2
-      - github.com/freefq - 韩国  6
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 「🇯🇵」EMO_牛油果x5_1
-      - 印度尼西亚(绿头外网集团)(Public)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 越南(绿头外网集团)(Public)
-      - 越南(绿头外网集团)(Public) 2
-      - _HK_香港_18
-      - ♥️YouTube梦歌♥️_29
-      - 美国-1_93MB/s(Youtube:不良林)_3
-      - 泰国(绿头外网集团)(Public)
-      - 香港(欢迎订阅Youtube破解资源君)
-      - Relay__71_83Mb_24
+      - JPN+CN2/03+x0_3
+      - 香港(绿头外网集团)(Public) 3
+      - 美国(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public) 3
+      - 加拿大(绿头外网集团)(Public)
+      - JPN+CN2/02+x0_3
+      - 美国·us·1-2_7
+      - HKG+CM_B/03+x0_3
+      - 美国-2_06MB/s(Youtube:不良林)_3
+      - 香港(绿头外网集团)(Public) 4
+      - HKG+CN2/06+x0_3
+      - 香港(绿头外网集团)(Public) 5
+      - US美国(Youtube技术分享室)_21
+      - 日本(绿头外网集团)(Public) 4
+      - 新加坡(yudou66_com玉豆分享)_8
+      - US_2303 |75.43Mb
+      - "[04-08]|oslook|美国(US)USA/LosAngeles_18"
+      - github.com/freefq - 新加坡DigitalOcean数据中心 18
+      - 台湾2-三网优化-强加密_5
+      - US_406
       - 台湾(绿头外网集团)(Public)
-      - 俄罗斯(绿头外网集团)(Public)
-      - 美国(yudou66_com玉豆分享)_13
-      - US-高速节点购买：v1_mk/vip（浏览器打开）_53
-      - 韩国(yudou66_com玉豆分享)_64
-      - 韩国(yudou66_com玉豆分享)_79
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 台湾1-三网优化-强加密_4
+      - 韩国(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public)
+      - 新加坡(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public)
+      - SGP+CM_A/04+x0_3
+      - github.com/freefq+-+美国Microsoft数据中心+5
+      - HKG+CM_A/09+x0_3
+      - 日本(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public) 2
-      - github.com/freefq - 韩国  6
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 「🇯🇵」EMO_牛油果x5_1
-      - 印度尼西亚(绿头外网集团)(Public)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 越南(绿头外网集团)(Public)
-      - 越南(绿头外网集团)(Public) 2
-      - _HK_香港_18
-      - ♥️YouTube梦歌♥️_29
-      - 美国-1_93MB/s(Youtube:不良林)_3
-      - 泰国(绿头外网集团)(Public)
-      - 香港(欢迎订阅Youtube破解资源君)
-      - Relay__71_83Mb_24
+      - JPN+CN2/03+x0_3
+      - 香港(绿头外网集团)(Public) 3
+      - 美国(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public) 3
+      - 加拿大(绿头外网集团)(Public)
+      - JPN+CN2/02+x0_3
+      - 美国·us·1-2_7
+      - HKG+CM_B/03+x0_3
+      - 美国-2_06MB/s(Youtube:不良林)_3
+      - 香港(绿头外网集团)(Public) 4
+      - HKG+CN2/06+x0_3
+      - 香港(绿头外网集团)(Public) 5
+      - US美国(Youtube技术分享室)_21
+      - 日本(绿头外网集团)(Public) 4
+      - 新加坡(yudou66_com玉豆分享)_8
+      - US_2303 |75.43Mb
+      - "[04-08]|oslook|美国(US)USA/LosAngeles_18"
+      - github.com/freefq - 新加坡DigitalOcean数据中心 18
+      - 台湾2-三网优化-强加密_5
+      - US_406
       - 台湾(绿头外网集团)(Public)
-      - 俄罗斯(绿头外网集团)(Public)
-      - 美国(yudou66_com玉豆分享)_13
-      - US-高速节点购买：v1_mk/vip（浏览器打开）_53
-      - 韩国(yudou66_com玉豆分享)_64
-      - 韩国(yudou66_com玉豆分享)_79
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 台湾1-三网优化-强加密_4
+      - 韩国(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public)
+      - 新加坡(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public)
+      - SGP+CM_A/04+x0_3
+      - github.com/freefq+-+美国Microsoft数据中心+5
+      - HKG+CM_A/09+x0_3
+      - 日本(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public) 2
-      - github.com/freefq - 韩国  6
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 「🇯🇵」EMO_牛油果x5_1
-      - 印度尼西亚(绿头外网集团)(Public)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 越南(绿头外网集团)(Public)
-      - 越南(绿头外网集团)(Public) 2
-      - _HK_香港_18
-      - ♥️YouTube梦歌♥️_29
-      - 美国-1_93MB/s(Youtube:不良林)_3
-      - 泰国(绿头外网集团)(Public)
-      - 香港(欢迎订阅Youtube破解资源君)
-      - Relay__71_83Mb_24
+      - JPN+CN2/03+x0_3
+      - 香港(绿头外网集团)(Public) 3
+      - 美国(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public) 3
+      - 加拿大(绿头外网集团)(Public)
+      - JPN+CN2/02+x0_3
+      - 美国·us·1-2_7
+      - HKG+CM_B/03+x0_3
+      - 美国-2_06MB/s(Youtube:不良林)_3
+      - 香港(绿头外网集团)(Public) 4
+      - HKG+CN2/06+x0_3
+      - 香港(绿头外网集团)(Public) 5
+      - US美国(Youtube技术分享室)_21
+      - 日本(绿头外网集团)(Public) 4
+      - 新加坡(yudou66_com玉豆分享)_8
+      - US_2303 |75.43Mb
+      - "[04-08]|oslook|美国(US)USA/LosAngeles_18"
+      - github.com/freefq - 新加坡DigitalOcean数据中心 18
+      - 台湾2-三网优化-强加密_5
+      - US_406
       - 台湾(绿头外网集团)(Public)
-      - 俄罗斯(绿头外网集团)(Public)
-      - 美国(yudou66_com玉豆分享)_13
-      - US-高速节点购买：v1_mk/vip（浏览器打开）_53
-      - 韩国(yudou66_com玉豆分享)_64
-      - 韩国(yudou66_com玉豆分享)_79
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -124,35 +164,48 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 台湾1-三网优化-强加密_4
+      - 韩国(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public)
+      - 新加坡(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public)
+      - SGP+CM_A/04+x0_3
+      - github.com/freefq+-+美国Microsoft数据中心+5
+      - HKG+CM_A/09+x0_3
+      - 日本(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public) 2
-      - github.com/freefq - 韩国  6
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 「🇯🇵」EMO_牛油果x5_1
-      - 印度尼西亚(绿头外网集团)(Public)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 越南(绿头外网集团)(Public)
-      - 越南(绿头外网集团)(Public) 2
-      - _HK_香港_18
-      - ♥️YouTube梦歌♥️_29
-      - 美国-1_93MB/s(Youtube:不良林)_3
-      - 泰国(绿头外网集团)(Public)
-      - 香港(欢迎订阅Youtube破解资源君)
-      - Relay__71_83Mb_24
+      - JPN+CN2/03+x0_3
+      - 香港(绿头外网集团)(Public) 3
+      - 美国(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public) 3
+      - 加拿大(绿头外网集团)(Public)
+      - JPN+CN2/02+x0_3
+      - 美国·us·1-2_7
+      - HKG+CM_B/03+x0_3
+      - 美国-2_06MB/s(Youtube:不良林)_3
+      - 香港(绿头外网集团)(Public) 4
+      - HKG+CN2/06+x0_3
+      - 香港(绿头外网集团)(Public) 5
+      - US美国(Youtube技术分享室)_21
+      - 日本(绿头外网集团)(Public) 4
+      - 新加坡(yudou66_com玉豆分享)_8
+      - US_2303 |75.43Mb
+      - "[04-08]|oslook|美国(US)USA/LosAngeles_18"
+      - github.com/freefq - 新加坡DigitalOcean数据中心 18
+      - 台湾2-三网优化-强加密_5
+      - US_406
       - 台湾(绿头外网集团)(Public)
-      - 俄罗斯(绿头外网集团)(Public)
-      - 美国(yudou66_com玉豆分享)_13
-      - US-高速节点购买：v1_mk/vip（浏览器打开）_53
-      - 韩国(yudou66_com玉豆分享)_64
-      - 韩国(yudou66_com玉豆分享)_79
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 台湾1-三网优化-强加密_4
       - 香港(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public) 2
-      - _HK_香港_18
-      - 香港(欢迎订阅Youtube破解资源君)
+      - 香港(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 4
+      - 香港(绿头外网集团)(Public) 5
+      - 台湾2-三网优化-强加密_5
       - 台湾(绿头外网集团)(Public)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -160,80 +213,110 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 台湾1-三网优化-强加密_4
+      - 韩国(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public)
+      - 新加坡(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public)
+      - SGP+CM_A/04+x0_3
+      - github.com/freefq+-+美国Microsoft数据中心+5
+      - HKG+CM_A/09+x0_3
+      - 日本(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public) 2
-      - github.com/freefq - 韩国  6
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 「🇯🇵」EMO_牛油果x5_1
-      - 印度尼西亚(绿头外网集团)(Public)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 越南(绿头外网集团)(Public)
-      - 越南(绿头外网集团)(Public) 2
-      - _HK_香港_18
-      - ♥️YouTube梦歌♥️_29
-      - 美国-1_93MB/s(Youtube:不良林)_3
-      - 泰国(绿头外网集团)(Public)
-      - 香港(欢迎订阅Youtube破解资源君)
-      - Relay__71_83Mb_24
+      - JPN+CN2/03+x0_3
+      - 香港(绿头外网集团)(Public) 3
+      - 美国(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public) 3
+      - 加拿大(绿头外网集团)(Public)
+      - JPN+CN2/02+x0_3
+      - 美国·us·1-2_7
+      - HKG+CM_B/03+x0_3
+      - 美国-2_06MB/s(Youtube:不良林)_3
+      - 香港(绿头外网集团)(Public) 4
+      - HKG+CN2/06+x0_3
+      - 香港(绿头外网集团)(Public) 5
+      - US美国(Youtube技术分享室)_21
+      - 日本(绿头外网集团)(Public) 4
+      - 新加坡(yudou66_com玉豆分享)_8
+      - US_2303 |75.43Mb
+      - "[04-08]|oslook|美国(US)USA/LosAngeles_18"
+      - github.com/freefq - 新加坡DigitalOcean数据中心 18
+      - 台湾2-三网优化-强加密_5
+      - US_406
       - 台湾(绿头外网集团)(Public)
-      - 俄罗斯(绿头外网集团)(Public)
-      - 美国(yudou66_com玉豆分享)_13
-      - US-高速节点购买：v1_mk/vip（浏览器打开）_53
-      - 韩国(yudou66_com玉豆分享)_64
-      - 韩国(yudou66_com玉豆分享)_79
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 台湾1-三网优化-强加密_4
+      - 韩国(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public)
+      - 新加坡(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public)
+      - SGP+CM_A/04+x0_3
+      - github.com/freefq+-+美国Microsoft数据中心+5
+      - HKG+CM_A/09+x0_3
+      - 日本(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public) 2
-      - github.com/freefq - 韩国  6
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 「🇯🇵」EMO_牛油果x5_1
-      - 印度尼西亚(绿头外网集团)(Public)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 越南(绿头外网集团)(Public)
-      - 越南(绿头外网集团)(Public) 2
-      - _HK_香港_18
-      - ♥️YouTube梦歌♥️_29
-      - 美国-1_93MB/s(Youtube:不良林)_3
-      - 泰国(绿头外网集团)(Public)
-      - 香港(欢迎订阅Youtube破解资源君)
-      - Relay__71_83Mb_24
+      - JPN+CN2/03+x0_3
+      - 香港(绿头外网集团)(Public) 3
+      - 美国(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public) 3
+      - 加拿大(绿头外网集团)(Public)
+      - JPN+CN2/02+x0_3
+      - 美国·us·1-2_7
+      - HKG+CM_B/03+x0_3
+      - 美国-2_06MB/s(Youtube:不良林)_3
+      - 香港(绿头外网集团)(Public) 4
+      - HKG+CN2/06+x0_3
+      - 香港(绿头外网集团)(Public) 5
+      - US美国(Youtube技术分享室)_21
+      - 日本(绿头外网集团)(Public) 4
+      - 新加坡(yudou66_com玉豆分享)_8
+      - US_2303 |75.43Mb
+      - "[04-08]|oslook|美国(US)USA/LosAngeles_18"
+      - github.com/freefq - 新加坡DigitalOcean数据中心 18
+      - 台湾2-三网优化-强加密_5
+      - US_406
       - 台湾(绿头外网集团)(Public)
-      - 俄罗斯(绿头外网集团)(Public)
-      - 美国(yudou66_com玉豆分享)_13
-      - US-高速节点购买：v1_mk/vip（浏览器打开）_53
-      - 韩国(yudou66_com玉豆分享)_64
-      - 韩国(yudou66_com玉豆分享)_79
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 台湾1-三网优化-强加密_4
+      - 韩国(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public)
+      - 新加坡(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public)
+      - SGP+CM_A/04+x0_3
+      - github.com/freefq+-+美国Microsoft数据中心+5
+      - HKG+CM_A/09+x0_3
+      - 日本(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public) 2
-      - github.com/freefq - 韩国  6
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 「🇯🇵」EMO_牛油果x5_1
-      - 印度尼西亚(绿头外网集团)(Public)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 越南(绿头外网集团)(Public)
-      - 越南(绿头外网集团)(Public) 2
-      - _HK_香港_18
-      - ♥️YouTube梦歌♥️_29
-      - 美国-1_93MB/s(Youtube:不良林)_3
-      - 泰国(绿头外网集团)(Public)
-      - 香港(欢迎订阅Youtube破解资源君)
-      - Relay__71_83Mb_24
+      - JPN+CN2/03+x0_3
+      - 香港(绿头外网集团)(Public) 3
+      - 美国(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public) 3
+      - 加拿大(绿头外网集团)(Public)
+      - JPN+CN2/02+x0_3
+      - 美国·us·1-2_7
+      - HKG+CM_B/03+x0_3
+      - 美国-2_06MB/s(Youtube:不良林)_3
+      - 香港(绿头外网集团)(Public) 4
+      - HKG+CN2/06+x0_3
+      - 香港(绿头外网集团)(Public) 5
+      - US美国(Youtube技术分享室)_21
+      - 日本(绿头外网集团)(Public) 4
+      - 新加坡(yudou66_com玉豆分享)_8
+      - US_2303 |75.43Mb
+      - "[04-08]|oslook|美国(US)USA/LosAngeles_18"
+      - github.com/freefq - 新加坡DigitalOcean数据中心 18
+      - 台湾2-三网优化-强加密_5
+      - US_406
       - 台湾(绿头外网集团)(Public)
-      - 俄罗斯(绿头外网集团)(Public)
-      - 美国(yudou66_com玉豆分享)_13
-      - US-高速节点购买：v1_mk/vip（浏览器打开）_53
-      - 韩国(yudou66_com玉豆分享)_64
-      - 韩国(yudou66_com玉豆分享)_79
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -249,27 +332,37 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 台湾1-三网优化-强加密_4
+      - 韩国(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public)
+      - 新加坡(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public)
+      - SGP+CM_A/04+x0_3
+      - github.com/freefq+-+美国Microsoft数据中心+5
+      - HKG+CM_A/09+x0_3
+      - 日本(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public) 2
-      - github.com/freefq - 韩国  6
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 「🇯🇵」EMO_牛油果x5_1
-      - 印度尼西亚(绿头外网集团)(Public)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 越南(绿头外网集团)(Public)
-      - 越南(绿头外网集团)(Public) 2
-      - _HK_香港_18
-      - ♥️YouTube梦歌♥️_29
-      - 美国-1_93MB/s(Youtube:不良林)_3
-      - 泰国(绿头外网集团)(Public)
-      - 香港(欢迎订阅Youtube破解资源君)
-      - Relay__71_83Mb_24
+      - JPN+CN2/03+x0_3
+      - 香港(绿头外网集团)(Public) 3
+      - 美国(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public) 3
+      - 加拿大(绿头外网集团)(Public)
+      - JPN+CN2/02+x0_3
+      - 美国·us·1-2_7
+      - HKG+CM_B/03+x0_3
+      - 美国-2_06MB/s(Youtube:不良林)_3
+      - 香港(绿头外网集团)(Public) 4
+      - HKG+CN2/06+x0_3
+      - 香港(绿头外网集团)(Public) 5
+      - US美国(Youtube技术分享室)_21
+      - 日本(绿头外网集团)(Public) 4
+      - 新加坡(yudou66_com玉豆分享)_8
+      - US_2303 |75.43Mb
+      - "[04-08]|oslook|美国(US)USA/LosAngeles_18"
+      - github.com/freefq - 新加坡DigitalOcean数据中心 18
+      - 台湾2-三网优化-强加密_5
+      - US_406
       - 台湾(绿头外网集团)(Public)
-      - 俄罗斯(绿头外网集团)(Public)
-      - 美国(yudou66_com玉豆分享)_13
-      - US-高速节点购买：v1_mk/vip（浏览器打开）_53
-      - 韩国(yudou66_com玉豆分享)_64
-      - 韩国(yudou66_com玉豆分享)_79
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
