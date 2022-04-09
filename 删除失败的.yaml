@@ -5,139 +5,59 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 日本(绿头外网集团)(Public), server: jp04-vm5.entry.ikuuu.casa, port: 12553, type: vmess, uuid: 3566759d-f1e6-3198-bd7e-818936f07c37, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bgp-02-04.entry-0.chinasnow.net}}, udp: true}
-  - {name: 台湾3-三网优化-强加密_6, server: 0403tw.fans8.xyz, port: 443, type: vmess, uuid: 4e048077-2a04-35e0-8441-b6fd5a71fb3b, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0403tw.fans8.xyz}}, udp: true}
-  - {name: "Lv1新加坡02[1_0]_4", server: lv1.vmser.myasns.com, port: 7016, type: vmess, uuid: 4ad808b0-c0a6-4689-83bb-cbc8d5477b57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "Lv1新加坡03[1_5]_5", server: lv1.vmser.myasns.com, port: 7017, type: vmess, uuid: 4ad808b0-c0a6-4689-83bb-cbc8d5477b57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡_TGatnodesharing_112, server: sgp1.tifa.pro, port: 443, type: vmess, uuid: 05e518ad-da34-3855-9563-c3dafb092357, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /users, headers: {Host: sgp1.tifa.pro}}, udp: true}
-  - {name: 台湾(绿头外网集团)(Public), server: sz1.tifa.pro, port: 53691, type: vmess, uuid: 05e518ad-da34-3855-9563-c3dafb092357, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /windows10, headers: {Host: twb1.tifa.pro}}, udp: true}
-  - {name: 日本_TGatnodesharing_53, server: jp01-tls-vm0.entry.ikuuu.casa, port: 891, type: vmess, uuid: 3566759d-f1e6-3198-bd7e-818936f07c37, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp01-tls-vm0.entry.ikuuu.casa}}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_23, server: krnf1.qingyun123.xyz, port: 10050, type: trojan, password: 93a3050b-df1e-47fb-97d2-d4cf7052d54c, skip-cert-verify: true, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 2, server: jp02-vm5.entry.ikuuu.casa, port: 447, type: vmess, uuid: 3566759d-f1e6-3198-bd7e-818936f07c37, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bgp-02-02.entry-0.chinasnow.net}}, udp: true}
-  - {name: 香港(绿头外网集团)(Public), server: ggzz1.tifa.pro, port: 26358, type: vmess, uuid: 05e518ad-da34-3855-9563-c3dafb092357, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /windows10, headers: {Host: hkt2.hk.tifa.pro}}, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 3, server: jp11-vm5.entry.ikuuu.casa, port: 464, type: vmess, uuid: 3566759d-f1e6-3198-bd7e-818936f07c37, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bgp-02-11.entry-0.chinasnow.net}}, udp: true}
-  - {name: 台湾2-三网优化-强加密_5, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 4e048077-2a04-35e0-8441-b6fd5a71fb3b, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
-  - {name: Relay_🇺🇸US-🇸🇬SG_24, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 2, server: hk01-vm5.entry.ikuuu.casa, port: 450, type: vmess, uuid: 3566759d-f1e6-3198-bd7e-818936f07c37, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bgp-01-01.entry-0.chinasnow.net}}, udp: true}
-  - {name: HKG+CM_B/06+x0_3, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: b3b56f48-a48a-46b6-b462-54ca0b626f21, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 3, server: hk07-vm5.entry.ikuuu.casa, port: 443, type: vmess, uuid: 3566759d-f1e6-3198-bd7e-818936f07c37, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bgp-01-07.entry-0.chinasnow.net}}, udp: true}
-  - {name: 美国·us·1-2_7, server: 112.48.177.74, port: 64005, type: vmess, uuid: 5438aeea-8c9d-4c9f-a606-a572276ecd83, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国·us·1-2_7 2, server: 112.48.177.74, port: 64005, type: vmess, uuid: 5438aeea-8c9d-4c9f-a606-a572276ecd83, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 4, server: jp09-vm5.entry.ikuuu.casa, port: 462, type: vmess, uuid: 3566759d-f1e6-3198-bd7e-818936f07c37, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bgp-02-09.entry-0.chinasnow.net}}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 4, server: hk08-vm5.entry.ikuuu.casa, port: 443, type: vmess, uuid: 3566759d-f1e6-3198-bd7e-818936f07c37, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bgp-01-08.entry-0.chinasnow.net}}, udp: true}
-  - {name: 新加坡(yudou66_com玉豆分享)_9, server: sg1.31vpn.com, port: 80, type: vmess, uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/bddasdf/624e71635ed8e/, headers: {Host: sg1.31vpn.com}}, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 5, server: jp01-vm5.entry.ikuuu.casa, port: 448, type: vmess, uuid: 3566759d-f1e6-3198-bd7e-818936f07c37, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bgp-02-01.entry-0.chinasnow.net}}, udp: true}
-  - {name: 加拿大(绿头外网集团)(Public), server: sg01-vm5.entry.ikuuu.casa, port: 466, type: vmess, uuid: 3566759d-f1e6-3198-bd7e-818936f07c37, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bgp-10-01.entry-0.chinasnow.net}}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 5, server: hkmf2.speedcncnforward2.tk, port: 8443, type: trojan, password: d0173f59-c7e7-4bb0-bc09-3da657c70dd6, skip-cert-verify: true, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 6, server: 120.232.174.85, port: 24089, type: ss, cipher: aes-128-gcm, password: MxP1k1P1gdsDos5l, udp: true}
-  - {name: JPN+CM_A/02+x0_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: b3b56f48-a48a-46b6-b462-54ca0b626f21, udp: true}
-  - {name: 台湾(绿头外网集团)(Public) 2, server: zz3.tifa.pro, port: 51133, type: vmess, uuid: 05e518ad-da34-3855-9563-c3dafb092357, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /windows10, headers: {Host: pqsnet.tifa.pro}}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 7, server: hkmf1.speedcncnforward2.tk, port: 8443, type: trojan, password: d0173f59-c7e7-4bb0-bc09-3da657c70dd6, skip-cert-verify: true, udp: true}
-  - {name: HKG+CM_A/07+x0_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: b3b56f48-a48a-46b6-b462-54ca0b626f21, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 25, server: jpgs.v2yun.vip, port: 80, type: vmess, uuid: 29eda9b6-6863-3f6d-820a-b838f4e7da09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jpgs.v2yun.vip}}, udp: true}
+  - {name: github.com/freefq+-+美国DXC+Technology+4, server: jp1.qingyun123.xyz, port: 10100, type: trojan, password: 8c26295e-8c01-42fd-a38a-53dda97f29b1, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_15, server: 1.v2yun.vip, port: 10025, type: vmess, uuid: 29eda9b6-6863-3f6d-820a-b838f4e7da09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1.v2yun.vip}}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_44, server: jpgs.v2yun.vip, port: 80, type: vmess, uuid: 29eda9b6-6863-3f6d-820a-b838f4e7da09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jpgs.v2yun.vip}}, udp: true}
+  - {name: Relay_🇰🇷KR-🇰🇷KR_30, server: krgs.v2yun.vip, port: 80, type: vmess, uuid: 29eda9b6-6863-3f6d-820a-b838f4e7da09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: krgs.v2yun.vip}}, udp: true}
+  - {name: Relay_🇭🇰HK-🇭🇰HK_25, server: hk5gb.v2yun.vip, port: 80, type: vmess, uuid: 29eda9b6-6863-3f6d-820a-b838f4e7da09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk5gb.v2yun.vip}}, udp: true}
+  - {name: github.com/freefq - 韩国  6, server: krgs.v2yun.vip, port: 80, type: vmess, uuid: 29eda9b6-6863-3f6d-820a-b838f4e7da09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: krgs.v2yun.vip}}, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 24, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇭🇰HK-🇭🇰HK_27, server: hk05gs.v2yun.vip, port: 80, type: vmess, uuid: 29eda9b6-6863-3f6d-820a-b838f4e7da09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk05gs.v2yun.vip}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本(绿头外网集团)(Public)
-      - 台湾3-三网优化-强加密_6
-      - Lv1新加坡02[1_0]_4
-      - Lv1新加坡03[1_5]_5
-      - 新加坡_TGatnodesharing_112
-      - 台湾(绿头外网集团)(Public)
-      - 日本_TGatnodesharing_53
-      - Relay_🇺🇸US-🇺🇸US_23
-      - 日本(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public) 3
-      - 台湾2-三网优化-强加密_5
-      - Relay_🇺🇸US-🇸🇬SG_24
-      - 香港(绿头外网集团)(Public) 2
-      - HKG+CM_B/06+x0_3
-      - 香港(绿头外网集团)(Public) 3
-      - 美国·us·1-2_7
-      - 美国·us·1-2_7 2
-      - 日本(绿头外网集团)(Public) 4
-      - 香港(绿头外网集团)(Public) 4
-      - 新加坡(yudou66_com玉豆分享)_9
-      - 日本(绿头外网集团)(Public) 5
-      - 加拿大(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 5
-      - 香港(绿头外网集团)(Public) 6
-      - JPN+CM_A/02+x0_3
-      - 台湾(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 7
-      - HKG+CM_A/07+x0_3
+      - github.com/freefq - 美国Microsoft数据中心 25
+      - github.com/freefq+-+美国DXC+Technology+4
+      - Relay_🇨🇳CN-🇭🇰HK_15
+      - Relay_🇺🇸US-🇺🇸US_44
+      - Relay_🇰🇷KR-🇰🇷KR_30
+      - Relay_🇭🇰HK-🇭🇰HK_25
+      - github.com/freefq - 韩国  6
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 24
+      - Relay_🇭🇰HK-🇭🇰HK_27
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 日本(绿头外网集团)(Public)
-      - 台湾3-三网优化-强加密_6
-      - Lv1新加坡02[1_0]_4
-      - Lv1新加坡03[1_5]_5
-      - 新加坡_TGatnodesharing_112
-      - 台湾(绿头外网集团)(Public)
-      - 日本_TGatnodesharing_53
-      - Relay_🇺🇸US-🇺🇸US_23
-      - 日本(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public) 3
-      - 台湾2-三网优化-强加密_5
-      - Relay_🇺🇸US-🇸🇬SG_24
-      - 香港(绿头外网集团)(Public) 2
-      - HKG+CM_B/06+x0_3
-      - 香港(绿头外网集团)(Public) 3
-      - 美国·us·1-2_7
-      - 美国·us·1-2_7 2
-      - 日本(绿头外网集团)(Public) 4
-      - 香港(绿头外网集团)(Public) 4
-      - 新加坡(yudou66_com玉豆分享)_9
-      - 日本(绿头外网集团)(Public) 5
-      - 加拿大(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 5
-      - 香港(绿头外网集团)(Public) 6
-      - JPN+CM_A/02+x0_3
-      - 台湾(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 7
-      - HKG+CM_A/07+x0_3
+      - github.com/freefq - 美国Microsoft数据中心 25
+      - github.com/freefq+-+美国DXC+Technology+4
+      - Relay_🇨🇳CN-🇭🇰HK_15
+      - Relay_🇺🇸US-🇺🇸US_44
+      - Relay_🇰🇷KR-🇰🇷KR_30
+      - Relay_🇭🇰HK-🇭🇰HK_25
+      - github.com/freefq - 韩国  6
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 24
+      - Relay_🇭🇰HK-🇭🇰HK_27
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本(绿头外网集团)(Public)
-      - 台湾3-三网优化-强加密_6
-      - Lv1新加坡02[1_0]_4
-      - Lv1新加坡03[1_5]_5
-      - 新加坡_TGatnodesharing_112
-      - 台湾(绿头外网集团)(Public)
-      - 日本_TGatnodesharing_53
-      - Relay_🇺🇸US-🇺🇸US_23
-      - 日本(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public) 3
-      - 台湾2-三网优化-强加密_5
-      - Relay_🇺🇸US-🇸🇬SG_24
-      - 香港(绿头外网集团)(Public) 2
-      - HKG+CM_B/06+x0_3
-      - 香港(绿头外网集团)(Public) 3
-      - 美国·us·1-2_7
-      - 美国·us·1-2_7 2
-      - 日本(绿头外网集团)(Public) 4
-      - 香港(绿头外网集团)(Public) 4
-      - 新加坡(yudou66_com玉豆分享)_9
-      - 日本(绿头外网集团)(Public) 5
-      - 加拿大(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 5
-      - 香港(绿头外网集团)(Public) 6
-      - JPN+CM_A/02+x0_3
-      - 台湾(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 7
-      - HKG+CM_A/07+x0_3
+      - github.com/freefq - 美国Microsoft数据中心 25
+      - github.com/freefq+-+美国DXC+Technology+4
+      - Relay_🇨🇳CN-🇭🇰HK_15
+      - Relay_🇺🇸US-🇺🇸US_44
+      - Relay_🇰🇷KR-🇰🇷KR_30
+      - Relay_🇭🇰HK-🇭🇰HK_25
+      - github.com/freefq - 韩国  6
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 24
+      - Relay_🇭🇰HK-🇭🇰HK_27
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -156,154 +76,63 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本(绿头外网集团)(Public)
-      - 台湾3-三网优化-强加密_6
-      - Lv1新加坡02[1_0]_4
-      - Lv1新加坡03[1_5]_5
-      - 新加坡_TGatnodesharing_112
-      - 台湾(绿头外网集团)(Public)
-      - 日本_TGatnodesharing_53
-      - Relay_🇺🇸US-🇺🇸US_23
-      - 日本(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public) 3
-      - 台湾2-三网优化-强加密_5
-      - Relay_🇺🇸US-🇸🇬SG_24
-      - 香港(绿头外网集团)(Public) 2
-      - HKG+CM_B/06+x0_3
-      - 香港(绿头外网集团)(Public) 3
-      - 美国·us·1-2_7
-      - 美国·us·1-2_7 2
-      - 日本(绿头外网集团)(Public) 4
-      - 香港(绿头外网集团)(Public) 4
-      - 新加坡(yudou66_com玉豆分享)_9
-      - 日本(绿头外网集团)(Public) 5
-      - 加拿大(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 5
-      - 香港(绿头外网集团)(Public) 6
-      - JPN+CM_A/02+x0_3
-      - 台湾(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 7
-      - HKG+CM_A/07+x0_3
+      - github.com/freefq - 美国Microsoft数据中心 25
+      - github.com/freefq+-+美国DXC+Technology+4
+      - Relay_🇨🇳CN-🇭🇰HK_15
+      - Relay_🇺🇸US-🇺🇸US_44
+      - Relay_🇰🇷KR-🇰🇷KR_30
+      - Relay_🇭🇰HK-🇭🇰HK_25
+      - github.com/freefq - 韩国  6
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 24
+      - Relay_🇭🇰HK-🇭🇰HK_27
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾3-三网优化-强加密_6
-      - 台湾(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public)
-      - 台湾2-三网优化-强加密_5
-      - 香港(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 3
-      - 香港(绿头外网集团)(Public) 4
-      - 香港(绿头外网集团)(Public) 5
-      - 香港(绿头外网集团)(Public) 6
-      - 台湾(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 7
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 日本(绿头外网集团)(Public)
-      - 台湾3-三网优化-强加密_6
-      - Lv1新加坡02[1_0]_4
-      - Lv1新加坡03[1_5]_5
-      - 新加坡_TGatnodesharing_112
-      - 台湾(绿头外网集团)(Public)
-      - 日本_TGatnodesharing_53
-      - Relay_🇺🇸US-🇺🇸US_23
-      - 日本(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public) 3
-      - 台湾2-三网优化-强加密_5
-      - Relay_🇺🇸US-🇸🇬SG_24
-      - 香港(绿头外网集团)(Public) 2
-      - HKG+CM_B/06+x0_3
-      - 香港(绿头外网集团)(Public) 3
-      - 美国·us·1-2_7
-      - 美国·us·1-2_7 2
-      - 日本(绿头外网集团)(Public) 4
-      - 香港(绿头外网集团)(Public) 4
-      - 新加坡(yudou66_com玉豆分享)_9
-      - 日本(绿头外网集团)(Public) 5
-      - 加拿大(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 5
-      - 香港(绿头外网集团)(Public) 6
-      - JPN+CM_A/02+x0_3
-      - 台湾(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 7
-      - HKG+CM_A/07+x0_3
+      - github.com/freefq - 美国Microsoft数据中心 25
+      - github.com/freefq+-+美国DXC+Technology+4
+      - Relay_🇨🇳CN-🇭🇰HK_15
+      - Relay_🇺🇸US-🇺🇸US_44
+      - Relay_🇰🇷KR-🇰🇷KR_30
+      - Relay_🇭🇰HK-🇭🇰HK_25
+      - github.com/freefq - 韩国  6
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 24
+      - Relay_🇭🇰HK-🇭🇰HK_27
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 日本(绿头外网集团)(Public)
-      - 台湾3-三网优化-强加密_6
-      - Lv1新加坡02[1_0]_4
-      - Lv1新加坡03[1_5]_5
-      - 新加坡_TGatnodesharing_112
-      - 台湾(绿头外网集团)(Public)
-      - 日本_TGatnodesharing_53
-      - Relay_🇺🇸US-🇺🇸US_23
-      - 日本(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public) 3
-      - 台湾2-三网优化-强加密_5
-      - Relay_🇺🇸US-🇸🇬SG_24
-      - 香港(绿头外网集团)(Public) 2
-      - HKG+CM_B/06+x0_3
-      - 香港(绿头外网集团)(Public) 3
-      - 美国·us·1-2_7
-      - 美国·us·1-2_7 2
-      - 日本(绿头外网集团)(Public) 4
-      - 香港(绿头外网集团)(Public) 4
-      - 新加坡(yudou66_com玉豆分享)_9
-      - 日本(绿头外网集团)(Public) 5
-      - 加拿大(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 5
-      - 香港(绿头外网集团)(Public) 6
-      - JPN+CM_A/02+x0_3
-      - 台湾(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 7
-      - HKG+CM_A/07+x0_3
+      - github.com/freefq - 美国Microsoft数据中心 25
+      - github.com/freefq+-+美国DXC+Technology+4
+      - Relay_🇨🇳CN-🇭🇰HK_15
+      - Relay_🇺🇸US-🇺🇸US_44
+      - Relay_🇰🇷KR-🇰🇷KR_30
+      - Relay_🇭🇰HK-🇭🇰HK_25
+      - github.com/freefq - 韩国  6
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 24
+      - Relay_🇭🇰HK-🇭🇰HK_27
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本(绿头外网集团)(Public)
-      - 台湾3-三网优化-强加密_6
-      - Lv1新加坡02[1_0]_4
-      - Lv1新加坡03[1_5]_5
-      - 新加坡_TGatnodesharing_112
-      - 台湾(绿头外网集团)(Public)
-      - 日本_TGatnodesharing_53
-      - Relay_🇺🇸US-🇺🇸US_23
-      - 日本(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public) 3
-      - 台湾2-三网优化-强加密_5
-      - Relay_🇺🇸US-🇸🇬SG_24
-      - 香港(绿头外网集团)(Public) 2
-      - HKG+CM_B/06+x0_3
-      - 香港(绿头外网集团)(Public) 3
-      - 美国·us·1-2_7
-      - 美国·us·1-2_7 2
-      - 日本(绿头外网集团)(Public) 4
-      - 香港(绿头外网集团)(Public) 4
-      - 新加坡(yudou66_com玉豆分享)_9
-      - 日本(绿头外网集团)(Public) 5
-      - 加拿大(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 5
-      - 香港(绿头外网集团)(Public) 6
-      - JPN+CM_A/02+x0_3
-      - 台湾(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 7
-      - HKG+CM_A/07+x0_3
+      - github.com/freefq - 美国Microsoft数据中心 25
+      - github.com/freefq+-+美国DXC+Technology+4
+      - Relay_🇨🇳CN-🇭🇰HK_15
+      - Relay_🇺🇸US-🇺🇸US_44
+      - Relay_🇰🇷KR-🇰🇷KR_30
+      - Relay_🇭🇰HK-🇭🇰HK_25
+      - github.com/freefq - 韩国  6
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 24
+      - Relay_🇭🇰HK-🇭🇰HK_27
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -319,35 +148,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本(绿头外网集团)(Public)
-      - 台湾3-三网优化-强加密_6
-      - Lv1新加坡02[1_0]_4
-      - Lv1新加坡03[1_5]_5
-      - 新加坡_TGatnodesharing_112
-      - 台湾(绿头外网集团)(Public)
-      - 日本_TGatnodesharing_53
-      - Relay_🇺🇸US-🇺🇸US_23
-      - 日本(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public)
-      - 日本(绿头外网集团)(Public) 3
-      - 台湾2-三网优化-强加密_5
-      - Relay_🇺🇸US-🇸🇬SG_24
-      - 香港(绿头外网集团)(Public) 2
-      - HKG+CM_B/06+x0_3
-      - 香港(绿头外网集团)(Public) 3
-      - 美国·us·1-2_7
-      - 美国·us·1-2_7 2
-      - 日本(绿头外网集团)(Public) 4
-      - 香港(绿头外网集团)(Public) 4
-      - 新加坡(yudou66_com玉豆分享)_9
-      - 日本(绿头外网集团)(Public) 5
-      - 加拿大(绿头外网集团)(Public)
-      - 香港(绿头外网集团)(Public) 5
-      - 香港(绿头外网集团)(Public) 6
-      - JPN+CM_A/02+x0_3
-      - 台湾(绿头外网集团)(Public) 2
-      - 香港(绿头外网集团)(Public) 7
-      - HKG+CM_A/07+x0_3
+      - github.com/freefq - 美国Microsoft数据中心 25
+      - github.com/freefq+-+美国DXC+Technology+4
+      - Relay_🇨🇳CN-🇭🇰HK_15
+      - Relay_🇺🇸US-🇺🇸US_44
+      - Relay_🇰🇷KR-🇰🇷KR_30
+      - Relay_🇭🇰HK-🇭🇰HK_25
+      - github.com/freefq - 韩国  6
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 24
+      - Relay_🇭🇰HK-🇭🇰HK_27
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
