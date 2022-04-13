@@ -5,103 +5,39 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: EXTM3U-香港-nf-iplc, server: 120.233.10.55, port: 40123, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jz666666, headers: {Host: t.me/vpnhat}}, udp: true}
-  - {name: EXTM3U-香港HKT-nf-iplc, server: 120.233.10.55, port: 40328, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jz666666, headers: {Host: t.me/vpnhat}}, udp: true}
-  - {name: EXTM3U-香港-nf-iplc 2, server: 120.233.10.55, port: 40309, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jz666666, headers: {Host: t.me/vpnhat}}, udp: true}
-  - {name: V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260, server: juzi-iplc001.ddns-oink.xyz, port: 40328, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jz666666, headers: {Host: juzi-iplc001.ddns-oink.xyz}}, udp: true}
-  - {name: V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257, server: juzi-iplc001.ddns-oink.xyz, port: 40308, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jz666666, headers: {Host: juzi-iplc001.ddns-oink.xyz}}, udp: true}
-  - {name: EXTM3U-香港-nf-iplc 3, server: 120.233.10.55, port: 40310, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jz666666, headers: {Host: t.me/vpnhat}}, udp: true}
-  - {name: EXTM3U-香港HKT-nf-iplc 2, server: 120.233.10.55, port: 40308, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jz666666, headers: {Host: t.me/vpnhat}}, udp: true}
-  - {name: US_391, server: hkmf2.speedcncnforward2.tk, port: 8443, type: trojan, password: d0173f59-c7e7-4bb0-bc09-3da657c70dd6, skip-cert-verify: true, udp: true}
-  - {name: Relay_日本-_24, server: jplin004.xmrth-node.xyz, port: 10613, type: vmess, uuid: 49bc55d8-69bf-3c60-9a57-2899fd43f74c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255, server: juzi-iplc001.ddns-oink.xyz, port: 40306, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jz666666, headers: {Host: juzi-iplc001.ddns-oink.xyz}}, udp: true}
-  - {name: IR_595+|49.42Mb, server: 185.148.14.58, port: 53514, type: trojan, password: 3r90JDGBYA, skip-cert-verify: true, udp: true}
-  - {name: V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252, server: juzi-iplc001.ddns-oink.xyz, port: 40175, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jz666666, headers: {Host: juzi-iplc001.ddns-oink.xyz}}, udp: true}
-  - {name: _US_美国, server: 167.88.61.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 2, server: 169.197.142.216, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: github.com/freefq+-+韩国首尔Choopa数据中心+35, server: 141.164.56.250, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_395, server: hkmf2.speedcncnforward2.tk, port: 8443, type: trojan, password: e816d28a-c617-4954-87f6-aac16c3189f5, skip-cert-verify: true, udp: true}
-  - {name: EXTM3U-SG-nf-iplc, server: 120.233.10.55, port: 40175, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jz666666, headers: {Host: t.me/vpnhat}}, udp: true}
-  - {name: V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256, server: juzi-iplc001.ddns-oink.xyz, port: 40307, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jz666666, headers: {Host: juzi-iplc001.ddns-oink.xyz}}, udp: true}
-  - {name: V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259, server: juzi-iplc001.ddns-oink.xyz, port: 40310, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jz666666, headers: {Host: juzi-iplc001.ddns-oink.xyz}}, udp: true}
-  - {name: _KR_韩国, server: 141.164.47.208, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲, server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
+  - {name: ^🇭🇰香港HK+27+*hi-moon.pw, server: trojan.linkdns.xyz, port: 40207, type: trojan, password: 9e92cf38-9f6b-3bae-8061-271f9d0e4ae2, skip-cert-verify: true, udp: true}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:), server: sg.gtss.tk, port: 443, type: trojan, password: NWGdxI6dQo, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq+-+美国Microsoft数据中心+9, server: kr1.qingyun123.xyz, port: 10050, type: trojan, password: 4f278153-2043-412e-a5eb-ea730d5978e1, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - EXTM3U-香港-nf-iplc
-      - EXTM3U-香港HKT-nf-iplc
-      - EXTM3U-香港-nf-iplc 2
-      - V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260
-      - V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257
-      - EXTM3U-香港-nf-iplc 3
-      - EXTM3U-香港HKT-nf-iplc 2
-      - US_391
-      - Relay_日本-_24
-      - V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255
-      - IR_595+|49.42Mb
-      - V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252
-      - _US_美国
-      - _US_美国 2
-      - github.com/freefq+-+韩国首尔Choopa数据中心+35
-      - US_395
-      - EXTM3U-SG-nf-iplc
-      - V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256
-      - V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259
-      - _KR_韩国
+      - 欧洲
+      - ^🇭🇰香港HK+27+*hi-moon.pw
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - github.com/freefq+-+美国Microsoft数据中心+9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - EXTM3U-香港-nf-iplc
-      - EXTM3U-香港HKT-nf-iplc
-      - EXTM3U-香港-nf-iplc 2
-      - V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260
-      - V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257
-      - EXTM3U-香港-nf-iplc 3
-      - EXTM3U-香港HKT-nf-iplc 2
-      - US_391
-      - Relay_日本-_24
-      - V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255
-      - IR_595+|49.42Mb
-      - V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252
-      - _US_美国
-      - _US_美国 2
-      - github.com/freefq+-+韩国首尔Choopa数据中心+35
-      - US_395
-      - EXTM3U-SG-nf-iplc
-      - V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256
-      - V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259
-      - _KR_韩国
+      - 欧洲
+      - ^🇭🇰香港HK+27+*hi-moon.pw
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - github.com/freefq+-+美国Microsoft数据中心+9
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - EXTM3U-香港-nf-iplc
-      - EXTM3U-香港HKT-nf-iplc
-      - EXTM3U-香港-nf-iplc 2
-      - V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260
-      - V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257
-      - EXTM3U-香港-nf-iplc 3
-      - EXTM3U-香港HKT-nf-iplc 2
-      - US_391
-      - Relay_日本-_24
-      - V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255
-      - IR_595+|49.42Mb
-      - V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252
-      - _US_美国
-      - _US_美国 2
-      - github.com/freefq+-+韩国首尔Choopa数据中心+35
-      - US_395
-      - EXTM3U-SG-nf-iplc
-      - V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256
-      - V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259
-      - _KR_韩国
+      - 欧洲
+      - ^🇭🇰香港HK+27+*hi-moon.pw
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - github.com/freefq+-+美国Microsoft数据中心+9
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -120,117 +56,44 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - EXTM3U-香港-nf-iplc
-      - EXTM3U-香港HKT-nf-iplc
-      - EXTM3U-香港-nf-iplc 2
-      - V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260
-      - V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257
-      - EXTM3U-香港-nf-iplc 3
-      - EXTM3U-香港HKT-nf-iplc 2
-      - US_391
-      - Relay_日本-_24
-      - V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255
-      - IR_595+|49.42Mb
-      - V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252
-      - _US_美国
-      - _US_美国 2
-      - github.com/freefq+-+韩国首尔Choopa数据中心+35
-      - US_395
-      - EXTM3U-SG-nf-iplc
-      - V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256
-      - V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259
-      - _KR_韩国
+      - 欧洲
+      - ^🇭🇰香港HK+27+*hi-moon.pw
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - github.com/freefq+-+美国Microsoft数据中心+9
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - EXTM3U-香港-nf-iplc
-      - EXTM3U-香港HKT-nf-iplc
-      - EXTM3U-香港-nf-iplc 2
-      - V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260
-      - V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257
-      - EXTM3U-香港-nf-iplc 3
-      - EXTM3U-香港HKT-nf-iplc 2
-      - V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255
-      - V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256
-      - V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259
+      - ^🇭🇰香港HK+27+*hi-moon.pw
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - EXTM3U-香港-nf-iplc
-      - EXTM3U-香港HKT-nf-iplc
-      - EXTM3U-香港-nf-iplc 2
-      - V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260
-      - V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257
-      - EXTM3U-香港-nf-iplc 3
-      - EXTM3U-香港HKT-nf-iplc 2
-      - US_391
-      - Relay_日本-_24
-      - V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255
-      - IR_595+|49.42Mb
-      - V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252
-      - _US_美国
-      - _US_美国 2
-      - github.com/freefq+-+韩国首尔Choopa数据中心+35
-      - US_395
-      - EXTM3U-SG-nf-iplc
-      - V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256
-      - V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259
-      - _KR_韩国
+      - 欧洲
+      - ^🇭🇰香港HK+27+*hi-moon.pw
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - github.com/freefq+-+美国Microsoft数据中心+9
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - EXTM3U-香港-nf-iplc
-      - EXTM3U-香港HKT-nf-iplc
-      - EXTM3U-香港-nf-iplc 2
-      - V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260
-      - V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257
-      - EXTM3U-香港-nf-iplc 3
-      - EXTM3U-香港HKT-nf-iplc 2
-      - US_391
-      - Relay_日本-_24
-      - V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255
-      - IR_595+|49.42Mb
-      - V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252
-      - _US_美国
-      - _US_美国 2
-      - github.com/freefq+-+韩国首尔Choopa数据中心+35
-      - US_395
-      - EXTM3U-SG-nf-iplc
-      - V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256
-      - V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259
-      - _KR_韩国
+      - 欧洲
+      - ^🇭🇰香港HK+27+*hi-moon.pw
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - github.com/freefq+-+美国Microsoft数据中心+9
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - EXTM3U-香港-nf-iplc
-      - EXTM3U-香港HKT-nf-iplc
-      - EXTM3U-香港-nf-iplc 2
-      - V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260
-      - V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257
-      - EXTM3U-香港-nf-iplc 3
-      - EXTM3U-香港HKT-nf-iplc 2
-      - US_391
-      - Relay_日本-_24
-      - V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255
-      - IR_595+|49.42Mb
-      - V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252
-      - _US_美国
-      - _US_美国 2
-      - github.com/freefq+-+韩国首尔Choopa数据中心+35
-      - US_395
-      - EXTM3U-SG-nf-iplc
-      - V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256
-      - V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259
-      - _KR_韩国
+      - 欧洲
+      - ^🇭🇰香港HK+27+*hi-moon.pw
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - github.com/freefq+-+美国Microsoft数据中心+9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -246,26 +109,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - EXTM3U-香港-nf-iplc
-      - EXTM3U-香港HKT-nf-iplc
-      - EXTM3U-香港-nf-iplc 2
-      - V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260
-      - V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257
-      - EXTM3U-香港-nf-iplc 3
-      - EXTM3U-香港HKT-nf-iplc 2
-      - US_391
-      - Relay_日本-_24
-      - V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255
-      - IR_595+|49.42Mb
-      - V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252
-      - _US_美国
-      - _US_美国 2
-      - github.com/freefq+-+韩国首尔Choopa数据中心+35
-      - US_395
-      - EXTM3U-SG-nf-iplc
-      - V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256
-      - V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259
-      - _KR_韩国
+      - 欧洲
+      - ^🇭🇰香港HK+27+*hi-moon.pw
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - github.com/freefq+-+美国Microsoft数据中心+9
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
