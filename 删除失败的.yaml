@@ -5,39 +5,43 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 欧洲, server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
-  - {name: ^🇭🇰香港HK+27+*hi-moon.pw, server: trojan.linkdns.xyz, port: 40207, type: trojan, password: 9e92cf38-9f6b-3bae-8061-271f9d0e4ae2, skip-cert-verify: true, udp: true}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:), server: sg.gtss.tk, port: 443, type: trojan, password: NWGdxI6dQo, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq+-+美国Microsoft数据中心+9, server: kr1.qingyun123.xyz, port: 10050, type: trojan, password: 4f278153-2043-412e-a5eb-ea730d5978e1, skip-cert-verify: true, udp: true}
+  - {name: "[Telelink]｜Japan", server: 20.222.84.185, port: 443, type: trojan, password: b345dea8-d232-4aa5-8bec-517f78f986e3, sni: certificate.telelink.cc, skip-cert-verify: true, udp: true}
+  - {name: 倾城极速.tk-🇯🇵JP-Openit.ml, server: azure-jp-1.forwardserver.xyz, port: 22687, type: vmess, uuid: 0b406a9e-1685-4f10-a684-64376ac5d380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nana, headers: {Host: jp1.qcjs.one}}, udp: true}
+  - {name: Relay_🏁ZZ-🇹🇼TW_4724, server: 5.44.249.43, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq+-+美国++12, server: asd1v.baozipay.top, port: 443, type: trojan, password: rYA8dFQI6R2qTwP0, skip-cert-verify: true, udp: true}
+  - {name: 倾城极速.tk-🇭🇰HK-Openit.ml, server: azure-hk-1.forwardserver.xyz, port: 15124, type: vmess, uuid: 0b406a9e-1685-4f10-a684-64376ac5d380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nana, headers: {Host: sg1.qcjs.one}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 欧洲
-      - ^🇭🇰香港HK+27+*hi-moon.pw
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - github.com/freefq+-+美国Microsoft数据中心+9
+      - "[Telelink]｜Japan"
+      - 倾城极速.tk-🇯🇵JP-Openit.ml
+      - Relay_🏁ZZ-🇹🇼TW_4724
+      - github.com/freefq+-+美国++12
+      - 倾城极速.tk-🇭🇰HK-Openit.ml
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 欧洲
-      - ^🇭🇰香港HK+27+*hi-moon.pw
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - github.com/freefq+-+美国Microsoft数据中心+9
+      - "[Telelink]｜Japan"
+      - 倾城极速.tk-🇯🇵JP-Openit.ml
+      - Relay_🏁ZZ-🇹🇼TW_4724
+      - github.com/freefq+-+美国++12
+      - 倾城极速.tk-🇭🇰HK-Openit.ml
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 欧洲
-      - ^🇭🇰香港HK+27+*hi-moon.pw
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - github.com/freefq+-+美国Microsoft数据中心+9
+      - "[Telelink]｜Japan"
+      - 倾城极速.tk-🇯🇵JP-Openit.ml
+      - Relay_🏁ZZ-🇹🇼TW_4724
+      - github.com/freefq+-+美国++12
+      - 倾城极速.tk-🇭🇰HK-Openit.ml
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -56,44 +60,47 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 欧洲
-      - ^🇭🇰香港HK+27+*hi-moon.pw
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - github.com/freefq+-+美国Microsoft数据中心+9
+      - "[Telelink]｜Japan"
+      - 倾城极速.tk-🇯🇵JP-Openit.ml
+      - Relay_🏁ZZ-🇹🇼TW_4724
+      - github.com/freefq+-+美国++12
+      - 倾城极速.tk-🇭🇰HK-Openit.ml
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - ^🇭🇰香港HK+27+*hi-moon.pw
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 欧洲
-      - ^🇭🇰香港HK+27+*hi-moon.pw
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - github.com/freefq+-+美国Microsoft数据中心+9
+      - "[Telelink]｜Japan"
+      - 倾城极速.tk-🇯🇵JP-Openit.ml
+      - Relay_🏁ZZ-🇹🇼TW_4724
+      - github.com/freefq+-+美国++12
+      - 倾城极速.tk-🇭🇰HK-Openit.ml
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 欧洲
-      - ^🇭🇰香港HK+27+*hi-moon.pw
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - github.com/freefq+-+美国Microsoft数据中心+9
+      - "[Telelink]｜Japan"
+      - 倾城极速.tk-🇯🇵JP-Openit.ml
+      - Relay_🏁ZZ-🇹🇼TW_4724
+      - github.com/freefq+-+美国++12
+      - 倾城极速.tk-🇭🇰HK-Openit.ml
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 欧洲
-      - ^🇭🇰香港HK+27+*hi-moon.pw
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - github.com/freefq+-+美国Microsoft数据中心+9
+      - "[Telelink]｜Japan"
+      - 倾城极速.tk-🇯🇵JP-Openit.ml
+      - Relay_🏁ZZ-🇹🇼TW_4724
+      - github.com/freefq+-+美国++12
+      - 倾城极速.tk-🇭🇰HK-Openit.ml
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -109,10 +116,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 欧洲
-      - ^🇭🇰香港HK+27+*hi-moon.pw
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - github.com/freefq+-+美国Microsoft数据中心+9
+      - "[Telelink]｜Japan"
+      - 倾城极速.tk-🇯🇵JP-Openit.ml
+      - Relay_🏁ZZ-🇹🇼TW_4724
+      - github.com/freefq+-+美国++12
+      - 倾城极速.tk-🇭🇰HK-Openit.ml
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
