@@ -5,43 +5,103 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 日本(yudou66.com+玉豆分享), server: 20.222.84.185, port: 443, type: trojan, password: 12a1bf8b-8f39-4b06-82f5-3b6bd4d354f9, sni: certificate.telelink.cc, skip-cert-verify: true, udp: true}
   - {name: "[Telelink]｜Japan", server: 20.222.84.185, port: 443, type: trojan, password: b345dea8-d232-4aa5-8bec-517f78f986e3, sni: certificate.telelink.cc, skip-cert-verify: true, udp: true}
-  - {name: 倾城极速.tk-🇯🇵JP-Openit.ml, server: azure-jp-1.forwardserver.xyz, port: 22687, type: vmess, uuid: 0b406a9e-1685-4f10-a684-64376ac5d380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nana, headers: {Host: jp1.qcjs.one}}, udp: true}
-  - {name: Relay_🏁ZZ-🇹🇼TW_4724, server: 5.44.249.43, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq+-+美国++12, server: asd1v.baozipay.top, port: 443, type: trojan, password: rYA8dFQI6R2qTwP0, skip-cert-verify: true, udp: true}
-  - {name: 倾城极速.tk-🇭🇰HK-Openit.ml, server: azure-hk-1.forwardserver.xyz, port: 15124, type: vmess, uuid: 0b406a9e-1685-4f10-a684-64376ac5d380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nana, headers: {Host: sg1.qcjs.one}}, udp: true}
+  - {name: CN, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: US, server: 20.222.84.185, port: 443, type: trojan, password: 26c6e9fc-0c9c-438d-98f1-38a07ae08cdb, sni: certificate.telelink.cc, skip-cert-verify: true, udp: true}
+  - {name: github.com/mianfeifq+|GLaDOS-GEOIP-TW-02_26, server: f1db81e.gb.gladns.com, port: 3383, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: github.com/mianfeifq+|GLaDOS-GEOIP-HK-03_150, server: f1db81e.gc.gladns.com, port: 3384, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq+-+美国Microsoft数据中心+7, server: kr1.qingyun123.xyz, port: 10050, type: trojan, password: d7ff202a-7f5b-4190-93cb-92e086d2ebdc, skip-cert-verify: true, udp: true}
+  - {name: CN 2, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: 韩国(绿头外网集团)(Public), server: 20.194.18.187, port: 80, type: vmess, uuid: a17ad3d8-6b83-4a57-8e4a-98b8be9fe72e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index.php, headers: {Host: telelink.cc}}, udp: true}
+  - {name: github.com/mianfeifq+|GLaDOS-N2-04_35, server: f1db81e.ne.gladns.com, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: "[Telelink]｜Singapore", server: 20.212.197.126, port: 443, type: trojan, password: b345dea8-d232-4aa5-8bec-517f78f986e3, sni: certificate.telelink.cc, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq+-+美国Microsoft数据中心+5, server: hknf1.qingyun123.xyz, port: 10050, type: trojan, password: d7ff202a-7f5b-4190-93cb-92e086d2ebdc, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public), server: 40.83.89.223, port: 443, type: trojan, password: b345dea8-d232-4aa5-8bec-517f78f986e3, sni: certificate.telelink.cc, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 3, server: hkml.fenglingcloud.com, port: 80, type: vmess, uuid: 5e4b27af-403f-44d4-9ff1-bdb2cb15fb9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkml.fenglingcloud.com}}, udp: true}
+  - {name: github.com/mianfeifq+|GLaDOS-GEOIP-SG-01_154, server: f1db81e.ga.gladns.com, port: 3385, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: 香港-tg频道:@ripaojiedian, server: bgp.kuli888.xyz, port: 52008, type: trojan, password: 0e4fb858-8b9b-3520-8910-310cac25e475, sni: az04asdcadcwcwqfrg.kulime.space, skip-cert-verify: true, udp: true}
+  - {name: github.com/mianfeifq+|GLaDOS-GEOIP-SG-02_155, server: f1db81e.gb.gladns.com, port: 3385, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public), server: 20.212.197.126, port: 443, type: trojan, password: a17ad3d8-6b83-4a57-8e4a-98b8be9fe72e, sni: certificate.telelink.cc, skip-cert-verify: true, udp: true}
+  - {name: github.com/mianfeifq+|GLaDOS-N2-02_165, server: f1db81e.nc.gladns.com, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: 马来西亚(绿头外网集团)(Public), server: c106d6z2q.mczu62b33.95bvz0g12.soabgo.com, port: 25003, type: vmess, uuid: 1AD7CB74-F19E-22E0-F5A6-C227CE5EE440, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 日本(yudou66.com+玉豆分享)
       - "[Telelink]｜Japan"
-      - 倾城极速.tk-🇯🇵JP-Openit.ml
-      - Relay_🏁ZZ-🇹🇼TW_4724
-      - github.com/freefq+-+美国++12
-      - 倾城极速.tk-🇭🇰HK-Openit.ml
+      - CN
+      - US
+      - github.com/mianfeifq+|GLaDOS-GEOIP-TW-02_26
+      - github.com/mianfeifq+|GLaDOS-GEOIP-HK-03_150
+      - github.com/freefq+-+美国Microsoft数据中心+7
+      - CN 2
+      - 韩国(绿头外网集团)(Public)
+      - github.com/mianfeifq+|GLaDOS-N2-04_35
+      - "[Telelink]｜Singapore"
+      - github.com/freefq+-+美国Microsoft数据中心+5
+      - 香港(绿头外网集团)(Public)
+      - github.com/freefq - 美国Microsoft数据中心 3
+      - github.com/mianfeifq+|GLaDOS-GEOIP-SG-01_154
+      - 香港-tg频道:@ripaojiedian
+      - github.com/mianfeifq+|GLaDOS-GEOIP-SG-02_155
+      - 新加坡(绿头外网集团)(Public)
+      - github.com/mianfeifq+|GLaDOS-N2-02_165
+      - 马来西亚(绿头外网集团)(Public)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 日本(yudou66.com+玉豆分享)
       - "[Telelink]｜Japan"
-      - 倾城极速.tk-🇯🇵JP-Openit.ml
-      - Relay_🏁ZZ-🇹🇼TW_4724
-      - github.com/freefq+-+美国++12
-      - 倾城极速.tk-🇭🇰HK-Openit.ml
+      - CN
+      - US
+      - github.com/mianfeifq+|GLaDOS-GEOIP-TW-02_26
+      - github.com/mianfeifq+|GLaDOS-GEOIP-HK-03_150
+      - github.com/freefq+-+美国Microsoft数据中心+7
+      - CN 2
+      - 韩国(绿头外网集团)(Public)
+      - github.com/mianfeifq+|GLaDOS-N2-04_35
+      - "[Telelink]｜Singapore"
+      - github.com/freefq+-+美国Microsoft数据中心+5
+      - 香港(绿头外网集团)(Public)
+      - github.com/freefq - 美国Microsoft数据中心 3
+      - github.com/mianfeifq+|GLaDOS-GEOIP-SG-01_154
+      - 香港-tg频道:@ripaojiedian
+      - github.com/mianfeifq+|GLaDOS-GEOIP-SG-02_155
+      - 新加坡(绿头外网集团)(Public)
+      - github.com/mianfeifq+|GLaDOS-N2-02_165
+      - 马来西亚(绿头外网集团)(Public)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 日本(yudou66.com+玉豆分享)
       - "[Telelink]｜Japan"
-      - 倾城极速.tk-🇯🇵JP-Openit.ml
-      - Relay_🏁ZZ-🇹🇼TW_4724
-      - github.com/freefq+-+美国++12
-      - 倾城极速.tk-🇭🇰HK-Openit.ml
+      - CN
+      - US
+      - github.com/mianfeifq+|GLaDOS-GEOIP-TW-02_26
+      - github.com/mianfeifq+|GLaDOS-GEOIP-HK-03_150
+      - github.com/freefq+-+美国Microsoft数据中心+7
+      - CN 2
+      - 韩国(绿头外网集团)(Public)
+      - github.com/mianfeifq+|GLaDOS-N2-04_35
+      - "[Telelink]｜Singapore"
+      - github.com/freefq+-+美国Microsoft数据中心+5
+      - 香港(绿头外网集团)(Public)
+      - github.com/freefq - 美国Microsoft数据中心 3
+      - github.com/mianfeifq+|GLaDOS-GEOIP-SG-01_154
+      - 香港-tg频道:@ripaojiedian
+      - github.com/mianfeifq+|GLaDOS-GEOIP-SG-02_155
+      - 新加坡(绿头外网集团)(Public)
+      - github.com/mianfeifq+|GLaDOS-N2-02_165
+      - 马来西亚(绿头外网集团)(Public)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,47 +120,109 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 日本(yudou66.com+玉豆分享)
       - "[Telelink]｜Japan"
-      - 倾城极速.tk-🇯🇵JP-Openit.ml
-      - Relay_🏁ZZ-🇹🇼TW_4724
-      - github.com/freefq+-+美国++12
-      - 倾城极速.tk-🇭🇰HK-Openit.ml
+      - CN
+      - US
+      - github.com/mianfeifq+|GLaDOS-GEOIP-TW-02_26
+      - github.com/mianfeifq+|GLaDOS-GEOIP-HK-03_150
+      - github.com/freefq+-+美国Microsoft数据中心+7
+      - CN 2
+      - 韩国(绿头外网集团)(Public)
+      - github.com/mianfeifq+|GLaDOS-N2-04_35
+      - "[Telelink]｜Singapore"
+      - github.com/freefq+-+美国Microsoft数据中心+5
+      - 香港(绿头外网集团)(Public)
+      - github.com/freefq - 美国Microsoft数据中心 3
+      - github.com/mianfeifq+|GLaDOS-GEOIP-SG-01_154
+      - 香港-tg频道:@ripaojiedian
+      - github.com/mianfeifq+|GLaDOS-GEOIP-SG-02_155
+      - 新加坡(绿头外网集团)(Public)
+      - github.com/mianfeifq+|GLaDOS-N2-02_165
+      - 马来西亚(绿头外网集团)(Public)
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港(绿头外网集团)(Public)
+      - 香港-tg频道:@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 日本(yudou66.com+玉豆分享)
       - "[Telelink]｜Japan"
-      - 倾城极速.tk-🇯🇵JP-Openit.ml
-      - Relay_🏁ZZ-🇹🇼TW_4724
-      - github.com/freefq+-+美国++12
-      - 倾城极速.tk-🇭🇰HK-Openit.ml
+      - CN
+      - US
+      - github.com/mianfeifq+|GLaDOS-GEOIP-TW-02_26
+      - github.com/mianfeifq+|GLaDOS-GEOIP-HK-03_150
+      - github.com/freefq+-+美国Microsoft数据中心+7
+      - CN 2
+      - 韩国(绿头外网集团)(Public)
+      - github.com/mianfeifq+|GLaDOS-N2-04_35
+      - "[Telelink]｜Singapore"
+      - github.com/freefq+-+美国Microsoft数据中心+5
+      - 香港(绿头外网集团)(Public)
+      - github.com/freefq - 美国Microsoft数据中心 3
+      - github.com/mianfeifq+|GLaDOS-GEOIP-SG-01_154
+      - 香港-tg频道:@ripaojiedian
+      - github.com/mianfeifq+|GLaDOS-GEOIP-SG-02_155
+      - 新加坡(绿头外网集团)(Public)
+      - github.com/mianfeifq+|GLaDOS-N2-02_165
+      - 马来西亚(绿头外网集团)(Public)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 日本(yudou66.com+玉豆分享)
       - "[Telelink]｜Japan"
-      - 倾城极速.tk-🇯🇵JP-Openit.ml
-      - Relay_🏁ZZ-🇹🇼TW_4724
-      - github.com/freefq+-+美国++12
-      - 倾城极速.tk-🇭🇰HK-Openit.ml
+      - CN
+      - US
+      - github.com/mianfeifq+|GLaDOS-GEOIP-TW-02_26
+      - github.com/mianfeifq+|GLaDOS-GEOIP-HK-03_150
+      - github.com/freefq+-+美国Microsoft数据中心+7
+      - CN 2
+      - 韩国(绿头外网集团)(Public)
+      - github.com/mianfeifq+|GLaDOS-N2-04_35
+      - "[Telelink]｜Singapore"
+      - github.com/freefq+-+美国Microsoft数据中心+5
+      - 香港(绿头外网集团)(Public)
+      - github.com/freefq - 美国Microsoft数据中心 3
+      - github.com/mianfeifq+|GLaDOS-GEOIP-SG-01_154
+      - 香港-tg频道:@ripaojiedian
+      - github.com/mianfeifq+|GLaDOS-GEOIP-SG-02_155
+      - 新加坡(绿头外网集团)(Public)
+      - github.com/mianfeifq+|GLaDOS-N2-02_165
+      - 马来西亚(绿头外网集团)(Public)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 日本(yudou66.com+玉豆分享)
       - "[Telelink]｜Japan"
-      - 倾城极速.tk-🇯🇵JP-Openit.ml
-      - Relay_🏁ZZ-🇹🇼TW_4724
-      - github.com/freefq+-+美国++12
-      - 倾城极速.tk-🇭🇰HK-Openit.ml
+      - CN
+      - US
+      - github.com/mianfeifq+|GLaDOS-GEOIP-TW-02_26
+      - github.com/mianfeifq+|GLaDOS-GEOIP-HK-03_150
+      - github.com/freefq+-+美国Microsoft数据中心+7
+      - CN 2
+      - 韩国(绿头外网集团)(Public)
+      - github.com/mianfeifq+|GLaDOS-N2-04_35
+      - "[Telelink]｜Singapore"
+      - github.com/freefq+-+美国Microsoft数据中心+5
+      - 香港(绿头外网集团)(Public)
+      - github.com/freefq - 美国Microsoft数据中心 3
+      - github.com/mianfeifq+|GLaDOS-GEOIP-SG-01_154
+      - 香港-tg频道:@ripaojiedian
+      - github.com/mianfeifq+|GLaDOS-GEOIP-SG-02_155
+      - 新加坡(绿头外网集团)(Public)
+      - github.com/mianfeifq+|GLaDOS-N2-02_165
+      - 马来西亚(绿头外网集团)(Public)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,11 +238,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 日本(yudou66.com+玉豆分享)
       - "[Telelink]｜Japan"
-      - 倾城极速.tk-🇯🇵JP-Openit.ml
-      - Relay_🏁ZZ-🇹🇼TW_4724
-      - github.com/freefq+-+美国++12
-      - 倾城极速.tk-🇭🇰HK-Openit.ml
+      - CN
+      - US
+      - github.com/mianfeifq+|GLaDOS-GEOIP-TW-02_26
+      - github.com/mianfeifq+|GLaDOS-GEOIP-HK-03_150
+      - github.com/freefq+-+美国Microsoft数据中心+7
+      - CN 2
+      - 韩国(绿头外网集团)(Public)
+      - github.com/mianfeifq+|GLaDOS-N2-04_35
+      - "[Telelink]｜Singapore"
+      - github.com/freefq+-+美国Microsoft数据中心+5
+      - 香港(绿头外网集团)(Public)
+      - github.com/freefq - 美国Microsoft数据中心 3
+      - github.com/mianfeifq+|GLaDOS-GEOIP-SG-01_154
+      - 香港-tg频道:@ripaojiedian
+      - github.com/mianfeifq+|GLaDOS-GEOIP-SG-02_155
+      - 新加坡(绿头外网集团)(Public)
+      - github.com/mianfeifq+|GLaDOS-N2-02_165
+      - 马来西亚(绿头外网集团)(Public)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
