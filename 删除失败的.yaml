@@ -5,71 +5,39 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: github.com/mianfeifq |🇨🇳_CN_中国->🇭🇰_HK_香港_12, server: hk01.xniuniu888.club, port: 30104, type: vmess, uuid: ef41958c-c145-3363-a332-20e9ec5e8a5c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq+-+美国Microsoft公司+7, server: nfjp1.qingyun123.xyz, port: 10000, type: trojan, password: 32ba9f2a-0a02-42aa-9e1c-040bc9813f12, skip-cert-verify: true, udp: true}
-  - {name: 东京-tg频道:@ripaojiedian, server: v2-1.godlight.xyz, port: 12232, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /j75g1461x, headers: {Host: v2-1.godlight.xyz}}, udp: true}
-  - {name: 新加坡-tg频道:@ripaojiedian, server: v2-2.godlight.xyz, port: 30526, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /54f634fs, headers: {Host: v2-2.godlight.xyz}}, udp: true}
-  - {name: US, server: kr2.qingyun123.xyz, port: 10050, type: trojan, password: 32ba9f2a-0a02-42aa-9e1c-040bc9813f12, sni: kr2.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇷🇺_RU_俄罗斯联邦, server: tw01.xniuniu888.club, port: 30139, type: vmess, uuid: ef41958c-c145-3363-a332-20e9ec5e8a5c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK, server: hknf2.qingyun123.xyz, port: 10070, type: trojan, password: bdc418fa-8124-40af-b932-ed9a3282961b, sni: hknf2.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: "github.com/mianfeifq+|🇰🇷,KR,[20_214_202_234],278_144", server: aead.tls.sksupersususu.dnsfree.top, port: 12345, type: trojan, password: a37a5947-0493-4a59-ba4c-5d36dd16063b, sni: aead.tls.sksupersususu.dnsfree.top, skip-cert-verify: true, udp: true}
-  - {name: RU, server: russia.okzdns.com, port: 33306, type: trojan, password: 413f2e36-0038-48e4-963a-a38c0007ef24, skip-cert-verify: true, udp: true}
-  - {name: 马来西亚丨tg频道:@ripaojiedian, server: malai01.kuli888.xyz, port: 52034, type: trojan, password: 213c766f-f446-3093-9b67-8e61b3d15780, sni: my.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: HK 2, server: azpf.okzdns.com, port: 26277, type: ss, cipher: aes-256-gcm, password: 413f2e36-0038-48e4-963a-a38c0007ef24, udp: true}
-  - {name: 韩国-频道不定期发其他节点, server: v2-4.godlight.xyz, port: 50491, type: vmess, uuid: 07ea283e-bbe8-466f-a268-c5819763a9bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /g1641hvx, headers: {Host: v2-4.godlight.xyz}}, udp: true}
+  - {name: Relay_Relay_Relay__10.96Mb, server: tw01.xniuniu888.club, port: 30139, type: vmess, uuid: ef41958c-c145-3363-a332-20e9ec5e8a5c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: RU, server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
+  - {name: github.com/mianfeifq+|+_香港+02_15, server: gyazm.susenl.com, port: 10030, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: true, udp: true}
+  - {name: 香港节点tg频道:@ripaojiedian, server: az0.1.leka.one, port: 30011, type: ss, cipher: aes-256-gcm, password: 96988de9-5596-4b31-b8f7-ee40a6d25a1c, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/mianfeifq |🇨🇳_CN_中国->🇭🇰_HK_香港_12
-      - github.com/freefq+-+美国Microsoft公司+7
-      - 东京-tg频道:@ripaojiedian
-      - 新加坡-tg频道:@ripaojiedian
-      - US
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - HK
-      - github.com/mianfeifq+|🇰🇷,KR,[20_214_202_234],278_144
+      - Relay_Relay_Relay__10.96Mb
       - RU
-      - 马来西亚丨tg频道:@ripaojiedian
-      - HK 2
-      - 韩国-频道不定期发其他节点
+      - github.com/mianfeifq+|+_香港+02_15
+      - 香港节点tg频道:@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - github.com/mianfeifq |🇨🇳_CN_中国->🇭🇰_HK_香港_12
-      - github.com/freefq+-+美国Microsoft公司+7
-      - 东京-tg频道:@ripaojiedian
-      - 新加坡-tg频道:@ripaojiedian
-      - US
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - HK
-      - github.com/mianfeifq+|🇰🇷,KR,[20_214_202_234],278_144
+      - Relay_Relay_Relay__10.96Mb
       - RU
-      - 马来西亚丨tg频道:@ripaojiedian
-      - HK 2
-      - 韩国-频道不定期发其他节点
+      - github.com/mianfeifq+|+_香港+02_15
+      - 香港节点tg频道:@ripaojiedian
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/mianfeifq |🇨🇳_CN_中国->🇭🇰_HK_香港_12
-      - github.com/freefq+-+美国Microsoft公司+7
-      - 东京-tg频道:@ripaojiedian
-      - 新加坡-tg频道:@ripaojiedian
-      - US
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - HK
-      - github.com/mianfeifq+|🇰🇷,KR,[20_214_202_234],278_144
+      - Relay_Relay_Relay__10.96Mb
       - RU
-      - 马来西亚丨tg频道:@ripaojiedian
-      - HK 2
-      - 韩国-频道不定期发其他节点
+      - github.com/mianfeifq+|+_香港+02_15
+      - 香港节点tg频道:@ripaojiedian
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -88,76 +56,45 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/mianfeifq |🇨🇳_CN_中国->🇭🇰_HK_香港_12
-      - github.com/freefq+-+美国Microsoft公司+7
-      - 东京-tg频道:@ripaojiedian
-      - 新加坡-tg频道:@ripaojiedian
-      - US
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - HK
-      - github.com/mianfeifq+|🇰🇷,KR,[20_214_202_234],278_144
+      - Relay_Relay_Relay__10.96Mb
       - RU
-      - 马来西亚丨tg频道:@ripaojiedian
-      - HK 2
-      - 韩国-频道不定期发其他节点
+      - github.com/mianfeifq+|+_香港+02_15
+      - 香港节点tg频道:@ripaojiedian
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - github.com/mianfeifq |🇨🇳_CN_中国->🇭🇰_HK_香港_12
+      - github.com/mianfeifq+|+_香港+02_15
+      - 香港节点tg频道:@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - github.com/mianfeifq |🇨🇳_CN_中国->🇭🇰_HK_香港_12
-      - github.com/freefq+-+美国Microsoft公司+7
-      - 东京-tg频道:@ripaojiedian
-      - 新加坡-tg频道:@ripaojiedian
-      - US
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - HK
-      - github.com/mianfeifq+|🇰🇷,KR,[20_214_202_234],278_144
+      - Relay_Relay_Relay__10.96Mb
       - RU
-      - 马来西亚丨tg频道:@ripaojiedian
-      - HK 2
-      - 韩国-频道不定期发其他节点
+      - github.com/mianfeifq+|+_香港+02_15
+      - 香港节点tg频道:@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - github.com/mianfeifq |🇨🇳_CN_中国->🇭🇰_HK_香港_12
-      - github.com/freefq+-+美国Microsoft公司+7
-      - 东京-tg频道:@ripaojiedian
-      - 新加坡-tg频道:@ripaojiedian
-      - US
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - HK
-      - github.com/mianfeifq+|🇰🇷,KR,[20_214_202_234],278_144
+      - Relay_Relay_Relay__10.96Mb
       - RU
-      - 马来西亚丨tg频道:@ripaojiedian
-      - HK 2
-      - 韩国-频道不定期发其他节点
+      - github.com/mianfeifq+|+_香港+02_15
+      - 香港节点tg频道:@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/mianfeifq |🇨🇳_CN_中国->🇭🇰_HK_香港_12
-      - github.com/freefq+-+美国Microsoft公司+7
-      - 东京-tg频道:@ripaojiedian
-      - 新加坡-tg频道:@ripaojiedian
-      - US
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - HK
-      - github.com/mianfeifq+|🇰🇷,KR,[20_214_202_234],278_144
+      - Relay_Relay_Relay__10.96Mb
       - RU
-      - 马来西亚丨tg频道:@ripaojiedian
-      - HK 2
-      - 韩国-频道不定期发其他节点
+      - github.com/mianfeifq+|+_香港+02_15
+      - 香港节点tg频道:@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -173,18 +110,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/mianfeifq |🇨🇳_CN_中国->🇭🇰_HK_香港_12
-      - github.com/freefq+-+美国Microsoft公司+7
-      - 东京-tg频道:@ripaojiedian
-      - 新加坡-tg频道:@ripaojiedian
-      - US
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - HK
-      - github.com/mianfeifq+|🇰🇷,KR,[20_214_202_234],278_144
+      - Relay_Relay_Relay__10.96Mb
       - RU
-      - 马来西亚丨tg频道:@ripaojiedian
-      - HK 2
-      - 韩国-频道不定期发其他节点
+      - github.com/mianfeifq+|+_香港+02_15
+      - 香港节点tg频道:@ripaojiedian
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
