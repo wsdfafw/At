@@ -5,39 +5,71 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开）+7, server: 120.232.173.119, port: 20003, type: trojan, password: e511e8c9-fa7a-3441-82ad-5219e9d47213, sni: node.franxx.codes, skip-cert-verify: true, udp: true}
-  - {name: _YouTube阿伟科技 152, server: 20.24.83.247, port: 80, type: vmess, uuid: 296c78e7-c4d7-456b-805a-3db82fe06edc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 香港2-tg频道:@ripaojiedian, server: 119.147.20.236, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
   - {name: mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3, server: in02.dns2333.xyz, port: 63086, type: vmess, uuid: e701a942-fba5-3381-b15e-2838689b9c23, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: in02.dns2333.xyz}}, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开）+6, server: 120.232.173.119, port: 20004, type: trojan, password: e511e8c9-fa7a-3441-82ad-5219e9d47213, sni: node.franxx.codes, skip-cert-verify: true, udp: true}
+  - {name: TG频道|https://t.me/getv2ray|3号, server: v2-2.godlight.xyz, port: 30520, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /54f634fs, headers: {Host: v2-2.godlight.xyz}}, udp: true}
+  - {name: 台湾原生-tg频道:@ripaojiedian, server: guangzhou.kuli888.xyz, port: 52004, type: trojan, password: 54acbfdc-34ec-3d72-8182-3b437e4747eb, sni: tw02.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: 中国_9, server: 120.232.192.250, port: 3384, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开）+9, server: 120.232.173.119, port: 20001, type: trojan, password: e511e8c9-fa7a-3441-82ad-5219e9d47213, sni: node.franxx.codes, skip-cert-verify: true, udp: true}
+  - {name: mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_15, server: in03.dns2333.xyz, port: 63086, type: vmess, uuid: e701a942-fba5-3381-b15e-2838689b9c23, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: in03.dns2333.xyz}}, udp: true}
+  - {name: _YouTube阿伟科技+10, server: hknf1.qingyun123.xyz, port: 10050, type: trojan, password: 868f097d-cb8d-4d37-beb4-a0c84d82b8bf, sni: hknf1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 倾城极速.tk-🇹🇼TW-Openit.ml, server: taiwjing.kuli888.xyz, port: 520, type: trojan, password: 54acbfdc-34ec-3d72-8182-3b437e4747eb, skip-cert-verify: true, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开）+7, server: 120.232.173.119, port: 20003, type: trojan, password: e511e8c9-fa7a-3441-82ad-5219e9d47213, sni: node.franxx.codes, skip-cert-verify: true, udp: true}
+  - {name: 香港节点tg频道:@ripaojiedian, server: hk5.fdns.cloudlink123.com, port: 80, type: vmess, uuid: ed381a5b-0f6b-4e0d-8859-f0c96f99ea43, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk5.fdns.cloudlink123.com}}, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public), server: y118s2gt.ted1.xyz, port: 26522, type: trojan, password: dc838a4f-4b2d-3cca-a82f-8f1f0963929e, sni: pkg.biligame.info, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）+7
-      - _YouTube阿伟科技 152
+      - 香港2-tg频道:@ripaojiedian
       - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）+6
+      - TG频道|https://t.me/getv2ray|3号
+      - 台湾原生-tg频道:@ripaojiedian
+      - 中国_9
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+9
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_15
+      - _YouTube阿伟科技+10
+      - 倾城极速.tk-🇹🇼TW-Openit.ml
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+7
+      - 香港节点tg频道:@ripaojiedian
+      - 新加坡(绿头外网集团)(Public)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）+7
-      - _YouTube阿伟科技 152
+      - 香港2-tg频道:@ripaojiedian
       - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）+6
+      - TG频道|https://t.me/getv2ray|3号
+      - 台湾原生-tg频道:@ripaojiedian
+      - 中国_9
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+9
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_15
+      - _YouTube阿伟科技+10
+      - 倾城极速.tk-🇹🇼TW-Openit.ml
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+7
+      - 香港节点tg频道:@ripaojiedian
+      - 新加坡(绿头外网集团)(Public)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）+7
-      - _YouTube阿伟科技 152
+      - 香港2-tg频道:@ripaojiedian
       - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）+6
+      - TG频道|https://t.me/getv2ray|3号
+      - 台湾原生-tg频道:@ripaojiedian
+      - 中国_9
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+9
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_15
+      - _YouTube阿伟科技+10
+      - 倾城极速.tk-🇹🇼TW-Openit.ml
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+7
+      - 香港节点tg频道:@ripaojiedian
+      - 新加坡(绿头外网集团)(Public)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -56,44 +88,80 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）+7
-      - _YouTube阿伟科技 152
+      - 香港2-tg频道:@ripaojiedian
       - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）+6
+      - TG频道|https://t.me/getv2ray|3号
+      - 台湾原生-tg频道:@ripaojiedian
+      - 中国_9
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+9
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_15
+      - _YouTube阿伟科技+10
+      - 倾城极速.tk-🇹🇼TW-Openit.ml
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+7
+      - 香港节点tg频道:@ripaojiedian
+      - 新加坡(绿头外网集团)(Public)
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港2-tg频道:@ripaojiedian
       - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
+      - 台湾原生-tg频道:@ripaojiedian
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_15
+      - 香港节点tg频道:@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）+7
-      - _YouTube阿伟科技 152
+      - 香港2-tg频道:@ripaojiedian
       - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）+6
+      - TG频道|https://t.me/getv2ray|3号
+      - 台湾原生-tg频道:@ripaojiedian
+      - 中国_9
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+9
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_15
+      - _YouTube阿伟科技+10
+      - 倾城极速.tk-🇹🇼TW-Openit.ml
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+7
+      - 香港节点tg频道:@ripaojiedian
+      - 新加坡(绿头外网集团)(Public)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）+7
-      - _YouTube阿伟科技 152
+      - 香港2-tg频道:@ripaojiedian
       - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）+6
+      - TG频道|https://t.me/getv2ray|3号
+      - 台湾原生-tg频道:@ripaojiedian
+      - 中国_9
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+9
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_15
+      - _YouTube阿伟科技+10
+      - 倾城极速.tk-🇹🇼TW-Openit.ml
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+7
+      - 香港节点tg频道:@ripaojiedian
+      - 新加坡(绿头外网集团)(Public)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）+7
-      - _YouTube阿伟科技 152
+      - 香港2-tg频道:@ripaojiedian
       - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）+6
+      - TG频道|https://t.me/getv2ray|3号
+      - 台湾原生-tg频道:@ripaojiedian
+      - 中国_9
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+9
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_15
+      - _YouTube阿伟科技+10
+      - 倾城极速.tk-🇹🇼TW-Openit.ml
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+7
+      - 香港节点tg频道:@ripaojiedian
+      - 新加坡(绿头外网集团)(Public)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -109,10 +177,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）+7
-      - _YouTube阿伟科技 152
+      - 香港2-tg频道:@ripaojiedian
       - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）+6
+      - TG频道|https://t.me/getv2ray|3号
+      - 台湾原生-tg频道:@ripaojiedian
+      - 中国_9
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+9
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_15
+      - _YouTube阿伟科技+10
+      - 倾城极速.tk-🇹🇼TW-Openit.ml
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+7
+      - 香港节点tg频道:@ripaojiedian
+      - 新加坡(绿头外网集团)(Public)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
