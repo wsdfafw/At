@@ -5,39 +5,71 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_Relay_Relay__10.96Mb, server: tw01.xniuniu888.club, port: 30139, type: vmess, uuid: ef41958c-c145-3363-a332-20e9ec5e8a5c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: RU, server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
-  - {name: github.com/mianfeifq+|+_香港+02_15, server: gyazm.susenl.com, port: 10030, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: true, udp: true}
-  - {name: 香港节点tg频道:@ripaojiedian, server: az0.1.leka.one, port: 30011, type: ss, cipher: aes-256-gcm, password: 96988de9-5596-4b31-b8f7-ee40a6d25a1c, udp: true}
+  - {name: github.com/mianfeifq+|倾城极速_tk-🇨🇳CN-Openit_ml_39, server: y117s1gt.ted1.xyz, port: 26521, type: trojan, password: dc838a4f-4b2d-3cca-a82f-8f1f0963929e, skip-cert-verify: true, udp: true}
+  - {name: mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3, server: in02.dns2333.xyz, port: 63086, type: vmess, uuid: e701a942-fba5-3381-b15e-2838689b9c23, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: in02.dns2333.xyz}}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3649, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: true, udp: true}
+  - {name: CN, server: l125j4pt.ted1.xyz, port: 26534, type: trojan, password: dc838a4f-4b2d-3cca-a82f-8f1f0963929e, sni: pkg.biligame.info, skip-cert-verify: true, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开）+6, server: 120.232.173.119, port: 20004, type: trojan, password: e511e8c9-fa7a-3441-82ad-5219e9d47213, sni: node.franxx.codes, skip-cert-verify: true, udp: true}
+  - {name: 美国(绿头外网集团)(Public), server: l129u2st.ted1.xyz, port: 26552, type: trojan, password: dc838a4f-4b2d-3cca-a82f-8f1f0963929e, sni: pkg.biligame.info, skip-cert-verify: true, udp: true}
+  - {name: TG频道|https://t.me/getv2ray|3号, server: v2-2.godlight.xyz, port: 30520, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /54f634fs, headers: {Host: v2-2.godlight.xyz}}, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_14, server: in-v1.sdgdn.com, port: 50401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开）+7, server: 120.232.173.119, port: 20003, type: trojan, password: e511e8c9-fa7a-3441-82ad-5219e9d47213, sni: node.franxx.codes, skip-cert-verify: true, udp: true}
+  - {name: _YouTube阿伟科技+10, server: hknf1.qingyun123.xyz, port: 10050, type: trojan, password: 868f097d-cb8d-4d37-beb4-a0c84d82b8bf, sni: hknf1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: github.com/mianfeifq |bulink自建免费15线三网_4, server: la40.bulink.xyz.fobzs.com, port: 10908, type: vmess, uuid: 38366055-cf3f-4db0-821b-07b09c3e3cab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _YouTube阿伟科技 152, server: 20.24.83.247, port: 80, type: vmess, uuid: 296c78e7-c4d7-456b-805a-3db82fe06edc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_Relay_Relay__10.96Mb
-      - RU
-      - github.com/mianfeifq+|+_香港+02_15
-      - 香港节点tg频道:@ripaojiedian
+      - github.com/mianfeifq+|倾城极速_tk-🇨🇳CN-Openit_ml_39
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
+      - Relay_🇺🇸US-🇺🇸US_3649
+      - CN
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+6
+      - 美国(绿头外网集团)(Public)
+      - TG频道|https://t.me/getv2ray|3号
+      - Relay_🇨🇳CN-🇺🇸US_14
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+7
+      - _YouTube阿伟科技+10
+      - github.com/mianfeifq |bulink自建免费15线三网_4
+      - _YouTube阿伟科技 152
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_Relay_Relay__10.96Mb
-      - RU
-      - github.com/mianfeifq+|+_香港+02_15
-      - 香港节点tg频道:@ripaojiedian
+      - github.com/mianfeifq+|倾城极速_tk-🇨🇳CN-Openit_ml_39
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
+      - Relay_🇺🇸US-🇺🇸US_3649
+      - CN
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+6
+      - 美国(绿头外网集团)(Public)
+      - TG频道|https://t.me/getv2ray|3号
+      - Relay_🇨🇳CN-🇺🇸US_14
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+7
+      - _YouTube阿伟科技+10
+      - github.com/mianfeifq |bulink自建免费15线三网_4
+      - _YouTube阿伟科技 152
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_Relay_Relay__10.96Mb
-      - RU
-      - github.com/mianfeifq+|+_香港+02_15
-      - 香港节点tg频道:@ripaojiedian
+      - github.com/mianfeifq+|倾城极速_tk-🇨🇳CN-Openit_ml_39
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
+      - Relay_🇺🇸US-🇺🇸US_3649
+      - CN
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+6
+      - 美国(绿头外网集团)(Public)
+      - TG频道|https://t.me/getv2ray|3号
+      - Relay_🇨🇳CN-🇺🇸US_14
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+7
+      - _YouTube阿伟科技+10
+      - github.com/mianfeifq |bulink自建免费15线三网_4
+      - _YouTube阿伟科技 152
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -56,45 +88,76 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_Relay_Relay__10.96Mb
-      - RU
-      - github.com/mianfeifq+|+_香港+02_15
-      - 香港节点tg频道:@ripaojiedian
+      - github.com/mianfeifq+|倾城极速_tk-🇨🇳CN-Openit_ml_39
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
+      - Relay_🇺🇸US-🇺🇸US_3649
+      - CN
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+6
+      - 美国(绿头外网集团)(Public)
+      - TG频道|https://t.me/getv2ray|3号
+      - Relay_🇨🇳CN-🇺🇸US_14
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+7
+      - _YouTube阿伟科技+10
+      - github.com/mianfeifq |bulink自建免费15线三网_4
+      - _YouTube阿伟科技 152
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - github.com/mianfeifq+|+_香港+02_15
-      - 香港节点tg频道:@ripaojiedian
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_Relay_Relay__10.96Mb
-      - RU
-      - github.com/mianfeifq+|+_香港+02_15
-      - 香港节点tg频道:@ripaojiedian
+      - github.com/mianfeifq+|倾城极速_tk-🇨🇳CN-Openit_ml_39
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
+      - Relay_🇺🇸US-🇺🇸US_3649
+      - CN
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+6
+      - 美国(绿头外网集团)(Public)
+      - TG频道|https://t.me/getv2ray|3号
+      - Relay_🇨🇳CN-🇺🇸US_14
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+7
+      - _YouTube阿伟科技+10
+      - github.com/mianfeifq |bulink自建免费15线三网_4
+      - _YouTube阿伟科技 152
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_Relay_Relay__10.96Mb
-      - RU
-      - github.com/mianfeifq+|+_香港+02_15
-      - 香港节点tg频道:@ripaojiedian
+      - github.com/mianfeifq+|倾城极速_tk-🇨🇳CN-Openit_ml_39
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
+      - Relay_🇺🇸US-🇺🇸US_3649
+      - CN
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+6
+      - 美国(绿头外网集团)(Public)
+      - TG频道|https://t.me/getv2ray|3号
+      - Relay_🇨🇳CN-🇺🇸US_14
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+7
+      - _YouTube阿伟科技+10
+      - github.com/mianfeifq |bulink自建免费15线三网_4
+      - _YouTube阿伟科技 152
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_Relay_Relay__10.96Mb
-      - RU
-      - github.com/mianfeifq+|+_香港+02_15
-      - 香港节点tg频道:@ripaojiedian
+      - github.com/mianfeifq+|倾城极速_tk-🇨🇳CN-Openit_ml_39
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
+      - Relay_🇺🇸US-🇺🇸US_3649
+      - CN
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+6
+      - 美国(绿头外网集团)(Public)
+      - TG频道|https://t.me/getv2ray|3号
+      - Relay_🇨🇳CN-🇺🇸US_14
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+7
+      - _YouTube阿伟科技+10
+      - github.com/mianfeifq |bulink自建免费15线三网_4
+      - _YouTube阿伟科技 152
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -110,10 +173,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_Relay_Relay__10.96Mb
-      - RU
-      - github.com/mianfeifq+|+_香港+02_15
-      - 香港节点tg频道:@ripaojiedian
+      - github.com/mianfeifq+|倾城极速_tk-🇨🇳CN-Openit_ml_39
+      - mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
+      - Relay_🇺🇸US-🇺🇸US_3649
+      - CN
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+6
+      - 美国(绿头外网集团)(Public)
+      - TG频道|https://t.me/getv2ray|3号
+      - Relay_🇨🇳CN-🇺🇸US_14
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）+7
+      - _YouTube阿伟科技+10
+      - github.com/mianfeifq |bulink自建免费15线三网_4
+      - _YouTube阿伟科技 152
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
