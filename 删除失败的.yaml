@@ -5,103 +5,55 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 台中市_4, server: 60.249.3.231, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: TW-Openit.ml, server: 60.249.3.125, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: TW_8du.shop, server: 211.72.35.153, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop, server: 116.129.253.134, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 2, server: 116.129.253.187, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: 日本1-tg频道:@ripaojiedian, server: sh.circlecloud123.com, port: 40003, type: vmess, uuid: a41cfa14-5227-4f64-8578-9f55b75b9ba0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sh.circlecloud123.com}}, udp: true}
   - {name: https://t.me/bpjzx2, server: 116.129.253.177, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public), server: 116.129.254.29, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 2, server: 116.129.254.47, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 3, server: 116.129.253.227, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 3, server: 116.129.253.187, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: CN-Openit.ml, server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 中国_8, server: 116.129.253.134, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: RU, server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
-  - {name: github.com/mianfeifq+|♥️YouTube梦歌♥️_92, server: 60.249.3.226, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 台湾(绿头外网集团)(Public), server: 116.129.253.227, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: HK-Openit.ml, server: hk4.fdns.unino.tech, port: 443, type: vmess, uuid: 12e9f5f8-e087-4dfb-8cab-fe8f02e53c5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk4.fdns.unino.tech}}, udp: true}
-  - {name: CN_8du.shop 4, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 912ebb9f-7c7a-4ee2-b9c9-5c2a87280c2e, skip-cert-verify: true, udp: true}
-  - {name: CN, server: 116.129.253.201, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
-  - {name: github.com/mianfeifq+|🇨🇳_CN_中国->🇸🇬_SG_新加坡_9, server: 116.129.253.177, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
-  - {name: US_40, server: 45.76.168.79, port: 62969, type: vmess, uuid: 14c7249a-bda0-11ec-9317-560003f3536b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /W40anfFp/}, udp: true}
+  - {name: 台湾原生-tg频道:@ripaojiedian, server: guangzhou.kuli888.xyz, port: 52004, type: trojan, password: 54acbfdc-34ec-3d72-8182-3b437e4747eb, sni: tw02.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_40, server: 116.129.253.227, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: 新加坡_3, server: 116.129.253.227, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_51, server: 120.232.192.250, port: 3385, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public), server: 116.129.253.187, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 2, server: 116.129.253.191, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 台中市_4
-      - TW-Openit.ml
-      - TW_8du.shop
-      - CN_8du.shop
-      - CN_8du.shop 2
+      - 日本1-tg频道:@ripaojiedian
       - https://t.me/bpjzx2
+      - 台湾原生-tg频道:@ripaojiedian
+      - Relay_🇨🇳CN-🇹🇼TW_40
+      - 新加坡_3
+      - Relay_🇨🇳CN-🇹🇼TW_51
       - 新加坡(绿头外网集团)(Public)
       - 新加坡(绿头外网集团)(Public) 2
-      - CN_8du.shop 3
-      - 新加坡(绿头外网集团)(Public) 3
-      - CN-Openit.ml
-      - 中国_8
-      - RU
-      - github.com/mianfeifq+|♥️YouTube梦歌♥️_92
-      - 台湾(绿头外网集团)(Public)
-      - HK-Openit.ml
-      - CN_8du.shop 4
-      - CN
-      - github.com/mianfeifq+|🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - US_40
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 台中市_4
-      - TW-Openit.ml
-      - TW_8du.shop
-      - CN_8du.shop
-      - CN_8du.shop 2
+      - 日本1-tg频道:@ripaojiedian
       - https://t.me/bpjzx2
+      - 台湾原生-tg频道:@ripaojiedian
+      - Relay_🇨🇳CN-🇹🇼TW_40
+      - 新加坡_3
+      - Relay_🇨🇳CN-🇹🇼TW_51
       - 新加坡(绿头外网集团)(Public)
       - 新加坡(绿头外网集团)(Public) 2
-      - CN_8du.shop 3
-      - 新加坡(绿头外网集团)(Public) 3
-      - CN-Openit.ml
-      - 中国_8
-      - RU
-      - github.com/mianfeifq+|♥️YouTube梦歌♥️_92
-      - 台湾(绿头外网集团)(Public)
-      - HK-Openit.ml
-      - CN_8du.shop 4
-      - CN
-      - github.com/mianfeifq+|🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - US_40
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 台中市_4
-      - TW-Openit.ml
-      - TW_8du.shop
-      - CN_8du.shop
-      - CN_8du.shop 2
+      - 日本1-tg频道:@ripaojiedian
       - https://t.me/bpjzx2
+      - 台湾原生-tg频道:@ripaojiedian
+      - Relay_🇨🇳CN-🇹🇼TW_40
+      - 新加坡_3
+      - Relay_🇨🇳CN-🇹🇼TW_51
       - 新加坡(绿头外网集团)(Public)
       - 新加坡(绿头外网集团)(Public) 2
-      - CN_8du.shop 3
-      - 新加坡(绿头外网集团)(Public) 3
-      - CN-Openit.ml
-      - 中国_8
-      - RU
-      - github.com/mianfeifq+|♥️YouTube梦歌♥️_92
-      - 台湾(绿头外网集团)(Public)
-      - HK-Openit.ml
-      - CN_8du.shop 4
-      - CN
-      - github.com/mianfeifq+|🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - US_40
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -120,109 +72,60 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 台中市_4
-      - TW-Openit.ml
-      - TW_8du.shop
-      - CN_8du.shop
-      - CN_8du.shop 2
+      - 日本1-tg频道:@ripaojiedian
       - https://t.me/bpjzx2
+      - 台湾原生-tg频道:@ripaojiedian
+      - Relay_🇨🇳CN-🇹🇼TW_40
+      - 新加坡_3
+      - Relay_🇨🇳CN-🇹🇼TW_51
       - 新加坡(绿头外网集团)(Public)
       - 新加坡(绿头外网集团)(Public) 2
-      - CN_8du.shop 3
-      - 新加坡(绿头外网集团)(Public) 3
-      - CN-Openit.ml
-      - 中国_8
-      - RU
-      - github.com/mianfeifq+|♥️YouTube梦歌♥️_92
-      - 台湾(绿头外网集团)(Public)
-      - HK-Openit.ml
-      - CN_8du.shop 4
-      - CN
-      - github.com/mianfeifq+|🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - US_40
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台中市_4
-      - 台湾(绿头外网集团)(Public)
+      - 台湾原生-tg频道:@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 台中市_4
-      - TW-Openit.ml
-      - TW_8du.shop
-      - CN_8du.shop
-      - CN_8du.shop 2
+      - 日本1-tg频道:@ripaojiedian
       - https://t.me/bpjzx2
+      - 台湾原生-tg频道:@ripaojiedian
+      - Relay_🇨🇳CN-🇹🇼TW_40
+      - 新加坡_3
+      - Relay_🇨🇳CN-🇹🇼TW_51
       - 新加坡(绿头外网集团)(Public)
       - 新加坡(绿头外网集团)(Public) 2
-      - CN_8du.shop 3
-      - 新加坡(绿头外网集团)(Public) 3
-      - CN-Openit.ml
-      - 中国_8
-      - RU
-      - github.com/mianfeifq+|♥️YouTube梦歌♥️_92
-      - 台湾(绿头外网集团)(Public)
-      - HK-Openit.ml
-      - CN_8du.shop 4
-      - CN
-      - github.com/mianfeifq+|🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - US_40
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 台中市_4
-      - TW-Openit.ml
-      - TW_8du.shop
-      - CN_8du.shop
-      - CN_8du.shop 2
+      - 日本1-tg频道:@ripaojiedian
       - https://t.me/bpjzx2
+      - 台湾原生-tg频道:@ripaojiedian
+      - Relay_🇨🇳CN-🇹🇼TW_40
+      - 新加坡_3
+      - Relay_🇨🇳CN-🇹🇼TW_51
       - 新加坡(绿头外网集团)(Public)
       - 新加坡(绿头外网集团)(Public) 2
-      - CN_8du.shop 3
-      - 新加坡(绿头外网集团)(Public) 3
-      - CN-Openit.ml
-      - 中国_8
-      - RU
-      - github.com/mianfeifq+|♥️YouTube梦歌♥️_92
-      - 台湾(绿头外网集团)(Public)
-      - HK-Openit.ml
-      - CN_8du.shop 4
-      - CN
-      - github.com/mianfeifq+|🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - US_40
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 台中市_4
-      - TW-Openit.ml
-      - TW_8du.shop
-      - CN_8du.shop
-      - CN_8du.shop 2
+      - 日本1-tg频道:@ripaojiedian
       - https://t.me/bpjzx2
+      - 台湾原生-tg频道:@ripaojiedian
+      - Relay_🇨🇳CN-🇹🇼TW_40
+      - 新加坡_3
+      - Relay_🇨🇳CN-🇹🇼TW_51
       - 新加坡(绿头外网集团)(Public)
       - 新加坡(绿头外网集团)(Public) 2
-      - CN_8du.shop 3
-      - 新加坡(绿头外网集团)(Public) 3
-      - CN-Openit.ml
-      - 中国_8
-      - RU
-      - github.com/mianfeifq+|♥️YouTube梦歌♥️_92
-      - 台湾(绿头外网集团)(Public)
-      - HK-Openit.ml
-      - CN_8du.shop 4
-      - CN
-      - github.com/mianfeifq+|🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - US_40
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -238,26 +141,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 台中市_4
-      - TW-Openit.ml
-      - TW_8du.shop
-      - CN_8du.shop
-      - CN_8du.shop 2
+      - 日本1-tg频道:@ripaojiedian
       - https://t.me/bpjzx2
+      - 台湾原生-tg频道:@ripaojiedian
+      - Relay_🇨🇳CN-🇹🇼TW_40
+      - 新加坡_3
+      - Relay_🇨🇳CN-🇹🇼TW_51
       - 新加坡(绿头外网集团)(Public)
       - 新加坡(绿头外网集团)(Public) 2
-      - CN_8du.shop 3
-      - 新加坡(绿头外网集团)(Public) 3
-      - CN-Openit.ml
-      - 中国_8
-      - RU
-      - github.com/mianfeifq+|♥️YouTube梦歌♥️_92
-      - 台湾(绿头外网集团)(Public)
-      - HK-Openit.ml
-      - CN_8du.shop 4
-      - CN
-      - github.com/mianfeifq+|🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
-      - US_40
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
