@@ -5,55 +5,147 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 日本1-tg频道:@ripaojiedian, server: sh.circlecloud123.com, port: 40003, type: vmess, uuid: a41cfa14-5227-4f64-8578-9f55b75b9ba0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sh.circlecloud123.com}}, udp: true}
+  - {name: github.com/mianfeifq+|翻墙党fanqiangdang_com_5, server: 144.24.76.223, port: 44600, type: trojan, password: 57e797a5-9a1d-4a26-b658-91fbf97f7741, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: CN_8du.shop 2, server: 116.129.253.134, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public), server: 116.129.254.29, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇦CA-🇨🇦CA_08, server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
   - {name: https://t.me/bpjzx2, server: 116.129.253.177, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: 台湾原生-tg频道:@ripaojiedian, server: guangzhou.kuli888.xyz, port: 52004, type: trojan, password: 54acbfdc-34ec-3d72-8182-3b437e4747eb, sni: tw02.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit.ml, server: 116.129.253.134, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 2, server: 116.129.254.47, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 3, server: 116.129.253.187, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: NONE, server: 116.129.253.177, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
+  - {name: github.com/mianfeifq+|翻墙党fanqiangdang_com_3, server: 129.154.53.120, port: 44600, type: trojan, password: 57e797a5-9a1d-4a26-b658-91fbf97f7741, skip-cert-verify: true, udp: true}
   - {name: Relay_🇨🇳CN-🇹🇼TW_40, server: 116.129.253.227, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: github.com/mianfeifq+|Relay_🇨🇳CN+_40_45Mb_22, server: 116.129.253.130, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: US_244, server: superjapan1111.dnsfree.top, port: 12387, type: trojan, password: 44d62787-1cbf-42aa-99d7-21e9bcdb1c24, skip-cert-verify: true, udp: true}
+  - {name: 新加坡-tg频道:@ripaojiedian, server: v2-2.godlight.xyz, port: 30523, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /54f634fs, headers: {Host: v2-2.godlight.xyz}}, udp: true}
+  - {name: 东京-tg频道:@ripaojiedian, server: v2.godlight.xyz, port: 26933, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /f34f3-f32f364, headers: {Host: v2.godlight.xyz}}, udp: true}
+  - {name: CN_8du.shop 4, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 3, server: 116.129.253.187, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
   - {name: 新加坡_3, server: 116.129.253.227, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: (Youtube/TG：俊佳科技JJ)_🇨🇳_中国_18, server: 116.129.253.177, port: 3389, type: trojan, password: a3c6461972471c75, skip-cert-verify: true, udp: true}
+  - {name: github.com/mianfeifq+|韩国（TGat阿伟科技/油管）_8, server: kr1.qingyun123.xyz, port: 10050, type: trojan, password: e7bfb243-785a-46a5-9fb1-5f67737aa972, skip-cert-verify: true, udp: true}
+  - {name: github.com/mianfeifq+|新加坡_4, server: 5.44.249.43, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 北美地区  7, server: 107.173.86.27, port: 40459, type: vmess, uuid: e3a3f29a-df4f-4db1-aae0-79ed59866b2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港1-tg频道:@ripaojiedian, server: hk4.fdns.unino.tech, port: 443, type: vmess, uuid: ed7c982a-ff74-4dd3-9f6c-155ec13b67ab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk4.fdns.unino.tech}}, udp: true}
+  - {name: github.com/mianfeifq+|香港（TGat阿伟科技/油管）_60, server: hknf1.qingyun123.xyz, port: 10050, type: trojan, password: 6500b5f0-ca3f-4bfe-bc54-75ca11c22830, skip-cert-verify: true, udp: true}
   - {name: Relay_🇨🇳CN-🇹🇼TW_51, server: 120.232.192.250, port: 3385, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public), server: 116.129.253.187, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 2, server: 116.129.253.191, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 5, server: 116.129.253.177, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 4, server: 116.129.253.191, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_33, server: in1.alink.qchwnd.moe, port: 44604, type: trojan, password: c02a742c-efd5-430e-bbd5-12695a740fb2, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 6, server: 116.129.253.191, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: github.com/mianfeifq+|翻墙党fanqiangdang_com_4, server: 152.67.218.30, port: 44600, type: trojan, password: 57e797a5-9a1d-4a26-b658-91fbf97f7741, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本1-tg频道:@ripaojiedian
-      - https://t.me/bpjzx2
-      - 台湾原生-tg频道:@ripaojiedian
-      - Relay_🇨🇳CN-🇹🇼TW_40
-      - 新加坡_3
-      - Relay_🇨🇳CN-🇹🇼TW_51
+      - github.com/mianfeifq+|翻墙党fanqiangdang_com_5
+      - CN_8du.shop
+      - CN_8du.shop 2
       - 新加坡(绿头外网集团)(Public)
+      - Relay_🇨🇦CA-🇨🇦CA_08
+      - https://t.me/bpjzx2
+      - CN-Openit.ml
       - 新加坡(绿头外网集团)(Public) 2
+      - CN_8du.shop 3
+      - NONE
+      - github.com/mianfeifq+|翻墙党fanqiangdang_com_3
+      - Relay_🇨🇳CN-🇹🇼TW_40
+      - github.com/mianfeifq+|Relay_🇨🇳CN+_40_45Mb_22
+      - US_244
+      - 新加坡-tg频道:@ripaojiedian
+      - 东京-tg频道:@ripaojiedian
+      - CN_8du.shop 4
+      - 新加坡(绿头外网集团)(Public) 3
+      - 新加坡_3
+      - (Youtube/TG：俊佳科技JJ)_🇨🇳_中国_18
+      - github.com/mianfeifq+|韩国（TGat阿伟科技/油管）_8
+      - github.com/mianfeifq+|新加坡_4
+      - github.com/freefq - 北美地区  7
+      - 香港1-tg频道:@ripaojiedian
+      - github.com/mianfeifq+|香港（TGat阿伟科技/油管）_60
+      - Relay_🇨🇳CN-🇹🇼TW_51
+      - CN_8du.shop 5
+      - 新加坡(绿头外网集团)(Public) 4
+      - Relay_🇺🇸US-🇺🇸US_33
+      - CN_8du.shop 6
+      - github.com/mianfeifq+|翻墙党fanqiangdang_com_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 日本1-tg频道:@ripaojiedian
-      - https://t.me/bpjzx2
-      - 台湾原生-tg频道:@ripaojiedian
-      - Relay_🇨🇳CN-🇹🇼TW_40
-      - 新加坡_3
-      - Relay_🇨🇳CN-🇹🇼TW_51
+      - github.com/mianfeifq+|翻墙党fanqiangdang_com_5
+      - CN_8du.shop
+      - CN_8du.shop 2
       - 新加坡(绿头外网集团)(Public)
+      - Relay_🇨🇦CA-🇨🇦CA_08
+      - https://t.me/bpjzx2
+      - CN-Openit.ml
       - 新加坡(绿头外网集团)(Public) 2
+      - CN_8du.shop 3
+      - NONE
+      - github.com/mianfeifq+|翻墙党fanqiangdang_com_3
+      - Relay_🇨🇳CN-🇹🇼TW_40
+      - github.com/mianfeifq+|Relay_🇨🇳CN+_40_45Mb_22
+      - US_244
+      - 新加坡-tg频道:@ripaojiedian
+      - 东京-tg频道:@ripaojiedian
+      - CN_8du.shop 4
+      - 新加坡(绿头外网集团)(Public) 3
+      - 新加坡_3
+      - (Youtube/TG：俊佳科技JJ)_🇨🇳_中国_18
+      - github.com/mianfeifq+|韩国（TGat阿伟科技/油管）_8
+      - github.com/mianfeifq+|新加坡_4
+      - github.com/freefq - 北美地区  7
+      - 香港1-tg频道:@ripaojiedian
+      - github.com/mianfeifq+|香港（TGat阿伟科技/油管）_60
+      - Relay_🇨🇳CN-🇹🇼TW_51
+      - CN_8du.shop 5
+      - 新加坡(绿头外网集团)(Public) 4
+      - Relay_🇺🇸US-🇺🇸US_33
+      - CN_8du.shop 6
+      - github.com/mianfeifq+|翻墙党fanqiangdang_com_4
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本1-tg频道:@ripaojiedian
-      - https://t.me/bpjzx2
-      - 台湾原生-tg频道:@ripaojiedian
-      - Relay_🇨🇳CN-🇹🇼TW_40
-      - 新加坡_3
-      - Relay_🇨🇳CN-🇹🇼TW_51
+      - github.com/mianfeifq+|翻墙党fanqiangdang_com_5
+      - CN_8du.shop
+      - CN_8du.shop 2
       - 新加坡(绿头外网集团)(Public)
+      - Relay_🇨🇦CA-🇨🇦CA_08
+      - https://t.me/bpjzx2
+      - CN-Openit.ml
       - 新加坡(绿头外网集团)(Public) 2
+      - CN_8du.shop 3
+      - NONE
+      - github.com/mianfeifq+|翻墙党fanqiangdang_com_3
+      - Relay_🇨🇳CN-🇹🇼TW_40
+      - github.com/mianfeifq+|Relay_🇨🇳CN+_40_45Mb_22
+      - US_244
+      - 新加坡-tg频道:@ripaojiedian
+      - 东京-tg频道:@ripaojiedian
+      - CN_8du.shop 4
+      - 新加坡(绿头外网集团)(Public) 3
+      - 新加坡_3
+      - (Youtube/TG：俊佳科技JJ)_🇨🇳_中国_18
+      - github.com/mianfeifq+|韩国（TGat阿伟科技/油管）_8
+      - github.com/mianfeifq+|新加坡_4
+      - github.com/freefq - 北美地区  7
+      - 香港1-tg频道:@ripaojiedian
+      - github.com/mianfeifq+|香港（TGat阿伟科技/油管）_60
+      - Relay_🇨🇳CN-🇹🇼TW_51
+      - CN_8du.shop 5
+      - 新加坡(绿头外网集团)(Public) 4
+      - Relay_🇺🇸US-🇺🇸US_33
+      - CN_8du.shop 6
+      - github.com/mianfeifq+|翻墙党fanqiangdang_com_4
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -72,60 +164,153 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本1-tg频道:@ripaojiedian
-      - https://t.me/bpjzx2
-      - 台湾原生-tg频道:@ripaojiedian
-      - Relay_🇨🇳CN-🇹🇼TW_40
-      - 新加坡_3
-      - Relay_🇨🇳CN-🇹🇼TW_51
+      - github.com/mianfeifq+|翻墙党fanqiangdang_com_5
+      - CN_8du.shop
+      - CN_8du.shop 2
       - 新加坡(绿头外网集团)(Public)
+      - Relay_🇨🇦CA-🇨🇦CA_08
+      - https://t.me/bpjzx2
+      - CN-Openit.ml
       - 新加坡(绿头外网集团)(Public) 2
+      - CN_8du.shop 3
+      - NONE
+      - github.com/mianfeifq+|翻墙党fanqiangdang_com_3
+      - Relay_🇨🇳CN-🇹🇼TW_40
+      - github.com/mianfeifq+|Relay_🇨🇳CN+_40_45Mb_22
+      - US_244
+      - 新加坡-tg频道:@ripaojiedian
+      - 东京-tg频道:@ripaojiedian
+      - CN_8du.shop 4
+      - 新加坡(绿头外网集团)(Public) 3
+      - 新加坡_3
+      - (Youtube/TG：俊佳科技JJ)_🇨🇳_中国_18
+      - github.com/mianfeifq+|韩国（TGat阿伟科技/油管）_8
+      - github.com/mianfeifq+|新加坡_4
+      - github.com/freefq - 北美地区  7
+      - 香港1-tg频道:@ripaojiedian
+      - github.com/mianfeifq+|香港（TGat阿伟科技/油管）_60
+      - Relay_🇨🇳CN-🇹🇼TW_51
+      - CN_8du.shop 5
+      - 新加坡(绿头外网集团)(Public) 4
+      - Relay_🇺🇸US-🇺🇸US_33
+      - CN_8du.shop 6
+      - github.com/mianfeifq+|翻墙党fanqiangdang_com_4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾原生-tg频道:@ripaojiedian
+      - 香港1-tg频道:@ripaojiedian
+      - github.com/mianfeifq+|香港（TGat阿伟科技/油管）_60
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 日本1-tg频道:@ripaojiedian
-      - https://t.me/bpjzx2
-      - 台湾原生-tg频道:@ripaojiedian
-      - Relay_🇨🇳CN-🇹🇼TW_40
-      - 新加坡_3
-      - Relay_🇨🇳CN-🇹🇼TW_51
+      - github.com/mianfeifq+|翻墙党fanqiangdang_com_5
+      - CN_8du.shop
+      - CN_8du.shop 2
       - 新加坡(绿头外网集团)(Public)
+      - Relay_🇨🇦CA-🇨🇦CA_08
+      - https://t.me/bpjzx2
+      - CN-Openit.ml
       - 新加坡(绿头外网集团)(Public) 2
+      - CN_8du.shop 3
+      - NONE
+      - github.com/mianfeifq+|翻墙党fanqiangdang_com_3
+      - Relay_🇨🇳CN-🇹🇼TW_40
+      - github.com/mianfeifq+|Relay_🇨🇳CN+_40_45Mb_22
+      - US_244
+      - 新加坡-tg频道:@ripaojiedian
+      - 东京-tg频道:@ripaojiedian
+      - CN_8du.shop 4
+      - 新加坡(绿头外网集团)(Public) 3
+      - 新加坡_3
+      - (Youtube/TG：俊佳科技JJ)_🇨🇳_中国_18
+      - github.com/mianfeifq+|韩国（TGat阿伟科技/油管）_8
+      - github.com/mianfeifq+|新加坡_4
+      - github.com/freefq - 北美地区  7
+      - 香港1-tg频道:@ripaojiedian
+      - github.com/mianfeifq+|香港（TGat阿伟科技/油管）_60
+      - Relay_🇨🇳CN-🇹🇼TW_51
+      - CN_8du.shop 5
+      - 新加坡(绿头外网集团)(Public) 4
+      - Relay_🇺🇸US-🇺🇸US_33
+      - CN_8du.shop 6
+      - github.com/mianfeifq+|翻墙党fanqiangdang_com_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 日本1-tg频道:@ripaojiedian
-      - https://t.me/bpjzx2
-      - 台湾原生-tg频道:@ripaojiedian
-      - Relay_🇨🇳CN-🇹🇼TW_40
-      - 新加坡_3
-      - Relay_🇨🇳CN-🇹🇼TW_51
+      - github.com/mianfeifq+|翻墙党fanqiangdang_com_5
+      - CN_8du.shop
+      - CN_8du.shop 2
       - 新加坡(绿头外网集团)(Public)
+      - Relay_🇨🇦CA-🇨🇦CA_08
+      - https://t.me/bpjzx2
+      - CN-Openit.ml
       - 新加坡(绿头外网集团)(Public) 2
+      - CN_8du.shop 3
+      - NONE
+      - github.com/mianfeifq+|翻墙党fanqiangdang_com_3
+      - Relay_🇨🇳CN-🇹🇼TW_40
+      - github.com/mianfeifq+|Relay_🇨🇳CN+_40_45Mb_22
+      - US_244
+      - 新加坡-tg频道:@ripaojiedian
+      - 东京-tg频道:@ripaojiedian
+      - CN_8du.shop 4
+      - 新加坡(绿头外网集团)(Public) 3
+      - 新加坡_3
+      - (Youtube/TG：俊佳科技JJ)_🇨🇳_中国_18
+      - github.com/mianfeifq+|韩国（TGat阿伟科技/油管）_8
+      - github.com/mianfeifq+|新加坡_4
+      - github.com/freefq - 北美地区  7
+      - 香港1-tg频道:@ripaojiedian
+      - github.com/mianfeifq+|香港（TGat阿伟科技/油管）_60
+      - Relay_🇨🇳CN-🇹🇼TW_51
+      - CN_8du.shop 5
+      - 新加坡(绿头外网集团)(Public) 4
+      - Relay_🇺🇸US-🇺🇸US_33
+      - CN_8du.shop 6
+      - github.com/mianfeifq+|翻墙党fanqiangdang_com_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本1-tg频道:@ripaojiedian
-      - https://t.me/bpjzx2
-      - 台湾原生-tg频道:@ripaojiedian
-      - Relay_🇨🇳CN-🇹🇼TW_40
-      - 新加坡_3
-      - Relay_🇨🇳CN-🇹🇼TW_51
+      - github.com/mianfeifq+|翻墙党fanqiangdang_com_5
+      - CN_8du.shop
+      - CN_8du.shop 2
       - 新加坡(绿头外网集团)(Public)
+      - Relay_🇨🇦CA-🇨🇦CA_08
+      - https://t.me/bpjzx2
+      - CN-Openit.ml
       - 新加坡(绿头外网集团)(Public) 2
+      - CN_8du.shop 3
+      - NONE
+      - github.com/mianfeifq+|翻墙党fanqiangdang_com_3
+      - Relay_🇨🇳CN-🇹🇼TW_40
+      - github.com/mianfeifq+|Relay_🇨🇳CN+_40_45Mb_22
+      - US_244
+      - 新加坡-tg频道:@ripaojiedian
+      - 东京-tg频道:@ripaojiedian
+      - CN_8du.shop 4
+      - 新加坡(绿头外网集团)(Public) 3
+      - 新加坡_3
+      - (Youtube/TG：俊佳科技JJ)_🇨🇳_中国_18
+      - github.com/mianfeifq+|韩国（TGat阿伟科技/油管）_8
+      - github.com/mianfeifq+|新加坡_4
+      - github.com/freefq - 北美地区  7
+      - 香港1-tg频道:@ripaojiedian
+      - github.com/mianfeifq+|香港（TGat阿伟科技/油管）_60
+      - Relay_🇨🇳CN-🇹🇼TW_51
+      - CN_8du.shop 5
+      - 新加坡(绿头外网集团)(Public) 4
+      - Relay_🇺🇸US-🇺🇸US_33
+      - CN_8du.shop 6
+      - github.com/mianfeifq+|翻墙党fanqiangdang_com_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -141,14 +326,37 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本1-tg频道:@ripaojiedian
-      - https://t.me/bpjzx2
-      - 台湾原生-tg频道:@ripaojiedian
-      - Relay_🇨🇳CN-🇹🇼TW_40
-      - 新加坡_3
-      - Relay_🇨🇳CN-🇹🇼TW_51
+      - github.com/mianfeifq+|翻墙党fanqiangdang_com_5
+      - CN_8du.shop
+      - CN_8du.shop 2
       - 新加坡(绿头外网集团)(Public)
+      - Relay_🇨🇦CA-🇨🇦CA_08
+      - https://t.me/bpjzx2
+      - CN-Openit.ml
       - 新加坡(绿头外网集团)(Public) 2
+      - CN_8du.shop 3
+      - NONE
+      - github.com/mianfeifq+|翻墙党fanqiangdang_com_3
+      - Relay_🇨🇳CN-🇹🇼TW_40
+      - github.com/mianfeifq+|Relay_🇨🇳CN+_40_45Mb_22
+      - US_244
+      - 新加坡-tg频道:@ripaojiedian
+      - 东京-tg频道:@ripaojiedian
+      - CN_8du.shop 4
+      - 新加坡(绿头外网集团)(Public) 3
+      - 新加坡_3
+      - (Youtube/TG：俊佳科技JJ)_🇨🇳_中国_18
+      - github.com/mianfeifq+|韩国（TGat阿伟科技/油管）_8
+      - github.com/mianfeifq+|新加坡_4
+      - github.com/freefq - 北美地区  7
+      - 香港1-tg频道:@ripaojiedian
+      - github.com/mianfeifq+|香港（TGat阿伟科技/油管）_60
+      - Relay_🇨🇳CN-🇹🇼TW_51
+      - CN_8du.shop 5
+      - 新加坡(绿头外网集团)(Public) 4
+      - Relay_🇺🇸US-🇺🇸US_33
+      - CN_8du.shop 6
+      - github.com/mianfeifq+|翻墙党fanqiangdang_com_4
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
