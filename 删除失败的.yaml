@@ -5,14 +5,19 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN-Openit.ml, server: hk2.aead.ml, port: 10402, type: trojan, password: 4234aaad-2022-426d-991b-608960beae60, sni: gamecdn.cc, skip-cert-verify: true, udp: true}
-  - {name: 直连+|+香港1+|+0.01x, server: hk1.aead.ml, port: 10401, type: trojan, password: 4234aaad-2022-426d-991b-608960beae60, sni: gamecdn.cc, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: CN_8du.shop 2, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: Relay_🇰🇷KR-🇰🇷KR_1101, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, skip-cert-verify: true, udp: true}
-  - {name: 春川ARM, server: 2.hmykr1.tk, port: 58739, type: trojan, password: 7b567rw1Bp, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 3, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: 美国_洛尘8_20, server: kr2.qingyun123.xyz, port: 10050, type: trojan, password: 869d7217-8ad4-4265-be69-5a848afadebf, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit.ml, server: 116.129.253.134, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: 日本阿伟科技atTG/油管_1096_1364 |56.99Mb, server: c11s4.jamjams.net, port: 17938, type: vmess, uuid: e8d5a966-8093-4d4e-8977-0baca9c8ab55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop, server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: github.com/mianfeifq+|Relay_🇨🇳CN+_44_81Mb_24, server: 116.129.253.177, port: 3389, type: trojan, password: 9029864a78d29a43, skip-cert-verify: true, udp: true}
+  - {name: https://t.me/bpjzx2, server: 116.129.253.177, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: US_5170+|+9.85Mb, server: kr2.qingyun123.xyz, port: 10050, type: trojan, password: 869d7217-8ad4-4265-be69-5a848afadebf, skip-cert-verify: true, udp: true}
+  - {name: CN-Openit.ml 2, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: 中国_2, server: 116.129.253.177, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
+  - {name: 新加坡_2, server: 116.129.254.47, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: GR_3130+|12.35Mb, server: 2.hmykr1.tk, port: 58739, type: trojan, password: 7b567rw1Bp, skip-cert-verify: true, udp: true}
+  - {name: US_5168 |20.24Mb, server: v2-5.godlight.xyz, port: 39783, type: vmess, uuid: 767e55a4-43fa-4301-a9c2-ad30eaa9f61a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /71h4b3s1f53, headers: {Host: v2-5.godlight.xyz}}, udp: true}
+  - {name: IN B 002, server: jpaz2.xmrth-node.xyz, port: 10670, type: vmess, uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 美国阿伟科技atTG/油管_1069_1367 |32.15Mb, server: c11s3.jamjams.net, port: 17938, type: vmess, uuid: e8d5a966-8093-4d4e-8977-0baca9c8ab55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -20,26 +25,36 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - CN-Openit.ml
-      - 直连+|+香港1+|+0.01x
+      - 日本阿伟科技atTG/油管_1096_1364 |56.99Mb
       - CN_8du.shop
-      - CN_8du.shop 2
-      - Relay_🇰🇷KR-🇰🇷KR_1101
-      - 春川ARM
-      - CN_8du.shop 3
-      - 美国_洛尘8_20
+      - github.com/mianfeifq+|Relay_🇨🇳CN+_44_81Mb_24
+      - https://t.me/bpjzx2
+      - US_5170+|+9.85Mb
+      - CN-Openit.ml 2
+      - 中国_2
+      - 新加坡_2
+      - GR_3130+|12.35Mb
+      - US_5168 |20.24Mb
+      - IN B 002
+      - 美国阿伟科技atTG/油管_1069_1367 |32.15Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - CN-Openit.ml
-      - 直连+|+香港1+|+0.01x
+      - 日本阿伟科技atTG/油管_1096_1364 |56.99Mb
       - CN_8du.shop
-      - CN_8du.shop 2
-      - Relay_🇰🇷KR-🇰🇷KR_1101
-      - 春川ARM
-      - CN_8du.shop 3
-      - 美国_洛尘8_20
+      - github.com/mianfeifq+|Relay_🇨🇳CN+_44_81Mb_24
+      - https://t.me/bpjzx2
+      - US_5170+|+9.85Mb
+      - CN-Openit.ml 2
+      - 中国_2
+      - 新加坡_2
+      - GR_3130+|12.35Mb
+      - US_5168 |20.24Mb
+      - IN B 002
+      - 美国阿伟科技atTG/油管_1069_1367 |32.15Mb
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -47,13 +62,18 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - CN-Openit.ml
-      - 直连+|+香港1+|+0.01x
+      - 日本阿伟科技atTG/油管_1096_1364 |56.99Mb
       - CN_8du.shop
-      - CN_8du.shop 2
-      - Relay_🇰🇷KR-🇰🇷KR_1101
-      - 春川ARM
-      - CN_8du.shop 3
-      - 美国_洛尘8_20
+      - github.com/mianfeifq+|Relay_🇨🇳CN+_44_81Mb_24
+      - https://t.me/bpjzx2
+      - US_5170+|+9.85Mb
+      - CN-Openit.ml 2
+      - 中国_2
+      - 新加坡_2
+      - GR_3130+|12.35Mb
+      - US_5168 |20.24Mb
+      - IN B 002
+      - 美国阿伟科技atTG/油管_1069_1367 |32.15Mb
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -73,18 +93,22 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - CN-Openit.ml
-      - 直连+|+香港1+|+0.01x
+      - 日本阿伟科技atTG/油管_1096_1364 |56.99Mb
       - CN_8du.shop
-      - CN_8du.shop 2
-      - Relay_🇰🇷KR-🇰🇷KR_1101
-      - 春川ARM
-      - CN_8du.shop 3
-      - 美国_洛尘8_20
+      - github.com/mianfeifq+|Relay_🇨🇳CN+_44_81Mb_24
+      - https://t.me/bpjzx2
+      - US_5170+|+9.85Mb
+      - CN-Openit.ml 2
+      - 中国_2
+      - 新加坡_2
+      - GR_3130+|12.35Mb
+      - US_5168 |20.24Mb
+      - IN B 002
+      - 美国阿伟科技atTG/油管_1069_1367 |32.15Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 直连+|+香港1+|+0.01x
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -92,26 +116,36 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - CN-Openit.ml
-      - 直连+|+香港1+|+0.01x
+      - 日本阿伟科技atTG/油管_1096_1364 |56.99Mb
       - CN_8du.shop
-      - CN_8du.shop 2
-      - Relay_🇰🇷KR-🇰🇷KR_1101
-      - 春川ARM
-      - CN_8du.shop 3
-      - 美国_洛尘8_20
+      - github.com/mianfeifq+|Relay_🇨🇳CN+_44_81Mb_24
+      - https://t.me/bpjzx2
+      - US_5170+|+9.85Mb
+      - CN-Openit.ml 2
+      - 中国_2
+      - 新加坡_2
+      - GR_3130+|12.35Mb
+      - US_5168 |20.24Mb
+      - IN B 002
+      - 美国阿伟科技atTG/油管_1069_1367 |32.15Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - CN-Openit.ml
-      - 直连+|+香港1+|+0.01x
+      - 日本阿伟科技atTG/油管_1096_1364 |56.99Mb
       - CN_8du.shop
-      - CN_8du.shop 2
-      - Relay_🇰🇷KR-🇰🇷KR_1101
-      - 春川ARM
-      - CN_8du.shop 3
-      - 美国_洛尘8_20
+      - github.com/mianfeifq+|Relay_🇨🇳CN+_44_81Mb_24
+      - https://t.me/bpjzx2
+      - US_5170+|+9.85Mb
+      - CN-Openit.ml 2
+      - 中国_2
+      - 新加坡_2
+      - GR_3130+|12.35Mb
+      - US_5168 |20.24Mb
+      - IN B 002
+      - 美国阿伟科技atTG/油管_1069_1367 |32.15Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -119,13 +153,18 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - CN-Openit.ml
-      - 直连+|+香港1+|+0.01x
+      - 日本阿伟科技atTG/油管_1096_1364 |56.99Mb
       - CN_8du.shop
-      - CN_8du.shop 2
-      - Relay_🇰🇷KR-🇰🇷KR_1101
-      - 春川ARM
-      - CN_8du.shop 3
-      - 美国_洛尘8_20
+      - github.com/mianfeifq+|Relay_🇨🇳CN+_44_81Mb_24
+      - https://t.me/bpjzx2
+      - US_5170+|+9.85Mb
+      - CN-Openit.ml 2
+      - 中国_2
+      - 新加坡_2
+      - GR_3130+|12.35Mb
+      - US_5168 |20.24Mb
+      - IN B 002
+      - 美国阿伟科技atTG/油管_1069_1367 |32.15Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -142,13 +181,18 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - CN-Openit.ml
-      - 直连+|+香港1+|+0.01x
+      - 日本阿伟科技atTG/油管_1096_1364 |56.99Mb
       - CN_8du.shop
-      - CN_8du.shop 2
-      - Relay_🇰🇷KR-🇰🇷KR_1101
-      - 春川ARM
-      - CN_8du.shop 3
-      - 美国_洛尘8_20
+      - github.com/mianfeifq+|Relay_🇨🇳CN+_44_81Mb_24
+      - https://t.me/bpjzx2
+      - US_5170+|+9.85Mb
+      - CN-Openit.ml 2
+      - 中国_2
+      - 新加坡_2
+      - GR_3130+|12.35Mb
+      - US_5168 |20.24Mb
+      - IN B 002
+      - 美国阿伟科技atTG/油管_1069_1367 |32.15Mb
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
