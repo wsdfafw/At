@@ -5,71 +5,51 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN-Openit.ml, server: 120.233.10.230, port: 50300, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
-  - {name: HK011, server: 120.233.10.230, port: 50400, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_152+|22.37Mb, server: cn1.iepl.starlink.st, port: 50300, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:), server: gdcm-2.onescloud.top, port: 22015, type: vmess, uuid: 1faaf75a-8032-309e-a94e-6efafe2ce998, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: gdcm-2.onescloud.top}}, udp: true}
+  - {name: HK_8du.shop, server: hkt.zhongyun.xyz, port: 43312, type: vmess, uuid: 2eae0876-b17f-4f57-af38-c138668db626, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /c, headers: {Host: hkt.zhongyun.xyz}}, udp: true}
+  - {name: CN-Openit.ml, server: hk05-vm5.entry.ikuuu.casa, port: 11200, type: vmess, uuid: 11b02c81-0ea7-32c2-9385-8fa7593d188a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bgp-01-05.entry-0.chinasnow.net}}, udp: true}
   - {name: 日本阿伟科技atTG/油管_1096_1364 |56.99Mb, server: c11s4.jamjams.net, port: 17938, type: vmess, uuid: e8d5a966-8093-4d4e-8977-0baca9c8ab55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_47, server: hkaz6.xmrth-node.xyz, port: 11284, type: vmess, uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: CN-Openit.ml 2, server: guangzhou.kuli888.xyz, port: 52101, type: trojan, password: 7193174d-2dfe-3def-ac2d-6a811a0ff6e1, sni: hk05.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3694, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
-  - {name: 香港(绿头外网集团)(Public), server: hk05lt.kuli888.xyz, port: 11163, type: trojan, password: 7193174d-2dfe-3def-ac2d-6a811a0ff6e1, sni: hk10.kulime.space, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技atTG/油管_1070_1368 | 4.68Mb, server: c11s801.jamjams.net, port: 17938, type: vmess, uuid: e8d5a966-8093-4d4e-8977-0baca9c8ab55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "苏联+03+华中+[1x]", server: hncu.relay01.insnow.xyz, port: 19931, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: ru.node001.insnow.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技atTG/油管_1069_1367 |32.15Mb, server: c11s3.jamjams.net, port: 17938, type: vmess, uuid: e8d5a966-8093-4d4e-8977-0baca9c8ab55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop, server: hnt.stashbox.best, port: 50050, type: vmess, uuid: 65aa9fbd-4185-47ee-80be-34721dee1ff0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hnt.stashbox.best}}, udp: true}
+  - {name: RU-Openit.ml, server: 417tw.fans8.xyz, port: 443, type: vmess, uuid: 82a96743-115b-356d-90ae-2928f32d8958, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 417tw.fans8.xyz}}, udp: true}
+  - {name: 瑞典(绿头外网集团)(Public), server: 120.233.10.230, port: 50500, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
+  - {name: 东京_2, server: jp2803.cloudmatrix.xyz, port: 2803, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: t.me/vpnhat}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - HK_8du.shop
       - CN-Openit.ml
-      - HK011
-      - Relay_🇨🇳CN-🇯🇵JP_152+|22.37Mb
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
       - 日本阿伟科技atTG/油管_1096_1364 |56.99Mb
-      - US_47
-      - CN-Openit.ml 2
-      - Relay_🇺🇸US-🇺🇸US_3694
-      - 香港(绿头外网集团)(Public)
-      - 美国阿伟科技atTG/油管_1070_1368 | 4.68Mb
-      - 苏联+03+华中+[1x]
-      - 美国阿伟科技atTG/油管_1069_1367 |32.15Mb
+      - CN_8du.shop
+      - RU-Openit.ml
+      - 瑞典(绿头外网集团)(Public)
+      - 东京_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - HK_8du.shop
       - CN-Openit.ml
-      - HK011
-      - Relay_🇨🇳CN-🇯🇵JP_152+|22.37Mb
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
       - 日本阿伟科技atTG/油管_1096_1364 |56.99Mb
-      - US_47
-      - CN-Openit.ml 2
-      - Relay_🇺🇸US-🇺🇸US_3694
-      - 香港(绿头外网集团)(Public)
-      - 美国阿伟科技atTG/油管_1070_1368 | 4.68Mb
-      - 苏联+03+华中+[1x]
-      - 美国阿伟科技atTG/油管_1069_1367 |32.15Mb
+      - CN_8du.shop
+      - RU-Openit.ml
+      - 瑞典(绿头外网集团)(Public)
+      - 东京_2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - HK_8du.shop
       - CN-Openit.ml
-      - HK011
-      - Relay_🇨🇳CN-🇯🇵JP_152+|22.37Mb
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
       - 日本阿伟科技atTG/油管_1096_1364 |56.99Mb
-      - US_47
-      - CN-Openit.ml 2
-      - Relay_🇺🇸US-🇺🇸US_3694
-      - 香港(绿头外网集团)(Public)
-      - 美国阿伟科技atTG/油管_1070_1368 | 4.68Mb
-      - 苏联+03+华中+[1x]
-      - 美国阿伟科技atTG/油管_1069_1367 |32.15Mb
+      - CN_8du.shop
+      - RU-Openit.ml
+      - 瑞典(绿头外网集团)(Public)
+      - 东京_2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -88,76 +68,55 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - HK_8du.shop
       - CN-Openit.ml
-      - HK011
-      - Relay_🇨🇳CN-🇯🇵JP_152+|22.37Mb
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
       - 日本阿伟科技atTG/油管_1096_1364 |56.99Mb
-      - US_47
-      - CN-Openit.ml 2
-      - Relay_🇺🇸US-🇺🇸US_3694
-      - 香港(绿头外网集团)(Public)
-      - 美国阿伟科技atTG/油管_1070_1368 | 4.68Mb
-      - 苏联+03+华中+[1x]
-      - 美国阿伟科技atTG/油管_1069_1367 |32.15Mb
+      - CN_8du.shop
+      - RU-Openit.ml
+      - 瑞典(绿头外网集团)(Public)
+      - 东京_2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港(绿头外网集团)(Public)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - HK_8du.shop
       - CN-Openit.ml
-      - HK011
-      - Relay_🇨🇳CN-🇯🇵JP_152+|22.37Mb
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
       - 日本阿伟科技atTG/油管_1096_1364 |56.99Mb
-      - US_47
-      - CN-Openit.ml 2
-      - Relay_🇺🇸US-🇺🇸US_3694
-      - 香港(绿头外网集团)(Public)
-      - 美国阿伟科技atTG/油管_1070_1368 | 4.68Mb
-      - 苏联+03+华中+[1x]
-      - 美国阿伟科技atTG/油管_1069_1367 |32.15Mb
+      - CN_8du.shop
+      - RU-Openit.ml
+      - 瑞典(绿头外网集团)(Public)
+      - 东京_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - HK_8du.shop
       - CN-Openit.ml
-      - HK011
-      - Relay_🇨🇳CN-🇯🇵JP_152+|22.37Mb
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
       - 日本阿伟科技atTG/油管_1096_1364 |56.99Mb
-      - US_47
-      - CN-Openit.ml 2
-      - Relay_🇺🇸US-🇺🇸US_3694
-      - 香港(绿头外网集团)(Public)
-      - 美国阿伟科技atTG/油管_1070_1368 | 4.68Mb
-      - 苏联+03+华中+[1x]
-      - 美国阿伟科技atTG/油管_1069_1367 |32.15Mb
+      - CN_8du.shop
+      - RU-Openit.ml
+      - 瑞典(绿头外网集团)(Public)
+      - 东京_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - HK_8du.shop
       - CN-Openit.ml
-      - HK011
-      - Relay_🇨🇳CN-🇯🇵JP_152+|22.37Mb
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
       - 日本阿伟科技atTG/油管_1096_1364 |56.99Mb
-      - US_47
-      - CN-Openit.ml 2
-      - Relay_🇺🇸US-🇺🇸US_3694
-      - 香港(绿头外网集团)(Public)
-      - 美国阿伟科技atTG/油管_1070_1368 | 4.68Mb
-      - 苏联+03+华中+[1x]
-      - 美国阿伟科技atTG/油管_1069_1367 |32.15Mb
+      - CN_8du.shop
+      - RU-Openit.ml
+      - 瑞典(绿头外网集团)(Public)
+      - 东京_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -173,18 +132,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - HK_8du.shop
       - CN-Openit.ml
-      - HK011
-      - Relay_🇨🇳CN-🇯🇵JP_152+|22.37Mb
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
       - 日本阿伟科技atTG/油管_1096_1364 |56.99Mb
-      - US_47
-      - CN-Openit.ml 2
-      - Relay_🇺🇸US-🇺🇸US_3694
-      - 香港(绿头外网集团)(Public)
-      - 美国阿伟科技atTG/油管_1070_1368 | 4.68Mb
-      - 苏联+03+华中+[1x]
-      - 美国阿伟科技atTG/油管_1069_1367 |32.15Mb
+      - CN_8du.shop
+      - RU-Openit.ml
+      - 瑞典(绿头外网集团)(Public)
+      - 东京_2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
