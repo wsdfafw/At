@@ -5,31 +5,75 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇺🇸US-🇺🇸US_3809, server: kr2.qingyun123.xyz, port: 10050, type: trojan, password: 928bb264-85ee-48f7-9e1d-6f78e625caf8, skip-cert-verify: true, udp: true}
-  - {name: github.com/mianfeifq+|新加坡AMD_78, server: 152.67.210.119, port: 999, type: trojan, password: 98VWfKT1Zx, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国  18, server: 150.230.249.169, port: 8888, type: vmess, uuid: f836d00e-73e0-4eb5-a0ac-18a8e9ee61ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: aaa466_54, server: whcu.cwcsrsyby.xyz, port: 11775, type: vmess, uuid: 05cf79e9-c279-491a-fb04-494bbbf583b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _KR_韩国, server: 158.247.209.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: TG频道|https://t.me/getv2ray|1号, server: v2.godlight.xyz, port: 26936, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /f34f3-f32f364, headers: {Host: v2.godlight.xyz}}, udp: true}
+  - {name: v2auto_智能优化线路_1, server: yyyy.wwwbhjy.com, port: 2443, type: vmess, uuid: dee32eb7-e190-4c6f-dd27-aa9c82cd5490, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /8a76fb13/, headers: {Host: yyyy.wwwbhjy.com}}, udp: true}
+  - {name: 香港_落尘8_105, server: hkaz3.xmrth-node.xyz, port: 12568, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz3.xmrth-node.xyz}}, udp: true}
+  - {name: TG频道|https://t.me/getv2ray|2号, server: v2-1.godlight.xyz, port: 12236, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /j75g1461x, headers: {Host: v2-1.godlight.xyz}}, udp: true}
+  - {name: _KR_韩国 2, server: 158.247.209.92, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 新加坡SG-tg频道:@ripaojiedian, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: _KR_韩国 3, server: 158.247.209.92, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _KR_韩国 4, server: 141.164.56.250, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_2756 |59.83Mb, server: 104.168.13.8, port: 41342, type: vmess, uuid: 3aa90670-6d21-4287-eec5-0cd0b21d579a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 17, server: hkaz1.xmrth-node.xyz, port: 10033, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz1.xmrth-node.xyz}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇺🇸US-🇺🇸US_3809
-      - github.com/mianfeifq+|新加坡AMD_78
+      - github.com/freefq - 美国  18
+      - aaa466_54
+      - _KR_韩国
+      - TG频道|https://t.me/getv2ray|1号
+      - v2auto_智能优化线路_1
+      - 香港_落尘8_105
+      - TG频道|https://t.me/getv2ray|2号
+      - _KR_韩国 2
+      - 新加坡SG-tg频道:@ripaojiedian
+      - _KR_韩国 3
+      - _KR_韩国 4
+      - US_2756 |59.83Mb
+      - github.com/freefq - 美国Microsoft数据中心 17
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇺🇸US-🇺🇸US_3809
-      - github.com/mianfeifq+|新加坡AMD_78
+      - github.com/freefq - 美国  18
+      - aaa466_54
+      - _KR_韩国
+      - TG频道|https://t.me/getv2ray|1号
+      - v2auto_智能优化线路_1
+      - 香港_落尘8_105
+      - TG频道|https://t.me/getv2ray|2号
+      - _KR_韩国 2
+      - 新加坡SG-tg频道:@ripaojiedian
+      - _KR_韩国 3
+      - _KR_韩国 4
+      - US_2756 |59.83Mb
+      - github.com/freefq - 美国Microsoft数据中心 17
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇺🇸US-🇺🇸US_3809
-      - github.com/mianfeifq+|新加坡AMD_78
+      - github.com/freefq - 美国  18
+      - aaa466_54
+      - _KR_韩国
+      - TG频道|https://t.me/getv2ray|1号
+      - v2auto_智能优化线路_1
+      - 香港_落尘8_105
+      - TG频道|https://t.me/getv2ray|2号
+      - _KR_韩国 2
+      - 新加坡SG-tg频道:@ripaojiedian
+      - _KR_韩国 3
+      - _KR_韩国 4
+      - US_2756 |59.83Mb
+      - github.com/freefq - 美国Microsoft数据中心 17
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -48,35 +92,80 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇺🇸US-🇺🇸US_3809
-      - github.com/mianfeifq+|新加坡AMD_78
+      - github.com/freefq - 美国  18
+      - aaa466_54
+      - _KR_韩国
+      - TG频道|https://t.me/getv2ray|1号
+      - v2auto_智能优化线路_1
+      - 香港_落尘8_105
+      - TG频道|https://t.me/getv2ray|2号
+      - _KR_韩国 2
+      - 新加坡SG-tg频道:@ripaojiedian
+      - _KR_韩国 3
+      - _KR_韩国 4
+      - US_2756 |59.83Mb
+      - github.com/freefq - 美国Microsoft数据中心 17
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港_落尘8_105
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇺🇸US-🇺🇸US_3809
-      - github.com/mianfeifq+|新加坡AMD_78
+      - github.com/freefq - 美国  18
+      - aaa466_54
+      - _KR_韩国
+      - TG频道|https://t.me/getv2ray|1号
+      - v2auto_智能优化线路_1
+      - 香港_落尘8_105
+      - TG频道|https://t.me/getv2ray|2号
+      - _KR_韩国 2
+      - 新加坡SG-tg频道:@ripaojiedian
+      - _KR_韩国 3
+      - _KR_韩国 4
+      - US_2756 |59.83Mb
+      - github.com/freefq - 美国Microsoft数据中心 17
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇺🇸US-🇺🇸US_3809
-      - github.com/mianfeifq+|新加坡AMD_78
+      - github.com/freefq - 美国  18
+      - aaa466_54
+      - _KR_韩国
+      - TG频道|https://t.me/getv2ray|1号
+      - v2auto_智能优化线路_1
+      - 香港_落尘8_105
+      - TG频道|https://t.me/getv2ray|2号
+      - _KR_韩国 2
+      - 新加坡SG-tg频道:@ripaojiedian
+      - _KR_韩国 3
+      - _KR_韩国 4
+      - US_2756 |59.83Mb
+      - github.com/freefq - 美国Microsoft数据中心 17
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇺🇸US-🇺🇸US_3809
-      - github.com/mianfeifq+|新加坡AMD_78
+      - github.com/freefq - 美国  18
+      - aaa466_54
+      - _KR_韩国
+      - TG频道|https://t.me/getv2ray|1号
+      - v2auto_智能优化线路_1
+      - 香港_落尘8_105
+      - TG频道|https://t.me/getv2ray|2号
+      - _KR_韩国 2
+      - 新加坡SG-tg频道:@ripaojiedian
+      - _KR_韩国 3
+      - _KR_韩国 4
+      - US_2756 |59.83Mb
+      - github.com/freefq - 美国Microsoft数据中心 17
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -92,8 +181,19 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇺🇸US-🇺🇸US_3809
-      - github.com/mianfeifq+|新加坡AMD_78
+      - github.com/freefq - 美国  18
+      - aaa466_54
+      - _KR_韩国
+      - TG频道|https://t.me/getv2ray|1号
+      - v2auto_智能优化线路_1
+      - 香港_落尘8_105
+      - TG频道|https://t.me/getv2ray|2号
+      - _KR_韩国 2
+      - 新加坡SG-tg频道:@ripaojiedian
+      - _KR_韩国 3
+      - _KR_韩国 4
+      - US_2756 |59.83Mb
+      - github.com/freefq - 美国Microsoft数据中心 17
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
