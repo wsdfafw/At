@@ -5,39 +5,39 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN 4 → t.me/s/SCINV, server: a.t.n4.gfwairport.xyz, port: 50001, type: trojan, password: acc98c7c-fb7c-4918-a2c7-5a90b74dc705, skip-cert-verify: true, udp: true}
-  - {name: CN 5 → t.me/s/SCINV, server: cu-cs.okvpn.xyz, port: 20000, type: trojan, password: 0654731b-e414-4031-962d-be4c8e9579c8, skip-cert-verify: true, udp: true}
-  - {name: CN 6 → t.me/s/SCINV, server: cm-gz.okvpn.xyz, port: 20000, type: trojan, password: 0654731b-e414-4031-962d-be4c8e9579c8, skip-cert-verify: true, udp: true}
-  - {name: US 31 → t.me/s/SCINV, server: 716sg.ok365.cyou, port: 80, type: trojan, password: a8926bac-51cf-4f4a-86fb-cff09ca7939f, skip-cert-verify: true, udp: true}
+  - {name: aaa 207, server: cu-cs.okvpn.xyz, port: 20000, type: trojan, password: 0654731b-e414-4031-962d-be4c8e9579c8, skip-cert-verify: true, udp: true}
+  - {name: US 11 → TG@SCINV, server: trojan-daozhu-uallen-qbit-azure-hk.kinhproxy.com, port: 443, type: trojan, password: trojan-daozhu-uallen-qbit-azure-hk, skip-cert-verify: true, udp: true}
+  - {name: HK 3 → t.me/s/SCINV, server: 103.253.43.228, port: 443, type: trojan, password: 48a55ebb-54f2-4757-8899-047933695eb2, skip-cert-verify: true, udp: true}
+  - {name: JP 3 → t.me/s/SCINV, server: musashino.freetrade.link, port: 443, type: trojan, password: ZDqCRlxB8uFj9pxNEeanya3DIpDlOYR7K0wOYX3eScA36gTAazCyZ5SC3FS428, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN 4 → t.me/s/SCINV
-      - CN 5 → t.me/s/SCINV
-      - CN 6 → t.me/s/SCINV
-      - US 31 → t.me/s/SCINV
+      - aaa 207
+      - US 11 → TG@SCINV
+      - HK 3 → t.me/s/SCINV
+      - JP 3 → t.me/s/SCINV
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN 4 → t.me/s/SCINV
-      - CN 5 → t.me/s/SCINV
-      - CN 6 → t.me/s/SCINV
-      - US 31 → t.me/s/SCINV
+      - aaa 207
+      - US 11 → TG@SCINV
+      - HK 3 → t.me/s/SCINV
+      - JP 3 → t.me/s/SCINV
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN 4 → t.me/s/SCINV
-      - CN 5 → t.me/s/SCINV
-      - CN 6 → t.me/s/SCINV
-      - US 31 → t.me/s/SCINV
+      - aaa 207
+      - US 11 → TG@SCINV
+      - HK 3 → t.me/s/SCINV
+      - JP 3 → t.me/s/SCINV
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -56,10 +56,10 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN 4 → t.me/s/SCINV
-      - CN 5 → t.me/s/SCINV
-      - CN 6 → t.me/s/SCINV
-      - US 31 → t.me/s/SCINV
+      - aaa 207
+      - US 11 → TG@SCINV
+      - HK 3 → t.me/s/SCINV
+      - JP 3 → t.me/s/SCINV
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -70,29 +70,29 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN 4 → t.me/s/SCINV
-      - CN 5 → t.me/s/SCINV
-      - CN 6 → t.me/s/SCINV
-      - US 31 → t.me/s/SCINV
+      - aaa 207
+      - US 11 → TG@SCINV
+      - HK 3 → t.me/s/SCINV
+      - JP 3 → t.me/s/SCINV
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN 4 → t.me/s/SCINV
-      - CN 5 → t.me/s/SCINV
-      - CN 6 → t.me/s/SCINV
-      - US 31 → t.me/s/SCINV
+      - aaa 207
+      - US 11 → TG@SCINV
+      - HK 3 → t.me/s/SCINV
+      - JP 3 → t.me/s/SCINV
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN 4 → t.me/s/SCINV
-      - CN 5 → t.me/s/SCINV
-      - CN 6 → t.me/s/SCINV
-      - US 31 → t.me/s/SCINV
+      - aaa 207
+      - US 11 → TG@SCINV
+      - HK 3 → t.me/s/SCINV
+      - JP 3 → t.me/s/SCINV
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -108,10 +108,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN 4 → t.me/s/SCINV
-      - CN 5 → t.me/s/SCINV
-      - CN 6 → t.me/s/SCINV
-      - US 31 → t.me/s/SCINV
+      - aaa 207
+      - US 11 → TG@SCINV
+      - HK 3 → t.me/s/SCINV
+      - JP 3 → t.me/s/SCINV
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
