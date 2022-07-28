@@ -5,39 +5,51 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: aaa 207, server: cu-cs.okvpn.xyz, port: 20000, type: trojan, password: 0654731b-e414-4031-962d-be4c8e9579c8, skip-cert-verify: true, udp: true}
-  - {name: US 11 → TG@SCINV, server: trojan-daozhu-uallen-qbit-azure-hk.kinhproxy.com, port: 443, type: trojan, password: trojan-daozhu-uallen-qbit-azure-hk, skip-cert-verify: true, udp: true}
-  - {name: HK 3 → t.me/s/SCINV, server: 103.253.43.228, port: 443, type: trojan, password: 48a55ebb-54f2-4757-8899-047933695eb2, skip-cert-verify: true, udp: true}
-  - {name: JP 3 → t.me/s/SCINV, server: musashino.freetrade.link, port: 443, type: trojan, password: ZDqCRlxB8uFj9pxNEeanya3DIpDlOYR7K0wOYX3eScA36gTAazCyZ5SC3FS428, skip-cert-verify: true, udp: true}
+  - {name: _youtube：全网最强白嫖, server: hkt.52147.top, port: 443, type: trojan, password: 87f6eb37-36af-4347-95c7-8b3b0a3e9194, sni: download.windowsupdate1.com, skip-cert-verify: true, udp: true}
+  - {name: _youtube：全网最强白嫖 2, server: gzyd1.52147.top, port: 30180, type: trojan, password: 87f6eb37-36af-4347-95c7-8b3b0a3e9194, sni: download.windowsupdate1.com, skip-cert-verify: true, udp: true}
+  - {name: youtube：全网最强白嫖, server: 103.173.255.127, port: 443, type: trojan, password: 87f6eb37-36af-4347-95c7-8b3b0a3e9194, sni: download.windowsupdate1.com, skip-cert-verify: true, udp: true}
+  - {name: _youtube：全网最强白嫖 3, server: 73hk01.ok365.cyou, port: 80, type: trojan, password: 5f08a617-4dd9-4f90-8211-06ae5dcdfe9e, sni: 73hk01.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: _youtube：全网最强白嫖 4, server: 716sg.ok365.cyou, port: 80, type: trojan, password: 5f08a617-4dd9-4f90-8211-06ae5dcdfe9e, sni: 716sg.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: _youtube：全网最强白嫖 5, server: gz.cdn1.kiki789.com, port: 31871, type: vmess, uuid: 6b55b791-af4a-358a-b296-d2a1179c42ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8, headers: {Host: jike1-sgovh01.kiki789.com}}, udp: true}
+  - {name: _youtube：全网最强白嫖 6, server: 715hk02.ok365.cyou, port: 35632, type: trojan, password: 5f08a617-4dd9-4f90-8211-06ae5dcdfe9e, sni: 715hk02.ok365.cyou, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - aaa 207
-      - US 11 → TG@SCINV
-      - HK 3 → t.me/s/SCINV
-      - JP 3 → t.me/s/SCINV
+      - _youtube：全网最强白嫖
+      - _youtube：全网最强白嫖 2
+      - youtube：全网最强白嫖
+      - _youtube：全网最强白嫖 3
+      - _youtube：全网最强白嫖 4
+      - _youtube：全网最强白嫖 5
+      - _youtube：全网最强白嫖 6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - aaa 207
-      - US 11 → TG@SCINV
-      - HK 3 → t.me/s/SCINV
-      - JP 3 → t.me/s/SCINV
+      - _youtube：全网最强白嫖
+      - _youtube：全网最强白嫖 2
+      - youtube：全网最强白嫖
+      - _youtube：全网最强白嫖 3
+      - _youtube：全网最强白嫖 4
+      - _youtube：全网最强白嫖 5
+      - _youtube：全网最强白嫖 6
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - aaa 207
-      - US 11 → TG@SCINV
-      - HK 3 → t.me/s/SCINV
-      - JP 3 → t.me/s/SCINV
+      - _youtube：全网最强白嫖
+      - _youtube：全网最强白嫖 2
+      - youtube：全网最强白嫖
+      - _youtube：全网最强白嫖 3
+      - _youtube：全网最强白嫖 4
+      - _youtube：全网最强白嫖 5
+      - _youtube：全网最强白嫖 6
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -56,10 +68,13 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - aaa 207
-      - US 11 → TG@SCINV
-      - HK 3 → t.me/s/SCINV
-      - JP 3 → t.me/s/SCINV
+      - _youtube：全网最强白嫖
+      - _youtube：全网最强白嫖 2
+      - youtube：全网最强白嫖
+      - _youtube：全网最强白嫖 3
+      - _youtube：全网最强白嫖 4
+      - _youtube：全网最强白嫖 5
+      - _youtube：全网最强白嫖 6
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -70,29 +85,38 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - aaa 207
-      - US 11 → TG@SCINV
-      - HK 3 → t.me/s/SCINV
-      - JP 3 → t.me/s/SCINV
+      - _youtube：全网最强白嫖
+      - _youtube：全网最强白嫖 2
+      - youtube：全网最强白嫖
+      - _youtube：全网最强白嫖 3
+      - _youtube：全网最强白嫖 4
+      - _youtube：全网最强白嫖 5
+      - _youtube：全网最强白嫖 6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - aaa 207
-      - US 11 → TG@SCINV
-      - HK 3 → t.me/s/SCINV
-      - JP 3 → t.me/s/SCINV
+      - _youtube：全网最强白嫖
+      - _youtube：全网最强白嫖 2
+      - youtube：全网最强白嫖
+      - _youtube：全网最强白嫖 3
+      - _youtube：全网最强白嫖 4
+      - _youtube：全网最强白嫖 5
+      - _youtube：全网最强白嫖 6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - aaa 207
-      - US 11 → TG@SCINV
-      - HK 3 → t.me/s/SCINV
-      - JP 3 → t.me/s/SCINV
+      - _youtube：全网最强白嫖
+      - _youtube：全网最强白嫖 2
+      - youtube：全网最强白嫖
+      - _youtube：全网最强白嫖 3
+      - _youtube：全网最强白嫖 4
+      - _youtube：全网最强白嫖 5
+      - _youtube：全网最强白嫖 6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -108,10 +132,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - aaa 207
-      - US 11 → TG@SCINV
-      - HK 3 → t.me/s/SCINV
-      - JP 3 → t.me/s/SCINV
+      - _youtube：全网最强白嫖
+      - _youtube：全网最强白嫖 2
+      - youtube：全网最强白嫖
+      - _youtube：全网最强白嫖 3
+      - _youtube：全网最强白嫖 4
+      - _youtube：全网最强白嫖 5
+      - _youtube：全网最强白嫖 6
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
